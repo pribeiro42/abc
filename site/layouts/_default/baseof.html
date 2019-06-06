@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html class="no-js" lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-    {{- partial "head.html" . -}}
-    <body id="body">
-        {{ partial "preloader.html" . }}
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<!doctype html>
+<html lang="en">
+  {{ partial "head" . }}
+  <body class="sans-serif">
+    {{ partial "nav" . }}
+    {{ block "main" . }}{{ end }} 
+    {{ partial "footer" . }} 
+  </body>
 </html>
