@@ -1,22 +1,25 @@
 {{ define "main" }}
 
-{{ partial "header.html" . }}
+  {{ partial "hero.html" . }}
 
-{{if .Site.Params.cover}}
-<header class="main-header " style="background-image: url({{.Site.BaseURL}}{{.Site.Params.cover}})">
+  {{ partial "about-sm.html" . }}
 
-{{else}}
-<header class="main-header no-cover">
-{{end}}
+  {{ partial "feature.html" . }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+  {{ partial "about.html" . }}
 
-{{ partial "short-text" .Params.blurb}}
+  {{ partial "workingprocess.html" . }}
 
-{{ partial "2-up" .Params }}
+  {{ partial "portfolio.html" . }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+  {{ partial "team.html" . }}
 
-{{ partial "blog" . }}
+  {{ partial "pricing.html" . }}
+
+  {{ partial "testimonial.html" . }}
+
+  {{ partial "blog.html" . }}
+
+  {{ partial "contact.html" . }}
 
 {{ end }}

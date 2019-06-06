@@ -1,32 +1,31 @@
 <head>
 
-	<title>{{ .Title }} | Kaldi</title>
-	<link rel="stylesheet" href="/css/main.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Navigator Hugo Template">
+<meta name="author" content="Themefisher.com">
+{{ hugo.Generator }}
 
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Site.Title }}</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+{{ "<!-- Mobile Specific Meta -->" | safeHTML }}
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
-	<meta name="theme-color" content="#fff">
+{{ "<!-- Favicon -->" | safeHTML }}
+<link rel="shortcut icon" type="image/x-icon" href="{{ "images/favicon.ico" | absURL }}" />
 
-	<!-- Open Graph -->
-	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
-	<meta property="og:url" content="/">
-	<meta property="og:image" content="/img/og-image.jpg">
+{{"<!-- Stylesheets -->" | safeHTML}}
+{{ "<!-- Themefisher Icon font -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "plugins/themefisher-font/style.css" | absURL }}">
+{{ "<!-- bootstrap.min css -->" | safeHTML}}
+<link rel="stylesheet" href="{{ "plugins/bootstrap/dist/css/bootstrap.min.css" | absURL }}">
+{{ "<!-- Lightbox.min css -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "plugins/lightbox2/dist/css/lightbox.min.css" | absURL }}">
+{{ "<!-- Slick Carousel -->" | safeHTML }}
+<link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick.css" | absURL }}">
+<link rel="stylesheet" href="{{ "plugins/slick-carousel/slick/slick-theme.css" | absURL }}">
+{{ "<!-- Main Stylesheet -->" | safeHTML }}
 
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ $styles := resources.Get "css/style.css" | minify}}
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+
 </head>
-<body class="nav-closed">
-<div id="particles-js"></div>
-  {{ partial "navigation.html" . }}
-
- <div class="site-wrapper">
