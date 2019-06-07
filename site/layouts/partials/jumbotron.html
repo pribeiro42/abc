@@ -1,4 +1,4 @@
-<div id="jumbotronContent" class="pv6-l cover" style="background: url('{{.imageUrl}}'); transform: scale(1.1)">
+<div id="jumbotronContent" class="pv6 pv6-l ph3 cover" style="background: url('{{.imageUrl}}'); background-size: 0px">
   <div class="mw7 center ph3">
     <div class="db mb3">
       <div class="mw7 relative bg-fix-primary mb3">
@@ -16,13 +16,27 @@
     </div>
   </div>
 </div>
-
 <script>
-  $(document).ready(function(){
-    $('#jumbotronContent').mousemove(function(e){
-    var amountMovedX = (e.pageX * +0.1 / 6);
-    var amountMovedY = (e.pageY * +0.1 / 6);
-    $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
-});
+  $(document).ready(function () {
+    $('#jumbotronContent').mousemove(function (e) {
+      var $container = $('body'),
+        container_w = $container.width(),
+        container_h = $container.height();
+
+      var pos_x = event.pageX,
+        pos_y = event.pageY,
+        left = 0,
+        top = 0;
+
+      left = container_w / 2 - pos_x;
+      top = container_h / 2 - pos_y;
+
+      //$(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+      TweenMax.to("#jumbotronContent", 8, {
+        backgroundPosition: (left * -1) + "px 0px",
+        /* negative width of background image your animating - left top */
+        ease: Linear.easeNone /* make sure you use Linear.easeNone so its smooth */
+      });
+    });
   });
 </script>

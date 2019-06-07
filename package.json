@@ -45,7 +45,6 @@
     "postcss-loader": "^3.0.0",
     "postcss-uncss": "^0.16.0",
     "react": "16.7.0",
-    "rellax": "^1.9.1",
     "tachyons-border-radius": "^5.1.3",
     "tachyons-box-sizing": "^3.2.2",
     "tachyons-display": "^5.0.5",
