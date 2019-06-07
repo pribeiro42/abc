@@ -1,5 +1,8 @@
 <footer class="bg-black ph3 pv4 white">
 
+		<div id="example1"></div>
+
+
 	<div class="mw7 center pt3">
 
 		<div class="measure-narrow center mb4">
@@ -13,37 +16,24 @@
 		</div>
 
 		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
+				<div class="center">
 				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
+						{{ partial "social-icon" (dict "link" "https://www.facebook.com/aveirobusinesscenter" "svg" "icons-facebook") }}
+						{{ partial "social-icon" (dict "link" "http://instagram.com/aveirobusinesscenter.oficial" "svg" "icons-instagram") }}
 				</ul>
 			</div>
 
 		</div>
+
+		<div class="flex-ns justify-between">
+				<div class="center">
+				<ul class="mb3">
+					<li><a href="/" class="link">Politica de privacidade</a></li>
+				</ul>
+			</div>
+
+		</div>
+		
 	</div>
 
 </footer>
@@ -52,6 +42,7 @@
 
 <script src="/app.js"></script>
 <script src="/parallax_background.js"></script>
+<script>PDFObject.embed("http://localhost:3000/img/ementa.pdf", "#example1");</script>
 
 </body>
 

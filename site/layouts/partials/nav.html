@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
 	<div class="container">
-			<a href="/" class="db mr4 h-100 w3 flex-none">
-				<img id="logoNav" src="/img/abc/logoFull.png" alt="ABC logo" class="br0 db mb0 w-200"/>
+			<a id="logoNavLink" href="/" class="db mr4 h-100 w3 flex-none" centered="false">
+				<img id="logoNav" src="{{.logo}}" alt="ABC logo" class="br0 db mb0 w-200"/>
 			</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
 			aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,9 +12,27 @@
 				{{ range .nav }}
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="{{.value}}">{{.text}}</a>
+						<!-- <a class="nav-link js-scroll-trigger dropdown-toggle" data-toggle="dropdown"  href="{{.value}}">{{.text}}</a> -->
+						<!-- <div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Action</a>
+								<a href="#" class="dropdown-item">Another action</a>
+							</div> -->
 					</li>
 				{{ end }}
 			</ul>
 		</div>
 	</div>
 </nav>
+<script>
+	//CENTER LOGO FOR MOBILE
+	$(".navbar-toggler-icon").click(function (e){
+		if ($("#logoNavLink").attr("centered") == "false"){
+			$("#logoNavLink").animate({'left': '42%', 'margin-left': -$("#logoNav").parent().width()/2 });
+			$("#logoNavLink").attr("centered", "true");
+		}
+		else {
+			$("#logoNavLink").animate({'left': '0%', 'margin-left': -$("#logoNav").parent().width()/2 });
+			$("#logoNavLink").attr("centered", "false");		
+		}
+	});
+</script>

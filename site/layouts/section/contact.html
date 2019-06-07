@@ -1,11 +1,10 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
-
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
+<div class="ph3 bg-off-white">		
+	<div class="center mw6 pv6">
 
 		{{ .Content }}
+		
 
 		<div class="flex-ns mb3">
 	        	{{ range .Params.contact_entries }}
@@ -15,7 +14,9 @@
 				</div>
 			{{ end }}
 		</div>
-
+		<div id="googleMapsDiv" class="google-maps center">
+				<iframe id="googleMapsIframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3030.236627922611!2d-8.5831938!3d40.580532!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x92b274d319eb4493!2sAveiro+Business+Center!5e0!3m2!1sen!2spt!4v1559924818993!5m2!1sen!2spt" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
 		{{ partial "contact-form" . }}
 
 	</div>

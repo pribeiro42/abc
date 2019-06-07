@@ -13,10 +13,26 @@
     box-shadow: inset 0 -4px 0 var(--primary);
   }
 }
+/***************MAIN********************/
 /*NAVBAR*/
 #logoNav {
   max-width: 180%;
+  position: relative;
+}
+#logoNavLink {
+  position: relative;
 }
 .nav-item {
   text-align: center;
+}
+/***************CONTACT********************/
+/*GOOGLE MAPS*/
+#googleMapsDiv {
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+#googleMapsIframe {
+  box-shadow: 1px 1px 10px 10px #00000029
 }

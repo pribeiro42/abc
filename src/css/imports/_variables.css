@@ -1,10 +1,10 @@
 :root {
 	/* Colors */
 	--primary: rgba(6, 89, 61, 1);
-	--highlight: rgba(215, 205, 203, 1);
-	--white: rgba(248, 249, 244, 1);
+	--highlight: rgba(144, 191, 199, 1);
+	--white: rgba(144, 191, 199, 1);
 	--off-white: rgba(215, 205, 203, 1);
-	--grey-1: rgba(99, 98, 99, 1);
+	--grey-1: rgba(209, 210, 211, 1);
 	--grey-2: rgba(57, 61, 63, 1);
 	--grey-3: rgba(57, 61, 63, 1);
 	--grey-4: rgba(57, 61, 63, 1);

@@ -1,19 +1,26 @@
 ---
 title: "Contact"
-logo: "/img/abc/logo.svg"
+logo: "/img/abc/logoFull.png"
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Localização
+    text: "Rua da Igreja, nº79, Nª Srª de Fátima, 3810-744 Aveiro"
+  - heading: Horário
+    text: "Segunda – Sexta: 9AM – 18PM"
+nav:
+     - text: "Serviços"
+       value: "services"
+     - text: "Espaços"
+       value: "services"
+     - text: "Empresas"
+       value: "ervices"
+     - text: "Notícias"
+       value: "services"
+     - text: "Sobre nós"
+       value: "services"
+     - text: "Contactos"
+       value: "contact"
 ---
+<h3 class="f4 b lh-title mb2">Como chegar?</h3>
 
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
 
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
+No concelho de Aveiro, entre o nó de Mamodeiro da A17 e o nó de Aveiro Sul da A1.
