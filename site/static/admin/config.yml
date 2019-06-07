@@ -18,8 +18,8 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/_index.md"
-        label: "Home Page"
+      - file: "site/content/_index.pt.md"
+        label: "Home Page PT"
         name: "home"
         fields:
           - {label: Title, name: title, widget: string}

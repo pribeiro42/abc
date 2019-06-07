@@ -1,87 +1,27 @@
-# Configs
-baseurl = "/"
-languageCode = "en-us"
-title = "Aveiro Business Center"
-
-
-# Multilanguage
-# Renders the default content language in subdir, e.g. /en/. The root directory / will redirect to /en/
-defaultContentLanguageInSubdir = true
+languageCode = "pt-pt"
 DefaultContentLanguage = "pt"
+defaultContentLanguageInSubdir = true
+title = "Aveiro Business Center"
+copyright = "2011-2019 © RLV"
 
-# Site Params
-[params]
-    logo = "images/logo.png"
-
-    [[Params.listeLangues]]
-    code = "pt"
-    [[Params.listeLangues]]
-    code = "en"
-
-[Languages]
-    ############ 1 Portugues
-    [Languages.pt]
+[languages] 
+    [languages.pt]
     weight = 1
     languageCode = "pt-pt"
-    #title = "Aveiro Business Center"
-    dateFormat = "2 January 2006"
+    dateFormat = "2 January 2006"    
+        [languages.pt.params]
+        linkedin = "https://linkedin.com/fr/whoever"
+            [languages.pt.params.navigation]
+            help = "Ajuda"
+    [languages.en]
+    weight = 2
+    languageCode = "en-us"
+    dateFormat = "January 2 2006"
+        [languages.en.params]
+        linkedin = "https://linkedin.com/whoever"
+   
 
-    home = "PT Home"
-    logo = "images/logo.png"
-    menufixed = false
-
-# Site Menus
-[menu]
-    # Navbar Menus
-    [[menu.nav]]
-        name    = "about"
-        url     = "about"
-        weight  = 2
-    [[menu.nav]]
-        name    = "service"
-        url     = "service"
-        weight  = 3
-    [[menu.nav]]
-        name    = "portfolio"
-        url     = "portfolio"
-        weight  = 4
-    [[menu.nav]]
-        name    = "blog"
-        url     = "blog"
-        weight  = 5
-    [[menu.nav]]
-        name    = "contact"
-        url     = "contact"
-        weight  = 6
-
-    # Footer Service Menu
-    [[menu.service]]
-        name    = "graphicdesign"
-        url     = "service"
-        weight  = 1
-    [[menu.service]]
-        name    = "webdesign"
-        url     = "service"
-        weight  = 2
-    [[menu.service]]
-        name    = "webdevelopment"
-        url     = "service"
-        weight  = 3
-
-    # Footer Quick links Menu
-    [[menu.quicklink]]
-        name    = "partners"
-        url     = "about"
-        weight  = 1
-    [[menu.quicklink]]
-        name    = "about"
-        url     = "about"
-        weight  = 2
-    [[menu.quicklink]]
-        name    = "faqs"
-        url     = "about"
-        weight  = 3
-    [[menu.quicklink]]
-        name    = "badges"
-        url     = "about"
-        weight  = 4
+  
+[params]
+    [params.navigation]
+    help = "Help"
