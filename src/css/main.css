@@ -88,3 +88,5 @@
 
 /* Custom Styles */
 @import './imports/_scrolling-nav';
+@import './imports/_carousel';
+@import './imports/_modal';

@@ -5,7 +5,7 @@
             {{ range .items }}
 
         <div class="col l3 m6 s12 ">
-          <a class="modal-trigger serviceLinks" href="#modal1">
+          <a class="modal-trigger serviceLinks">
             <div class="white content-block z-depth-3 " >
               <div class="img-wrap">
                 <img src="{{.image}}"/>
@@ -15,23 +15,51 @@
               </div>
             </div>
           </a>
-          <div id="modal1" class="modal">
-            <div class="modal-content">
-                    <a class="modal-close">
-                            <i class="fas fa-times"></i>
+          <div id="{{.key}}" class="modal">
+                <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+              <div class="modal-content">
+                  {{if .carrousselSlides}}
+                  <div id="serviceCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+                      <ol class="carousel-indicators">
+                          {{ range .carrousselSlides}}
+                          <li data-target="#serviceCarousel" data-slide-to="{{.nr}}"></li>
+                          {{end}}
+                      </ol>
+                      <div class="carousel-inner">
+                          {{ range .carrousselSlides}}
+                          <div class="carousel-item {{if .first}}active{{end}}">
+                              <img class="d-block w-100" src="{{.image}}" alt="First slide">
+                              <div class="container">
+                              <div class="carousel-caption text-left">
+                                    <h2>{{.heading}}</h2>
+                                    <p class="text-truncate">{{.text}}</p>
+                              </div>
+                            </div>
+                          </div>
+                          {{end}}
+                      </div>
+                      <a class="carousel-control-prev" href="#serviceCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
                       </a>
-                <div class="row">
+                      <a class="carousel-control-next" href="#serviceCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+                  {{else}}
                   <div class="col s12 l5 hide-on-med-and-down">
-                    <div class="img-wrap contentImage">
-                      <img src="{{.image}}"/>
-                    </div>
+                      <div class="img-wrap contentImage">
+                          <img src="{{.image}}" />
+                      </div>
                   </div>
                   <div class="col s12 l7">
-                    <p>{{.content}}</p>
+                      <p>{{.content}}</p>
                   </div>
-                
+                  {{end}}
               </div>
-            </div>
           </div>
         </div>
         {{ end }}
@@ -41,7 +69,7 @@
   </div>
   <script>
       $(document).ready(function () {
-          var resources = $('.resources');
+          /********EVENTS*********/
         $('#modal-grid .modal-trigger').each(function(index,item){
             $(this).click(function(e){
                 $(this).siblings('.modal').modal({
@@ -49,15 +77,62 @@
                     close: function () {$(this).destroy()},
                     height: 50,
                     width: 50,
-                    dismissable: true
+                    dismissable: true,
+                    backdrop: 'static'
                     // ready: function() {
                     // console.log("modal ready")
                     // }
                 });
+                $(".modal-backdrop").click(function(e){$('.modal').modal('hide')});
             });
         });
         $('.modal-close').click(function(e){
             $('.modal').modal('hide');
         });
+
+        $(document).bind('keyup', function(e) {
+        if(e.which == 39){
+            $('.carousel').carousel('next');
+        }
+        else if(e.which == 37){
+            $('.carousel').carousel('prev');
+        }
+    });
+
+    $('.dropdown-menu a').click(openModalFromNav)
+
+        /********CALLS*********/
+        hideCarouselIndicators();
+        $('#serviceCarousel').on('slid', '', hideCarouselIndicators);  // on caroussel move
+        $('#serviceCarousel').on('slid.bs.carousel', '', hideCarouselIndicators); // on carousel move
+
+        
+        /********FUNCTIONS*********/
+
+        function openModalFromNav(){
+            var query = window.location.href.split("#")[1];
+            debugger;
+            if (query) {
+                $('#' + query).modal('show');
+            }
+            $(".modal-backdrop").click(function(e){$('.modal').modal('hide')});
+
+        }
+
+        function hideCarouselIndicators()                   
+        {
+            var $this = $('#serviceCarousel');
+            if($('.carousel-inner .carousel-item:first').hasClass('active')) {
+                $this.children('.carousel-control-prev').hide();
+                $this.children('.carousel-control-next').show();
+            } else if($('.carousel-inner .carousel-item:last').hasClass('active')) {
+                $this.children('.carousel-control-prev').show();
+                $this.children('.carousel-control-next').hide();
+            } else {
+                $this.children('.carousel-control-prev').show();
+                $this.children('.carousel-control-next').show();
+            } 
+        }
+
     });
   </script>

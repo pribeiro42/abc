@@ -15,30 +15,34 @@ services:
         - heading: Aluguer de Escritórios
           image: /img/abc/officeService.png
           content: lorem ipsum
+          key: servicesOffice
+          carrousselSlides:
+            - image: /img/abc/officeA0.jpg
+              heading: Aluguer de Escritórios
+              text: O Business Center dispõe de um conjunto de espaços que podem ser ajustados e equipados de acordo com as necessidades de cada empresa. 
+              nr: 0
+              first: yes
+            - image: https://picsum.photos/1920/1280/?image=889
+              heading: aluguer de escritorios
+              text: aluguer de escritorios
+              nr: 1
+            - image: /img/abc/officeService.png
+              heading: aluguer de escritorios
+              text: aluguer de escritorios
+              nr: 2
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           content: lorem ipsum
         - heading: Organização de Eventos
           image: /img/abc/eventService.png
           content: lorem ipsum
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.    
 nav:
   - text: "Serviços"
     value: "services"
     dropdown: true
     items:
      - text: Aluguer de Escritórios
-       value: "/pt/#services"
+       value: "#servicesOffice"
      - text: Aluguer de Espaços
        value: "#services"
      - text: Aluguer de Espaços
