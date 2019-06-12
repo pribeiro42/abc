@@ -9,6 +9,18 @@ blurb:
 services:
     heading: Serviços
     text: ""
+    close: Fechar
+    rows:
+      - items:
+        - heading: Aluguer de Escritórios
+          image: /img/abc/officeService.png
+          content: lorem ipsum
+        - heading: Aluguer de Espaços
+          image: /img/abc/spaceService.png
+          content: lorem ipsum
+        - heading: Organização de Eventos
+          image: /img/abc/eventService.png
+          content: lorem ipsum
 intro:
     heading: "What we offer"
     text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
@@ -23,15 +35,27 @@ values:
 nav:
   - text: "Serviços"
     value: "services"
+    dropdown: true
+    items:
+     - text: Aluguer de Escritórios
+       value: "/pt/#services"
+     - text: Aluguer de Espaços
+       value: "#services"
+     - text: Aluguer de Espaços
+       value: "services"
   - text: "Empresas"
-    value: "ervices"
+    value: "companies"
+    dropdown: false
   - text: "Notícias"
-    value: "services"
+    value: "news"
+    dropdown: false
   - text: "Sobre nós"
-    value: "services"
+    value: "about"
+    dropdown: false
   - text: "Contactos"
     value: "contact"
+    dropdown: false
 resources:
-  news: "Noticias"
+  news: "Notícias"
 ---
 

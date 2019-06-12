@@ -14,9 +14,12 @@
   }
 }
 /***************MAIN********************/
-/*NAVBAR*/
+.hidden {
+  display: none;
+}
+  /*NAVBAR*/
 #logoNav {
-  max-width: 180%;
+  max-width: 250%;
   position: relative;
 }
 #logoNavLink {
@@ -25,8 +28,35 @@
 .nav-item {
   text-align: center;
 }
+.dropdown-menu{
+  /* background-color: var(--grey-1);
+  border: none; */
+  text-align: center;
+}
+  /*SERVICES*/
+  /*modal*/
+#modal-grid .modal {
+  margin-top: 8%;
+  text-align: center;
+  width: 80%;
+  left: 10%;
+}
+#modal-grid .serviceLinks div{
+  color: var(--primary);
+  text-align: center;
+}
+#modal-grid .modal-close {
+  cursor: pointer;
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+#modal-grid .contentImage {
+  padding-left: 40px;
+}
+
 /***************CONTACT********************/
-/*GOOGLE MAPS*/
+  /*GOOGLE MAPS*/
 #googleMapsDiv {
   text-align: center;
   padding-top: 1em;

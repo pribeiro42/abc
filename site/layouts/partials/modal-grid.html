@@ -1,0 +1,63 @@
+<div class="section lookout-gray-96 pv6" id="modal-grid">
+    <div class="container">
+            {{ range .rows }}
+            <div class="row">
+            {{ range .items }}
+
+        <div class="col l3 m6 s12 ">
+          <a class="modal-trigger serviceLinks" href="#modal1">
+            <div class="white content-block z-depth-3 " >
+              <div class="img-wrap">
+                <img src="{{.image}}"/>
+              </div>
+              <div class="pad center white">
+                <div class="type-body-1">{{.heading}}</div>
+              </div>
+            </div>
+          </a>
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+                    <a class="modal-close">
+                            <i class="fas fa-times"></i>
+                      </a>
+                <div class="row">
+                  <div class="col s12 l5 hide-on-med-and-down">
+                    <div class="img-wrap contentImage">
+                      <img src="{{.image}}"/>
+                    </div>
+                  </div>
+                  <div class="col s12 l7">
+                    <p>{{.content}}</p>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{end}}
+    </div>
+  </div>
+  <script>
+      $(document).ready(function () {
+          var resources = $('.resources');
+        $('#modal-grid .modal-trigger').each(function(index,item){
+            $(this).click(function(e){
+                $(this).siblings('.modal').modal({
+                    opacity: .5,
+                    close: function () {$(this).destroy()},
+                    height: 50,
+                    width: 50,
+                    dismissable: true
+                    // ready: function() {
+                    // console.log("modal ready")
+                    // }
+                });
+            });
+        });
+        $('.modal-close').click(function(e){
+            $('.modal').modal('hide');
+        });
+    });
+  </script>
