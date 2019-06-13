@@ -5,13 +5,13 @@ logo: /img/abc/logoFull.png
 values:
   - heading: "VLM Consultores"
     text: Relações de sucesso
-    imageUrl: "/img/about-shade-grown.jpg"
+    imageUrl: "http://www.aveirobusinesscenter.com/wp-content/themes/twentyeleven-child/images/im_emp_1.png"
   - heading: "Academia VLM"
     text: Growing your skills
-    imageUrl: "/img/about-single-origin.jpg"
+    imageUrl: "http://www.aveirobusinesscenter.com/wp-content/themes/twentyeleven-child/images/im_emp_4.png"
   - heading: "VLM Compliance"
     text: 
-    imageUrl: "/img/about-single-origin.jpg"
+    imageUrl: "http://www.aveirobusinesscenter.com/wp-content/themes/twentyeleven-child/images/im_emp_16.png"
   - heading: "WinSig"
     text: Soluções Integradas de Gestão
     imageUrl: "/img/about-direct-sourcing.jpg"
@@ -58,21 +58,21 @@ nav:
     dropdown: true
     items:
      - text: Aluguer de Escritórios
-       value: "/pt/#services"
+       value: "/pt/#servicesOffice"
      - text: Aluguer de Espaços
        value: "#services"
      - text: Aluguer de Espaços
        value: "services"
   - text: "Empresas"
-    value: "companies"
+    value: "/pt/companies"
     dropdown: false
   - text: "Notícias"
-    value: "news"
+    value: "/pt/news"
     dropdown: false
   - text: "Sobre nós"
-    value: "about"
+    value: "/pt/about"
     dropdown: false
   - text: "Contactos"
-    value: "contact"
+    value: "/pt/contact"
     dropdown: false
 ---

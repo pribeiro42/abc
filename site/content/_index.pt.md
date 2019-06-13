@@ -16,6 +16,7 @@ services:
           image: /img/abc/officeService.png
           content: lorem ipsum
           key: servicesOffice
+          hasAvailableOffices: true
           carrousselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Escritórios
@@ -30,12 +31,35 @@ services:
               heading: aluguer de escritorios
               text: aluguer de escritorios
               nr: 2
+          availableOffices: 
+            - title: Espaços disponíveis no Aveiro Business Center
+              id: 'availableOffices'
+              url: '#availableOffices'
+              urlBack: '#servicesOffice'
+              back: Voltar
+              carrousselSlides:
+              - image: /img/abc/officeA0.jpg
+                heading: Escritório A0
+                text: Duas portas duas janelas 
+                nr: 0
+                first: yes
+              - image: https://picsum.photos/1920/1280/?image=889
+                heading: aluguer de escritorios
+                text: aluguer de escritorios
+                nr: 1 
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           content: lorem ipsum
         - heading: Organização de Eventos
           image: /img/abc/eventService.png
           content: lorem ipsum
+      - items:
+        - heading: Escritórios Virtuais
+          image: /img/abc/virtualOfficeService.png
+        - heading: Serviços de Apoio
+          image: /img/abc/supportService.png
+        - heading: Restaurante
+          image: /img/abc/restaurantService.png
 nav:
   - text: "Serviços"
     value: "services"
@@ -48,16 +72,16 @@ nav:
      - text: Aluguer de Espaços
        value: "services"
   - text: "Empresas"
-    value: "companies"
+    value: "/pt/companies"
     dropdown: false
   - text: "Notícias"
-    value: "news"
+    value: "/pt/news"
     dropdown: false
   - text: "Sobre nós"
-    value: "about"
+    value: "/pt/about"
     dropdown: false
   - text: "Contactos"
-    value: "contact"
+    value: "/pt/contact"
     dropdown: false
 resources:
   news: "Notícias"

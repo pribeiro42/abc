@@ -3,7 +3,6 @@
  
 .carousel-control-next, 
 .carousel-control-prev {
-  top: 3rem;
   width: 10%;
 }
 
@@ -13,13 +12,15 @@
   z-index: 10;
   left: 0;
   right: 0;
-  padding: 1.25rem 6rem;
+  padding: 1.25rem 2rem;
   background-color: rgba(255,255,255, 0.5);
   color: inherit;
 }
 
-.carousel-caption h1 {
+.carousel-caption h2 {
   font-size: 1.5rem;
+  font-weight: bold;
+
 }
 
 .carousel-caption p {
@@ -49,8 +50,8 @@
       bottom: .75rem;
   }
 
-  .carousel-caption h1 {
-    font-size: .85rem;
+  .carousel-caption h2 {
+    font-size: .65rem;
     font-weight: bold;
   }
   .carousel-caption p {
@@ -74,6 +75,15 @@
   }
   .carousel-caption {
     height: 8rem;
+  }
+  .carousel-caption h2 {
+    font-size: .7rem;
+    font-weight: bold;
+  }
+  .carousel-caption p {
+    font-size: .5rem;
+    font-weight: bold;
+    line-height: 1.2;
   }
 }
 
@@ -109,7 +119,7 @@
     max-width: 90%;
   }
   .carousel-item {
-    height: 28rem;
+    height: 26rem;
   }
 }
 
@@ -119,7 +129,7 @@
     max-width: 80%;
   }
   .carousel-item {
-    height: 32rem;
+    height: 26rem;
   }
   .carousel-caption {
     padding-left: 7rem;
@@ -169,6 +179,10 @@
     padding-left: 9rem;
     padding-right: 9rem;
   }  
+  .carousel-caption p {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
 }
 
 /* --------------------------- Carousel END --------------------------- */

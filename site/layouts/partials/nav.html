@@ -13,7 +13,7 @@
 					{{ if .dropdown }}
 						<li class="nav-item dropdown">
 						<a class="nav-link js-scroll-trigger" data-toggle="dropdown"  href="{{.value}}">{{.text}}</a>
-						<div class="dropdown-menu">
+						<div class="dropdown-menu hashModalLink">
 						{{ range .items }}
 							<a href="{{.value}}" class="dropdown-item">{{.text}}</a>
 						{{ end }}
@@ -40,6 +40,7 @@
 			$("#logoNavLink").attr("centered", "false");		
 		}
 	});
+
 	$(document).ready(function() {
 		// ADD ACTIVE CLASS TO NAV ITEMS
 		var windowVal=window.location.pathname;

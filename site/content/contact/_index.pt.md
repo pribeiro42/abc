@@ -12,22 +12,22 @@ nav:
     dropdown: true
     items:
      - text: Aluguer de Escritórios
-       value: "/pt/#services"
+       value: "#servicesOffice"
      - text: Aluguer de Espaços
        value: "#services"
      - text: Aluguer de Espaços
        value: "services"
   - text: "Empresas"
-    value: "companies"
+    value: "/pt/companies"
     dropdown: false
   - text: "Notícias"
-    value: "news"
+    value: "/pt/news"
     dropdown: false
   - text: "Sobre nós"
-    value: "about"
+    value: "/pt/about"
     dropdown: false
   - text: "Contactos"
-    value: "contact"
+    value: "/pt/contact"
     dropdown: false
 ---
 <h3 class="f4 b lh-title mb2">Como chegar?</h3>

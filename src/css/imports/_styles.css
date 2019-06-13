@@ -17,6 +17,19 @@
 .hidden {
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+outline: 1px solid slategrey;
+}
   /*NAVBAR*/
 #logoNav {
   max-width: 250%;
@@ -49,4 +62,24 @@
 .socialMediaDiv {
   margin: auto;
   text-align: center;
+}
+
+.floatR{
+  float: right;
+}
+.floatL{
+  float: left;
+}
+.textAlignR{
+  text-align: right;
+}
+.textAlignL{
+  text-align: left;
+}
+.fixedImage{
+  width: 400px;
+  height: auto;
+}
+.imageContainer{
+  margin: auto
 }
