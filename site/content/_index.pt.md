@@ -1,7 +1,7 @@
 ---
 title: "Um espaço de prestígio a pensar no sucesso da sua empresa"
 subtitle: 
-image: /img/home-jumbotron.jpg
+image: /img/home-jumbotron.png
 logo: /img/abc/logoFull.png
 blurb:
     heading: 
