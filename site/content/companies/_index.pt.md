@@ -1,6 +1,7 @@
 ---
 title: "Empresas"
-image: /img/about-jumbotron.jpg
+jumbotitle: "Empresas"
+image: /img/companies-jumbotron.jpg
 logo: /img/abc/logoFull.png
 values:
   - heading: "VLM Consultores"

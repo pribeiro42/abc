@@ -1,6 +1,7 @@
 ---
-title: "Um espaço de prestígio a pensar no sucesso da sua empresa"
-subtitle: 
+title: "Aveiro Business Center"
+jumbotitle: Um espaço de prestígio a pensar no sucesso da sua empresa
+jumbosubtitle: 
 image: /img/home-jumbotron.png
 logo: /img/abc/logoFull.png
 blurb:

@@ -32,11 +32,11 @@
 	//CENTER LOGO FOR MOBILE
 	$(".navbar-toggler-icon").click(function (e){
 		if ($("#logoNavLink").attr("centered") == "false"){
-			$("#logoNavLink").animate({'left': '42%', 'margin-left': -$("#logoNav").parent().width()/2 });
+			$("#logoNavLink").animate({"left": ($ (window). width () - ($("#logoNavLink").width () *4.2)) / 2 + "px"});
 			$("#logoNavLink").attr("centered", "true");
 		}
 		else {
-			$("#logoNavLink").animate({'left': '0px', 'margin-left': -$("#logoNav").parent().width()/2 });
+			$("#logoNavLink").animate({'left': '0px'});
 			$("#logoNavLink").attr("centered", "false");		
 		}
 	});

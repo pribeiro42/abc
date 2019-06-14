@@ -202,7 +202,7 @@
             var query = e ? $(e.delegateTarget).attr('href') : false;
             if (query) {
                 var jumpToAnchor = $(e.delegateTarget).parents(".jumpToAnchor");
-                if (jumpToAnchor){
+                if (jumpToAnchor.length > 0){
                     var anchor =  query.substring(query.indexOf("#")+1);
                     anchor = decamelize(anchor,"_").split("_")[0];
                     $(document).scrollTop($('.' + anchor).offset().top );  
