@@ -6,9 +6,10 @@ image: /img/home-jumbotron.png
 logo: /img/abc/logoFull.png
 blurb:
     heading: 
-    text: "O Aveiro Business Center é um centro que possui um vasto leque de serviços para o desenvolvimento da atividade empresarial. Está equipado com mobiliário de excelência e modernas tecnologias, constituindo espaços elegantes que garantem conforto e requinte enquanto maximizam a sua produtividade."
+    text: "O Aveiro Business Center possui um vasto leque de serviços para o desenvolvimento da atividade empresarial. Está equipado com mobiliário de excelência e modernas tecnologias, constituindo espaços elegantes que garantem conforto e requinte enquanto maximizam a sua produtividade."
 services:
     heading: Serviços
+    title: Conheça os nossos serviços!
     text: ""
     close: Fechar
     class: services
@@ -22,7 +23,7 @@ services:
           carrousselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Escritórios
-              text: O Business Center dispõe de um conjunto de espaços que podem ser ajustados e equipados de acordo com as necessidades de cada empresa. 
+              text: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
               nr: 0
               first: yes
             - image: https://picsum.photos/1920/1280/?image=889
@@ -52,16 +53,22 @@ services:
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           content: lorem ipsum
+          key: servicesSpace
+
         - heading: Organização de Eventos
           image: /img/abc/eventService.png
           content: lorem ipsum
+          key: servicesEvent
       - items:
         - heading: Escritórios Virtuais
           image: /img/abc/virtualOfficeService.png
+          key: servicesVirtualOffice
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
+          key: servicesSupport
         - heading: Restaurante
           image: /img/abc/restaurantService.png
+          key: servicesRestaurant
 nav:
   - text: "Serviços"
     value: "services"

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
 	<div class="container">
 			<a id="logoNavLink" href="/" class="db mr4 h-100 w3 flex-none" centered="false">
-				<img id="logoNav" src="{{.logo}}" alt="ABC logo" class="br0 db mb0 w-200"/>
+				<img id="logoNav" src="{{.Site.GetPage.Params.logo}}" alt="ABC logo" class="br0 db mb0 w-200"/>
 			</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
 			aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,7 +9,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				{{ range .nav }}
+				{{ range .Site.GetPage.Params.nav }}
 					{{ if .dropdown }}
 						<li class="nav-item dropdown">
 						<a class="nav-link js-scroll-trigger" data-toggle="dropdown"  href="{{.value}}">{{.text}}</a>

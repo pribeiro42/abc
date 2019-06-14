@@ -41,6 +41,10 @@
   display: none;
 }
 
+ .justify {
+   text-align: justify;
+ }
+
 /*SCROLL*/
 
 ::-webkit-scrollbar {

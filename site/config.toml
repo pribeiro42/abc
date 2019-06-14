@@ -9,19 +9,7 @@ copyright = "2011-2019 © RLV"
     weight = 1
     languageCode = "pt-pt"
     dateFormat = "2 January 2006"    
-        [languages.pt.params]
-        linkedin = "https://linkedin.com/fr/whoever"
-            [languages.pt.params.navigation]
-            help = "Ajuda"
     [languages.en]
     weight = 2
     languageCode = "en-us"
     dateFormat = "January 2 2006"
-        [languages.en.params]
-        linkedin = "https://linkedin.com/whoever"
-   
-
-  
-[params]
-    [params.navigation]
-    help = "Help"

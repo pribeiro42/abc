@@ -52,28 +52,4 @@ values:
   - heading: "Criamagin"
     text: 
     imageUrl: "/img/about-reinvest-profits.jpg"
-
-nav:
-  - text: "Serviços"
-    value: "services"
-    dropdown: true
-    items:
-     - text: Aluguer de Escritórios
-       value: "/pt/#servicesOffice"
-     - text: Aluguer de Espaços
-       value: "#services"
-     - text: Aluguer de Espaços
-       value: "services"
-  - text: "Empresas"
-    value: "/pt/companies"
-    dropdown: false
-  - text: "Notícias"
-    value: "/pt/news"
-    dropdown: false
-  - text: "Sobre nós"
-    value: "/pt/about"
-    dropdown: false
-  - text: "Contactos"
-    value: "/pt/contact"
-    dropdown: false
 ---
