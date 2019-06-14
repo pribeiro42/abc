@@ -1,4 +1,4 @@
-<div class="section lookout-gray-96 pv6" id="modal-grid">
+<div class="section lookout-gray-96 pv6 {{ .class }}" id="modal-grid">
     <div class="container">
             {{ range .rows }}
             <div class="row">
@@ -7,7 +7,7 @@
         <div class="col l3 m6 s12 ">
           <a class="modal-trigger serviceLinks">
             <div class="white content-block z-depth-3 " >
-              <div class="img-wrap">
+              <div class="img-wrap w-50 center">
                 <img src="{{.image}}"/>
               </div>
               <div class="pad center white">
@@ -183,16 +183,40 @@
                 $('#availableOffices').modal('hide');
                 $(".modal-backdrop").click(function(e){$('.modal').modal('hide')});
         }
-        
+        openModalFromNav();
     $('.hashModalLink a').click(openModalFromNav);
 
         /********FUNCTIONS*********/
 
+        function decamelize(str, separator){
+            separator = typeof separator === 'undefined' ? '_' : separator;
+
+            return str
+                .replace(/([a-z\d])([A-Z])/g, '$1' + separator + '$2')
+                .replace(/([A-Z]+)([A-Z][a-z\d]+)/g, '$1' + separator + '$2')
+                .toLowerCase();
+        };
+
         function openModalFromNav(e){
             $('.modal').modal('hide')
-            var query = $(e.delegateTarget).attr('href')
+            var query = e ? $(e.delegateTarget).attr('href') : false;
             if (query) {
+                var jumpToAnchor = $(e.delegateTarget).parents(".jumpToAnchor");
+                if (jumpToAnchor){
+                    var anchor =  query.substring(query.indexOf("#")+1);
+                    anchor = decamelize(anchor,"_").split("_")[0];
+                    $(document).scrollTop($('.' + anchor).offset().top );  
+                }
                 $(query).modal('show');
+            }
+            else if (window.location.href.indexOf("#") > 0) {
+                query = window.location.href.substring(window.location.href.indexOf("#")+1);
+                if($('.dropdown').find('.jumpToAnchor').find( '#' + query)){
+                    var anchor = '.' + query.substring(query.indexOf("#")+1);
+                    anchor = decamelize(anchor,"_").split("_")[0];
+                    $(document).scrollTop($(anchor).offset().top );  
+                }
+                $('#' + query).modal('show');
             }
             $(".modal-backdrop").click(function(e){$('.modal').modal('hide')});
 

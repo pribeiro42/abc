@@ -1,15 +1,16 @@
 ---
-title: "Aveiro Business Center"
-subtitle: Um espaço de prestígio a pensar no sucesso da sua empresa
+title: "Um espaço de prestígio a pensar no sucesso da sua empresa"
+subtitle: 
 image: /img/home-jumbotron.jpg
 logo: /img/abc/logoFull.png
 blurb:
     heading: 
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
+    text: "O Aveiro Business Center é um centro que possui um vasto leque de serviços para o desenvolvimento da atividade empresarial. Está equipado com mobiliário de excelência e modernas tecnologias, constituindo espaços elegantes que garantem conforto e requinte enquanto maximizam a sua produtividade."
 services:
     heading: Serviços
     text: ""
     close: Fechar
+    class: services
     rows:
       - items:
         - heading: Aluguer de Escritórios
@@ -64,6 +65,7 @@ nav:
   - text: "Serviços"
     value: "services"
     dropdown: true
+    class: "jumpToAnchor"
     items:
      - text: Aluguer de Escritórios
        value: "#servicesOffice"
@@ -83,6 +85,15 @@ nav:
   - text: "Contactos"
     value: "/pt/contact"
     dropdown: false
+footer:
+  title: Subscreve ao newsletter!
+  text: Recebe novidades acerca do Aveiro Business Center no teu email!
+  email: O teu email
+  submit_email: Introduz o email
+  submit: Submeter
+  privacy: Política de Privacidade
+  facebook: https://www.facebook.com/aveirobusinesscenter
+  instagram: http://instagram.com/aveirobusinesscenter.oficial
 resources:
   news: "Notícias"
 ---

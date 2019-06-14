@@ -14,9 +14,34 @@
   }
 }
 /***************MAIN********************/
+
+/*var*/
+
+.floatR{
+  float: right;
+}
+.floatL{
+  float: left;
+}
+.textAlignR{
+  text-align: right;
+}
+.textAlignL{
+  text-align: left;
+}
+.fixedImage{
+  width: 400px;
+  height: auto;
+}
+.imageContainer{
+  margin: auto
+}
+
 .hidden {
   display: none;
 }
+
+/*SCROLL*/
 
 ::-webkit-scrollbar {
   width: 1em;
@@ -46,6 +71,21 @@ outline: 1px solid slategrey;
   border: none; */
   text-align: center;
 }
+
+/* JUMBOTRON */
+#jumbotronContent{
+  /* animation: zoom 100s infinite alternate;
+	animation-timing-function: linear; */
+}
+/* @keyframes zoom {
+  from {
+	transform:scale(1)
+  }
+
+  to {
+	transform:scale(1.1)
+  }
+} */
   
 /***************CONTACT********************/
   /*GOOGLE MAPS*/
@@ -62,24 +102,4 @@ outline: 1px solid slategrey;
 .socialMediaDiv {
   margin: auto;
   text-align: center;
-}
-
-.floatR{
-  float: right;
-}
-.floatL{
-  float: left;
-}
-.textAlignR{
-  text-align: right;
-}
-.textAlignL{
-  text-align: left;
-}
-.fixedImage{
-  width: 400px;
-  height: auto;
-}
-.imageContainer{
-  margin: auto
 }

@@ -43,7 +43,26 @@
 	-webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+.modal-trigger:hover img {
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
 .modal-trigger img {
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+.modal-trigger:hover .caption {
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.modal-trigger .caption {
 	-webkit-transition: all 300ms ease-out;
 	-moz-transition: all 300ms ease-out;
 	-o-transition: all 300ms ease-out;
