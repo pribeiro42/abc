@@ -1,0 +1,60 @@
+<div id="{{.key}}Carousel" class="carousel slide pv4" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+        {{ range .carrousselSlides}}
+        <li data-target="#{{.key}}Carousel" data-slide-to="{{.nr}}"></li>
+        {{end}}
+    </ol>
+    <div class="carousel-inner">
+        {{ range .carrousselSlides}}
+        <div class="carousel-item {{if .first}}active{{end}}">
+            <img class="d-block w-100" src="{{.image}}" alt="First slide">
+            <div class="container">
+                <div class="carousel-caption text-left">
+                    <h2>{{.heading}}</h2>
+                    <p class="">{{.text}}</p>
+                </div>
+            </div>
+        </div>
+        {{end}}
+    </div>
+    <a class="carousel-control-prev" href="#{{.key}}Carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#{{.key}}Carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<script>
+    $(document).ready(function () {
+        /********CALLS*********/
+        hideCarouselIndicators();
+        $('.carousel').on('slid', '', hideCarouselIndicators); // on caroussel move
+        $('.carousel').on('slid.bs.carousel', '', hideCarouselIndicators); // on carousel move
+
+        $(document).bind('keyup', function (e) {
+            if (e.which == 39) {
+                $('.carousel').carousel('next');
+            } else if (e.which == 37) {
+                $('.carousel').carousel('prev');
+            }
+        });
+    });
+
+    function hideCarouselIndicators() {
+        $('.modal-body').each(function(index,item){
+            var $this = $(this).find('.carousel');
+            if ($this.find('.carousel-inner .carousel-item:first').hasClass('active')) {
+                $this.children('.carousel-control-prev').hide();
+                $this.children('.carousel-control-next').show();
+            } else if ($this.find('.carousel-inner .carousel-item:last').hasClass('active')) {
+                $this.children('.carousel-control-prev').show();
+                $this.children('.carousel-control-next').hide();
+            } else {
+                $this.children('.carousel-control-prev').show();
+                $this.children('.carousel-control-next').show();
+            }
+        });
+    }
+</script>
