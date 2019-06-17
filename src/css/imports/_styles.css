@@ -76,6 +76,29 @@ outline: 1px solid slategrey;
   text-align: center;
 }
 
+@media (--breakpoint-not-small) {
+  #logoNavLink {
+    right: -35%;
+  }
+}
+@media (--breakpoint--small) {
+  #logoNavLink {
+    right: -35%;
+  }
+}
+
+@media (--breakpoint-medium) {
+  #logoNavLink {
+    right: -35%;
+  }
+}
+
+@media (--breakpoint-large) {
+  #logoNavLink {
+    right: 0%;
+  }
+}
+
 /* JUMBOTRON */
 #jumbotronContent{
   /* animation: zoom 100s infinite alternate;

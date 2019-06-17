@@ -76,11 +76,11 @@ nav:
     class: "jumpToAnchor"
     items:
      - text: Aluguer de Escritórios
-       value: "#servicesOffice"
+       value: "/pt/#servicesOffice"
      - text: Aluguer de Espaços
-       value: "#services"
+       value: "/pt/#services"
      - text: Aluguer de Espaços
-       value: "services"
+       value: "/pt/#services"
   - text: "Empresas"
     value: "/pt/companies"
     dropdown: false

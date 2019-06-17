@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
 	<div class="container">
-			<a id="logoNavLink" href="/" class="db mr4 h-100 w3 flex-none" centered="false">
+			<a id="logoNavLink" href="/" class="db h-100 w3 flex-none">
 				<img id="logoNav" src="{{.Site.GetPage.Params.logo}}" alt="ABC logo" class="br0 db mb0 w-200"/>
 			</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
@@ -29,17 +29,17 @@
 	</div>
 </nav>
 <script>
-	//CENTER LOGO FOR MOBILE
-	$(".navbar-toggler-icon").click(function (e){
-		if ($("#logoNavLink").attr("centered") == "false"){
-			$("#logoNavLink").animate({"left": ($ (window). width () - ($("#logoNavLink").width () *4.2)) / 2 + "px"});
-			$("#logoNavLink").attr("centered", "true");
-		}
-		else {
-			$("#logoNavLink").animate({'left': '0px'});
-			$("#logoNavLink").attr("centered", "false");		
-		}
-	});
+	// //CENTER LOGO FOR MOBILE
+	// $(".navbar-toggler-icon").click(function (e){
+	// 	if ($("#logoNavLink").attr("centered") == "false"){
+	// 		$("#logoNavLink").animate({"left": ($ (window). width () - ($("#logoNavLink").width () *3.2)) / 2 + "px"});
+	// 		$("#logoNavLink").attr("centered", "true");
+	// 	}
+	// 	else {
+	// 		$("#logoNavLink").animate({'left': '0px'});
+	// 		$("#logoNavLink").attr("centered", "false");		
+	// 	}
+	// });
 
 	$(document).ready(function() {
 		// ADD ACTIVE CLASS TO NAV ITEMS

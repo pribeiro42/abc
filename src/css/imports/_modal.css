@@ -20,7 +20,7 @@
   right: 2%;
   top: 2%;
 }
-#modal-grid .serviceLinks div{
+#modal-grid .modalLinks div{
   color: var(--primary);
   text-align: center;
 }

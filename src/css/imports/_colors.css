@@ -48,6 +48,10 @@
   background-color: var(--white);
 }
 
+.bg-whiteTranslucid {
+  background-color: var(--whiteTranslucid);
+}
+
 .bg-off-white {
   background-color: var(--off-white);
 }

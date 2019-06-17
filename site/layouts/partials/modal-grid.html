@@ -1,4 +1,4 @@
-<div class="section lookout-gray-96 pv1 {{ .class }}" id="modal-grid">
+<div class="section pv1 {{ .class }}" id="modal-grid">
         
     <div class="container">
             <div class="bg-grey-1 pv2 mv3-ns center">
@@ -10,13 +10,13 @@
             <div class="row">
             {{ range .items }}
 
-        <div class="col m6 s12 {{.key}}">
-          <a class="modal-trigger serviceLinks">
+        <div class="col m6 s12">
+          <a class="modal-trigger modalLinks">
             <div class="white content-block z-depth-3 " >
-              <div class="img-wrap w-50 center">
+              <div class="img-wrap w-50 center split {{.key}}">
                 <img src="{{.image}}"/>
               </div>
-              <div class="pad center white">
+              <div class="pad center white split {{.key}}">
                 <div class="caption">{{.heading}}</div>
               </div>
             </div>
@@ -207,6 +207,7 @@
             $('.modal').modal('hide')
             var query = e ? $(e.delegateTarget).attr('href') : false;
             if (query) {
+                query = query.substring(query.lastIndexOf("/")+1);
                 var jumpToAnchor = $(e.delegateTarget).parents(".jumpToAnchor");
                 if (jumpToAnchor.length > 0){
                     var anchor =  query.substring(query.indexOf("#")+1);
@@ -215,12 +216,13 @@
                 }
                 $(query).modal('show');
             }
-            else if (window.location.href.indexOf("#") > 0) {
+            else 
+            if (window.location.href.indexOf("#") > 0) {
                 query = window.location.href.substring(window.location.href.indexOf("#")+1);
                 if($('.dropdown').find('.jumpToAnchor').find( '#' + query)){
                     var anchor = '.' + query.substring(query.indexOf("#")+1);
                     anchor = decamelize(anchor,"_").split("_")[0];
-                    $(document).scrollTop($(anchor).offset().top );  
+                    $(document).scrollTop($(anchor).offset().top -100 );  
                 }
                 $('#' + query).modal('show');
             }
@@ -251,34 +253,22 @@
                 targets: '.modalTitle .letter',
                 scale: [4,1],
                 opacity: [0,1],
-                translateZ: 0,
                 easing: "easeOutExpo",
                 duration: 550,
                 delay: function(el, i) {
-                return 80*i;
+                    return 60*i;
                 }
             })
-            anime({
-                targets: '.container',
-                scale: [1.5,1],
-                opacity: [0,1],
-                duration: 500,
-                easing: 'easeInOutQuad'
-            });
             var delay = 1000,
                 factor = 1.15;
-            $('.col').each(function(index,item){
+            $('.col .split').each(function(index,item){
                 var classesSplit = "." + $(this).attr('class').split(" ")[$(this).attr('class').split(" ").length -1];
                 anime({
                     targets: classesSplit,
                     scale: [4,1],
                     opacity: [0,1],
-                    translateZ: 0,
                     easing: "easeOutExpo",
                     duration: 1000 + delay,
-                    delay: function(el, i) {
-                    return delay*i;
-                    }
                 });
                 delay *= factor;
             });
