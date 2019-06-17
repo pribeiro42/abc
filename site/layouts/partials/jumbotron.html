@@ -8,9 +8,14 @@
       </div>
       <div class="mw7 relative bg-fix-primary">
         {{ if .subtitle }}
-        <p class="b f4 di lh-title mb3 bg-white black mw6">
+        <p class="b f4 di lh-title mb3 bg-whiteTranslucid black mw6">
           {{.subtitle}}
         </p>
+        {{ end }}
+        {{if .date }}
+        <p class="b f4 di lh-title mb3 bg-whiteTranslucid black mw6">
+            {{ .date.Format " January 2, 2006" }}
+          </p>
         {{ end }}
       </div>
     </div>

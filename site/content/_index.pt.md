@@ -33,23 +33,23 @@ services:
 
               - image: /img/illustrations-tutorials.svg
                 text: "Os espaços incluem:
-                      <ul> 
-                      <li>-Acesso a linha de telefone autónoma, com nº próprio; </li>
-                      <li>-Acesso à Internet, no espaço e em áreas omuns;</li>
-                      <li>-Acesso a eletricidade, água e limpeza;</li>
-                      <li>-Luz natural;</li>
-                      <li>-Mobiliário e decoração minimalista;</li>
-                      <li>-Espaços para arrumação;</li>
-                      <li>-Secretária, cadeira ergonómica e bloco de gavetas por posto de trabalho;</li>
-                      <li>-Armário de apoio</li> </ul>"
+                      <ul class='list'> 
+                      <li>Acesso a linha de telefone autónoma, com nº próprio; </li>
+                      <li>Acesso à Internet, no espaço e em áreas omuns;</li>
+                      <li>Acesso a eletricidade, água e limpeza;</li>
+                      <li>Luz natural;</li>
+                      <li>Mobiliário e decoração minimalista;</li>
+                      <li>Espaços para arrumação;</li>
+                      <li>Secretária, cadeira ergonómica e bloco de gavetas por posto de trabalho;</li>
+                      <li>Armário de apoio</li> </ul>"
               - image: /img/illustrations-meeting-space.svg
                 text: "Condições especiais:
-                      <ul> 
-                      <li>-Estacionamento gratuito; </li>
-                      <li>-Utilização dos restantes espaços do edifício com desconto de 25% sobre PVP;</li>
-                      <li>-Acesso a preços de residente no restaurante;</li>
-                      <li>-Divulgação da empresa no site do Aveiro Business Center;</li>
-                      <li>-Divulgação em suportes comunicacionais do ABC.</li></ul>"
+                      <ul class='list'> 
+                      <li>Estacionamento gratuito; </li>
+                      <li>Utilização dos restantes espaços do edifício com desconto de 25% sobre PVP;</li>
+                      <li>Acesso a preços de residente no restaurante;</li>
+                      <li>Divulgação da empresa no site do Aveiro Business Center;</li>
+                      <li>Divulgação em suportes comunicacionais do ABC.</li></ul>"
             heading: 
             description: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
           carrousselSlides:
@@ -134,15 +134,140 @@ services:
                 nr: 1 
         - heading: Organização de Eventos
           image: /img/abc/eventService.png
-          content: lorem ipsum
           key: servicesEvent
+          intro:
+            blurbs:
+              - image: /img/illustrations-coffee.svg
+                text: "Organizamos eventos dentro e fora do Aveiro Business Center®, 
+                de acordo com as necessidades de cada empresa:
+                <ul class='list'> 
+                      <li>Exposições; </li>
+                      <li>Festas empresariais;</li>
+                      <li>Ações de team building;</li>
+                      <li>Cocktails e receções;</li>
+                      <li>Outros eventos.</li></ul>"
+              - image: /img/illustrations-coffee-gear.svg
+                text: O edifício dispõe de um espaço amplo com acesso ao exterior.
+                      Trata-se de uma zona versátil que se adequa às exigências
+                      específicas do cliente.
+            heading: 
+            description: 
+          carrousselSlides:
+            - image: /img/abc/officeA0.jpg
+              heading: Aluguer de Espaços
+              text: Evento 1
+              nr: 0
+              first: yes
+            - image: https://picsum.photos/1920/1280/?image=889
+              heading: aluguer de escritorios
+              text: Auditório
+              nr: 1
+            - image: /img/abc/officeService.png
+              heading: aluguer de escritorios
+              text: aluguer de escritorios
+              nr: 2
       - items:
         - heading: Escritórios Virtuais
           image: /img/abc/virtualOfficeService.png
           key: servicesVirtualOffice
+          intro:
+            blurbs:
+              - image: /img/illustrations-coffee.svg
+                text: "Esta tipologia de escritórios representam uma vantagem
+                      acrescida para a sua empresa. Podem ser implementados
+                      virtualmente de véspera e usados apenas por curtos períodos de
+                      tempo"
+              - image: /img/illustrations-coffee-gear.svg
+                text: Ideal para as empresas em início de atividade, para quem trabalha
+                      em casa ou nas instalações dos seus clientes e também para as
+                      empresas que pretendam reduzir os riscos da sua expansão para
+                      o nosso mercado.
+            heading: 
+            description: 
+          carrousselSlides:
+            - image: /img/abc/officeA0.jpg
+              heading: Aluguer de Espaços
+              text: Evento 1
+              nr: 0
+              first: yes
+            - image: https://picsum.photos/1920/1280/?image=889
+              heading: aluguer de escritorios
+              text: Auditório
+              nr: 1
+            - image: /img/abc/officeService.png
+              heading: aluguer de escritorios
+              text: aluguer de escritorios
+              nr: 2
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
           key: servicesSupport
+          title: "O Aveiro Business Center® possui todos os serviços complementares à utilização dos diversos espaços disponíveis."
+          content: "<span class='b'>Em qualquer modalidade de serviços de utilização de espaço,
+disponibilizamos ainda acesso direto aos seguintes serviços:</span>
+<ul class='list'> 
+  <li><span class='b'>Apoio logístico aos utentes do edifício (permanente e pontuais):</span>
+    <ul class='sublist'> 
+      <li>Acesso à internet WI-FI (gratuito);</li> 
+      <li>Envio de mailings, faxes e correspondência;</li> 
+      <li>Apoio informático;</li> 
+      <li>Estafetas;</li> 
+      <li>Cedência de telemóvel para utilização temporária;</li> 
+      <li>Reserva de voos, hotéis e aluguer de viaturas;</li> 
+      <li>Coffee break;</li> 
+      <li>Catering, etc…</li> 
+    </ul> 
+  </li>
+
+  <li><span class='b'>Serviços de aluguer de equipamentos:</span>
+    <ul class='sublist'> 
+      <li>Computador portátil para apresentações;</li> 
+      <li>Sistema de vídeo-conferência;</li> 
+      <li>Terminais de computador em rede;</li> 
+      <li>Equipamento de gravação e reprodução de áudio e vídeo;</li> 
+      <li>Equipamento áudio para tradução;</li> 
+      <li>Divulgação do evento em circuito interno de televisão (espaço de Foyer/Lounge).</li> 
+    </ul>
+  </li>
+
+  <li><span class='b'>Apoio à organização e divulgação de eventos a realizar pelos clientes:</span>
+    <ul class='sublist'> 
+      <li>Serviços de secretariado, incluindo datilografia e preparação de apresentações;</li> 
+      <li>Receção de participantes;</li> 
+      <li>Cedência de hospedeiras;</li> 
+      <li>Cedência de tradutores;</li> 
+      <li>Coffee-breaks e serviço de restauração;</li> 
+      <li>Filmagem dos eventos e produção de filme;</li> 
+      <li>Assessoria de imprensa;</li> 
+      <li>Desenvolvimento de imagem e produção de meios comunicacionais, incluindo web pages.</li> 
+    </ul>
+  </li>
+
+  <li><span class='b'>Para além destes, os utilizadores do business center têm acesso aos serviços disponibilizados pelas empresas alojadas no edifício. São exemplo desses serviços:</span>
+    <ul class='sublist'> 
+      <li>Serviços de contabilidade;</li> 
+      <li>Assessoria económico-financeira, fiscal, jurídica e laboral;</li> 
+      <li>Agência de publicidade e comunicação;</li> 
+      <li>Organização de eventos;</li> 
+      <li>Conceção e organização de ações de formação;</li> 
+      <li>Desenvolvimento de software;</li> 
+      <li>Mais...</li> 
+    </ul>
+  </li>
+</ul>"
+          carrousselSlides:
+            - image: /img/abc/officeA0.jpg
+              heading: Aluguer de Espaços
+              text: Evento 1
+              nr: 0
+              first: yes
+            - image: https://picsum.photos/1920/1280/?image=889
+              heading: aluguer de escritorios
+              text: Auditório
+              nr: 1
+            - image: /img/abc/officeService.png
+              heading: aluguer de escritorios
+              text: aluguer de escritorios
+              nr: 2
         - heading: Restaurante
           image: /img/abc/restaurantService.png
           key: servicesRestaurant
@@ -150,7 +275,7 @@ services:
             title: Ver Ementa
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
-            urlPdf: '/img/ementa.pdf'
+            idPdf: '1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV'
             id: availablePdf
           intro:
             blurbs:
@@ -197,9 +322,15 @@ nav:
      - text: Aluguer de Escritórios
        value: "/pt/#servicesOffice"
      - text: Aluguer de Espaços
-       value: "/pt/#services"
-     - text: Aluguer de Espaços
-       value: "/pt/#services"
+       value: "/pt/#servicesSpace"
+     - text: Organização de Eventos
+       value: "/pt/#servicesEvent"
+     - text: Escritórios Virtuais
+       value: "/pt/#servicesVirtualOffice"
+     - text: Serviços de Apoio
+       value: "/pt/#servicesSupport"
+     - text: Restaurante
+       value: "/pt/#servicesRestaurant"
   - text: "Empresas"
     value: "/pt/companies"
     dropdown: false
@@ -213,12 +344,13 @@ nav:
     value: "/pt/contact"
     dropdown: false
 footer:
-  title: Subscreve ao newsletter!
+  title: Subscreve o newsletter!
   text: Recebe novidades acerca do Aveiro Business Center no teu email!
   email: O teu email
   submit_email: Introduz o email
   submit: Submeter
-  privacy: Política de Privacidade
+  privacy: Política de Proteção de Dados
+  urlprivacy: /pt/privacy
   facebook: https://www.facebook.com/aveirobusinesscenter
   instagram: http://instagram.com/aveirobusinesscenter.oficial
 resources:

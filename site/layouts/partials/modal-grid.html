@@ -83,7 +83,7 @@
                             <div class="pv3">
                                 <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
                             </div>
-                      <iframe src="https://docs.google.com/viewer?srcid=1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
+                      <iframe src="https://docs.google.com/viewer?srcid={{.pdf.idPdf}}&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
                       <div class="fullSize"></div>
                         <div class="pv2 bg-grey-1 hashModalLink">
                             <a href="{{ .urlBack }}"><h2>{{.back}}</h2></a>
@@ -92,7 +92,15 @@
                   </div>
                 </div>
                   {{end}}
-                  
+                  {{ if .content }}
+                  <div class="center">
+                      <div class="ph3">
+                          <h2 class="lh-title mb2 textAlignL">{{.title}}</h2>
+                      </div>
+
+                      <div class="ph3 pv2 textAlignL">{{ .content | safeHTML }}</div>
+                  </div>
+                  {{ end }}
                   {{ partial "4-up" .intro }}
               </div>
             </div>

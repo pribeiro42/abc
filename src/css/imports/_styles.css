@@ -33,7 +33,7 @@
   width: 400px;
   height: auto;
 }
-.imageContainer{
+.marginAuto{
   margin: auto
 }
 
@@ -81,14 +81,9 @@ outline: 1px solid slategrey;
   text-align: center;
 }
 
-@media (--breakpoint-not-small) {
+@media (--breakpoint-small) {
   #logoNavLink {
-    right: -35%;
-  }
-}
-@media (--breakpoint--small) {
-  #logoNavLink {
-    right: -35%;
+    right: -25%;
   }
 }
 
@@ -123,6 +118,15 @@ outline: 1px solid slategrey;
 #meals{
   width: 100%;
   height: 100%;
+}
+.list {
+  list-style-type: circle;
+  margin-left: 3em
+}
+.sublist li {
+  margin-left: 2em;
+  list-style-type: circle;
+
 }
 
 /***************CONTACT********************/

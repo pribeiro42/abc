@@ -4,6 +4,7 @@
 .carousel-control-next, 
 .carousel-control-prev {
   width: 10%;
+  z-index: 5000;
 }
 
 .carousel-caption {
