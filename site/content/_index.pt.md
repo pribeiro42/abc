@@ -355,5 +355,6 @@ footer:
   instagram: http://instagram.com/aveirobusinesscenter.oficial
 resources:
   news: "Notícias"
+  readmore: "Ver mais"
 ---
 

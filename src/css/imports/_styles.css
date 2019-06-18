@@ -49,6 +49,12 @@
   width: 100%;
   height: 100%;
 }
+.dropshadow {
+  box-shadow: 1px 1px 10px 10px rgba(0,0,0,0.1)
+}
+.textshadow {
+  text-shadow: 4px 4px rgba(0,0,0,0.08);
+}
 
 /*SCROLL*/
 
@@ -99,6 +105,8 @@ outline: 1px solid slategrey;
   }
 }
 
+/*MODAL*/
+
 /* JUMBOTRON */
 #jumbotronContent{
   /* animation: zoom 100s infinite alternate;
@@ -138,7 +146,7 @@ outline: 1px solid slategrey;
 }
 
 #googleMapsIframe {
-  box-shadow: 1px 1px 10px 10px #00000029
+  box-shadow: 1px 1px 10px 10px black
 }
 /***************FOOTER********************/
 .socialMediaDiv {

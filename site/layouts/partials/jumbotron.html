@@ -36,11 +36,17 @@
       left = container_w / 2 - pos_x;
       top = container_h / 2 - pos_y;
 
-      TweenMax.to("#jumbotronContent", 8, {
-        backgroundPosition: (left) + "px 0px",
+      TweenMax.to("#jumbotronContent", 2, {
+        backgroundPosition: (left)/5 + "px 0px",
         /* negative width of background image your animating - left top */
-        ease: Linear.easeNone /* make sure you use Linear.easeNone so its smooth */
+        ease: Power4.easeNone /* make sure you use Linear.easeNone so its smooth */
       });
     });
+    
+    TweenMax.to("#jumbotronContent", 50, {
+        backgroundPosition:  "-250px 0px",
+        /* negative width of background image your animating - left top */
+        ease: Power4.easeNone /* make sure you use Linear.easeNone so its smooth */
+  });
   });
 </script>
