@@ -3,19 +3,19 @@ title: "Contactos"
 logo: "/img/abc/logoFull.png"
 contacts: 
   - text: Email
-    url: mailto:geral@abc.com
-    urlValue: geral@abc.com
+    url: mailto:geral@aveirobusinesscenter.com
+    urlValue: geral@aveirobusinesscenter.com
   - text: Tel
     value: +351 234 290 290
   - text: Fax
     value: +351 234 290 299
 contact_entries:
   - heading: Horário
-    text: "Segunda – Sexta: 9AM – 18PM"
+    text: "Segunda – Sexta: 9AM – 18:30PM"
   - heading: Localização
-    text: "Rua da Igreja, nº79, Nª Srª de Fátima, 3810-744 Aveiro"
+    text: "Aveiro Business Center<br>Rua da Igreja, nº79<br>Nª Srª de Fátima<br>3810-744 Aveiro"
   - heading: 
-    text: "40º 34’ 49’’<br>N08º 34’ 55’’ W"
+    text: "<br>40º 34’ 49’’<br>N08º 34’ 55’’ W"
 contactform:
   dropline: 'Entra em contacto connosco'
   name: 'Nome'
