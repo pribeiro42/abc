@@ -21,17 +21,16 @@ services:
           hasAvailableOffices: true
           intro:
             blurbs:
-              - image: /img/illustrations-coffee.svg
+              - image: /img/abc/services/offices/C3.jpg
                 text: >
                   O edifício conta com um conjunto de espaços que podem ser
                   ajustados e equipados de acordo com as necessidades de cada
                   empresa. 
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/offices/C1-3.jpg
                 text: Escritórios práticos e funcionais, ideais para empresas em início
                       de atividade ou pequenas empresas que procuram um espaço de
                       trabalho moderno, sem custos acrescidos.
-
-              - image: /img/illustrations-tutorials.svg
+              - image: /img/abc/services/offices/C1-5.jpg
                 text: "Os espaços incluem:
                       <ul class='list'> 
                       <li>Acesso a linha de telefone autónoma, com nº próprio; </li>
@@ -42,7 +41,7 @@ services:
                       <li>Espaços para arrumação;</li>
                       <li>Secretária, cadeira ergonómica e bloco de gavetas por posto de trabalho;</li>
                       <li>Armário de apoio</li> </ul>"
-              - image: /img/illustrations-meeting-space.svg
+              - image: /img/abc/services/offices/C2-3.jpg
                 text: "Condições especiais:
                       <ul class='list'> 
                       <li>Estacionamento gratuito; </li>
@@ -53,20 +52,14 @@ services:
             heading: 
             description: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
           carouselSlides:
-            - image: /img/abc/officeA0.jpg
-              heading: Aluguer de Escritórios
-              text: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
+            - image: /img/abc/services/offices/1.jpg
               nr: 0
               first: yes
               key: servicesOffice
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
+            - image: /img/abc/services/offices/2.jpg
               nr: 1
               key: servicesOffice
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
+            - image: /img/abc/services/offices/3.jpg
               nr: 2
               key: servicesOffice
           availableOffices: 
@@ -76,29 +69,42 @@ services:
               urlBack: '#servicesOffice'
               back: Voltar
               carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Escritório A0
-                text: Duas portas duas janelas 
+              - image: /img/abc/services/offices/A1.jpg
+                heading: Escritório A1
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
+              - image: /img/abc/services/offices/A2.jpg
+                heading: Escritório A2
                 nr: 1 
+              - image: /img/abc/services/offices/A3.jpg
+                heading: Escritório A3
+                nr: 2
+              - image: /img/abc/services/offices/C1.jpg
+                heading: Escritorio C1
+                nr: 3 
+              - image: /img/abc/services/offices/C2.jpg
+                heading: Escritorio C2
+                nr: 4 
+              - image: /img/abc/services/offices/C3.jpg
+                heading: Escritorio C3
+                nr: 5 
+              - image: /img/abc/services/offices/E3.jpg
+                heading: Escritorio E3
+                nr: 6 
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           key: servicesSpace
           hasAvailableOffices: true
           intro:
             blurbs:
-              - image: /img/illustrations-coffee.svg
+              - image: /img/abc/services/auditorium/2.jpg
                 text: Como suporte à atividade empresarial desenvolvida no edifício e
                       na região, o Aveiro Business Center® dispõe ainda de espaços
                       exclusivos para reuniões e formações, organização de
                       conferências, seminários, workshops e apresentações, ou
                       qualquer tipo de ação de acordo com a necessidade de cada
                       cliente.
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/lounge/2.jpg
                 text: Esta é a solução para empresas de serviços que pretendam fazer
                       uso de espaços modernos e equipados com modernas tecnologias
                       da informação e comunicação, ideais para a organização de
@@ -106,19 +112,20 @@ services:
             heading: 
             description: 
           carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Salas de Formação
-                text: Sala de reuniões
+              - image: /img/abc/services/auditorium/1.jpg
+                heading: Auditório
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: Auditório
+              - image: /img/abc/services/training/roomA.jpg
+                heading: Sala de Formação
+                text: Sala A
                 nr: 1
-              - image: /img/abc/officeService.png
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
+              - image: /img/abc/services/lounge/1.jpg
+                heading: Lounge
                 nr: 2
+              - image: /img/abc/services/meeting/1.jpg
+                heading: Sala de Reuniões
+                nr: 3
           availableOffices: 
             - title: Salas de Formação
               id: 'availableSpacesTraining'
@@ -155,15 +162,24 @@ services:
                       <li>Equipamento de gravação e reprodução de áudio e vídeo. </li>
                     </ul>"
               carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Sala de Formação 1
-                text: Duas portas duas janelas 
+              - image: /img/abc/services/training/1.jpg
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
-                nr: 1 
+              - image: /img/abc/services/training/2.jpg
+                nr: 1
+              - image: /img/abc/services/training/3.jpg
+                nr: 2
+              - image: /img/abc/services/training/4.jpg
+                nr: 3  
+              - image: /img/abc/services/training/roomA.jpg
+                heading: Sala A
+                nr: 4 
+              - image: /img/abc/services/training/roomB.jpg
+                heading: Sala B
+                nr: 5
+              - image: /img/abc/services/training/roomC.jpg
+                heading: Sala C
+                nr: 6 
             - title: Salas de Reunião
               id: 'availableSpacesMeeting'
               key: meetingCarousel
@@ -171,14 +187,10 @@ services:
               urlBack: '#servicesSpace'
               back: Voltar
               carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Sala de reuniões 1
-                text: Duas portas duas janelas 
+              - image: /img/abc/services/meeting/1.jpg
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
+              - image: /img/abc/services/meeting/2.jpg
                 nr: 1 
               intro:
                 blurbs:
@@ -216,15 +228,17 @@ services:
               urlBack: '#servicesSpace'
               back: Voltar
               carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Sala de reuniões 1
-                text: Duas portas duas janelas 
+              - image: /img/abc/services/auditorium/1.jpg
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
-                nr: 1 
+              - image: /img/abc/services/auditorium/2.jpg
+                nr: 1
+              - image: /img/abc/services/auditorium/3.jpg
+                nr: 2
+              - image: /img/abc/services/auditorium/4.jpg
+                nr: 3
+              - image: /img/abc/services/auditorium/5.jpg
+                nr: 4
               intro:
                 blurbs:
                   - image:
@@ -250,15 +264,17 @@ services:
               urlBack: '#servicesSpace'
               back: Voltar
               carouselSlides:
-              - image: /img/abc/officeA0.jpg
-                heading: Lounge
-                text: Duas portas duas janelas 
+              - image: /img/abc/services/lounge/1.jpg
                 nr: 0
                 first: yes
-              - image: https://picsum.photos/1920/1280/?image=889
-                heading: aluguer de escritorios
-                text: aluguer de escritorios
-                nr: 1 
+              - image: /img/abc/services/lounge/2.jpg
+                nr: 1
+              - image: /img/abc/services/lounge/3.jpg
+                nr: 2
+              - image: /img/abc/services/lounge/4.jpg
+                nr: 3
+              - image: /img/abc/services/lounge/5.jpg
+                nr: 4
               intro:
                 blurbs:
                   - image:
@@ -270,7 +286,7 @@ services:
           key: servicesEvent
           intro:
             blurbs:
-              - image: /img/illustrations-coffee.svg
+              - image: /img/abc/services/events/5.jpg
                 text: "Organizamos eventos dentro e fora do Aveiro Business Center®, 
                 de acordo com as necessidades de cada empresa:
                 <ul class='list'> 
@@ -279,26 +295,30 @@ services:
                       <li>Ações de team building;</li>
                       <li>Cocktails e receções;</li>
                       <li>Outros eventos.</li></ul>"
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/events/8.jpg
                 text: O edifício dispõe de um espaço amplo com acesso ao exterior.
                       Trata-se de uma zona versátil que se adequa às exigências
                       específicas do cliente.
             heading: 
             description: 
           carouselSlides:
-            - image: /img/abc/officeA0.jpg
-              heading: Aluguer de Espaços
-              text: Evento 1
+            - image: /img/abc/services/events/1.jpg
               nr: 0
               first: yes
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: Auditório
+            - image: /img/abc/services/events/2.jpg
               nr: 1
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
+            - image: /img/abc/services/events/3.jpg
               nr: 2
+            - image: /img/abc/services/events/4.jpg
+              nr: 3
+            - image: /img/abc/services/events/5.jpg
+              nr: 4
+            - image: /img/abc/services/events/6.jpg
+              nr: 5
+            - image: /img/abc/services/events/7.jpg
+              nr: 6
+            - image: /img/abc/services/events/8.jpg
+              nr: 7
       - items:
         - heading: Escritórios Virtuais
           image: /img/abc/virtualOfficeService.png
@@ -318,19 +338,9 @@ services:
             heading: 
             description: 
           carouselSlides:
-            - image: /img/abc/virtualOfficeService01.png
-              heading: 
-              text: 
+            - image: /img/abc/services/virtualoffice/1.png
               nr: 0
               first: yes
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: Auditório
-              nr: 1
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
-              nr: 2
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
           key: servicesSupport
@@ -388,19 +398,17 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
   </li>
 </ul>"
           carouselSlides:
-            - image: /img/abc/officeA0.jpg
-              heading: Aluguer de Espaços
-              text: Evento 1
+            - image: /img/abc/services/support/1.jpg
               nr: 0
               first: yes
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: Auditório
+            - image: /img/abc/services/support/2.jpg
               nr: 1
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
+            - image: /img/abc/services/support/3.jpg
               nr: 2
+            - image: /img/abc/services/support/4.jpg
+              nr: 3
+            - image: /img/abc/services/support/5.jpg
+              nr: 4
         - heading: Restaurante
           image: /img/abc/restaurantService.png
           key: servicesRestaurant
@@ -413,40 +421,44 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
             back: Voltar
           intro:
             blurbs:
-              - image: /img/illustrations-coffee.svg
+              - image: /img/abc/services/restaurant/4.jpg
                 text: Para eventos com um número de participantes reduzido,
                       dispomos de um espaço de restaurante com capacidade para 34
                       lugares, onde poderão ser servidas refeições sentadas, com
                       menus adequados às necessidades dos utilizadores dos diversos
                       espaços do edifício (salas de formação / reunião e auditório).
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/restaurant/5.jpg
                 text: Para eventos de maior dimensão, disponibilizamos um serviço de
                       buffet (sentado ou volante), a realizar no lounge do edifício (piso -
                       1 e piso 0). Este serviço destina-se a grupos e está sujeito a
                       reserva.
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/restaurant/8.jpg
                 text: No Salicornia Restaurante são ainda servidas refeições
                       diariamente, de segunda a sexta-feira, apenas ao almoço.
-              - image: /img/illustrations-coffee-gear.svg
+              - image: /img/abc/services/restaurant/7.jpg
                 text: Usufrua de um atendimento personalizado, ementa requintada e
                       diversificada e ambiente acolhedor, confortável e distintivo.
 
             heading: 
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.
           carouselSlides:
-            - image: /img/abc/officeA0.jpg
-              heading: Aluguer de Espaços
-              text: Sala de reuniões
+            - image: /img/abc/services/restaurant/1.jpg
               nr: 0
               first: yes
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: Auditório
+            - image: /img/abc/services/restaurant/2.jpg
               nr: 1
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
+            - image: /img/abc/services/restaurant/3.jpg
               nr: 2
+            - image: /img/abc/services/restaurant/4.jpg
+              nr: 3
+            - image: /img/abc/services/restaurant/5.jpg
+              nr: 4
+            - image: /img/abc/services/restaurant/6.jpg
+              nr: 5
+            - image: /img/abc/services/restaurant/7.jpg
+              nr: 6
+            - image: /img/abc/services/restaurant/8.jpg
+              nr: 7
 nav:
   - text: "Serviços"
     value: "services"

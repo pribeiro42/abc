@@ -95,8 +95,9 @@
 
                       <div class="ph3 pv2 textAlignL">{{ .content | safeHTML }}</div>
                   </div>
-                  {{ end }}
+                  {{else}}
                   {{ partial "4-up" .intro }}
+                  {{ end }}
               </div>
             </div>
           </div>

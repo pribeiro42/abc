@@ -18,7 +18,7 @@
   position: absolute;
   z-index: 500;
   right: 2%;
-  top: 2%;
+  top: 1%;
 }
 #modal-grid .modalLinks div{
   color: var(--primary);
