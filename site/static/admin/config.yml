@@ -56,6 +56,7 @@ collections: # A list of collections the CMS should be able to edit
                       - label: Conteúdo
                         name: content
                         widget: text
+                        optional: true
                       - label: Conteúdo Grelha
                         name: intro
                         widget: object
@@ -87,6 +88,7 @@ collections: # A list of collections the CMS should be able to edit
                           - label: Conteúdo
                             name: content
                             widget: text
+                            optional: true
                           - label: Conteúdo Grelha
                             name: intro
                             widget: object
