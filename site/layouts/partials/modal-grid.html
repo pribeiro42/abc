@@ -39,9 +39,7 @@
                   {{end}}
                   {{if .hasAvailableOffices}}
                   {{range .availableOffices}}
-                  <div class="pv2 bg-grey-1 hashModalLink">
-                    <a href="{{ .url }}"><h2>{{.title}}</h2></a>
-                  </div>
+                  {{ partial "modalbtn" (dict "url" .url "text" .title)}}
                   {{end}}
                   {{end}}
                   {{if .hasAvailableOffices}}
@@ -64,9 +62,7 @@
                                 <p>{{.content}}</p>
                             </div>
                             {{end}}
-                            <div class="pv2 bg-grey-1 hashModalLink">
-                                <a href="{{ .urlBack }}"><h2>{{.back}}</h2></a>
-                                </div>
+                            {{ partial "modalbtn" (dict "url" .urlBack "text" .back)}}
                         </div>
                       </div>
                     </div>
@@ -74,9 +70,7 @@
                   {{end}}
                   
                   {{if .pdf}}
-                  <div class="pv2 bg-grey-1 hashModalLink">
-                    <a href="{{ .pdf.url }}"><h2>{{.pdf.title}}</h2></a>
-                  </div>
+                  {{ partial "modalbtn" (dict "url" .pdf.url "text" .pdf.title)}}
                   <div id="{{.pdf.id}}" class="modal">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -84,10 +78,7 @@
                                 <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
                             </div>
                       <iframe src="https://docs.google.com/viewer?srcid={{.pdf.idPdf}}&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
-                      <div class="fullSize"></div>
-                        <div class="pv2 bg-grey-1 hashModalLink">
-                            <a href="{{ .urlBack }}"><h2>{{.back}}</h2></a>
-                            </div>
+                      {{ partial "modalbtn" (dict "url" .pdf.urlBack "text" .pdf.back)}}
                     </div>
                   </div>
                 </div>

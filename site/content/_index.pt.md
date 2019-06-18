@@ -277,6 +277,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
             urlBack: '#servicesRestaurant'
             idPdf: '1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV'
             id: availablePdf
+            back: Voltar
           intro:
             blurbs:
               - image: /img/illustrations-coffee.svg
