@@ -7,7 +7,7 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+    folder: "site/content/news" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -20,7 +20,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/_index.pt.md"
         label: "Home Page PT"
-        name: "home"
+        name: "homePT"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Subtitle, name: subtitle, widget: string}
@@ -28,18 +28,89 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Blurb", name: blurb, widget: object, fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Intro", name: intro, widget: object, fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Products", name: products, widget: list, fields: [
-              {label: "Image", name: "image", widget: "image"},
-              {label: "Text", name: "text", widget: "text"}]}
-          - {label: "Values", name: "values", widget: "object", fields: [
-              {label: "Heading", name: "heading", widget: string},
-              {label: "Text", name: "text", widget: "text"}]}
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
+          - label: Services
+            name: services
+            widget: object
+            fields:
+              - label: Linhas
+                name: rows
+                widget: list
+                fields:
+                  - label: Serviços
+                    name: items
+                    widget: list
+                    fields: 
+                      - label: Serviço
+                        name: heading
+                        widget: text
+                      - label: Imagem
+                        name: image
+                        widget: image
+                      - label: Slideshow
+                        name: carouselSlides
+                        widget: list
+                        fields: 
+                          - label: Imagem
+                            name: image
+                            widget: image
+                      - label: Conteúdo
+                        name: content
+                        widget: text
+                      - label: Conteúdo Grelha
+                        name: intro
+                        widget: object
+                        fields:
+                          - label: Conteúdo
+                            name: blurbs
+                            widget: list
+                            fields:
+                              - label: Descrição
+                                name: text
+                                widget: text
+                              - label: Imagem
+                                name: image
+                                widget: image
+                      - label: SubServiço
+                        name: availableOffices
+                        widget: list
+                        fields: 
+                          - label: SubServiço
+                            name: title
+                            widget: text
+                          - label: Slideshow
+                            name: carouselSlides
+                            widget: list
+                            fields: 
+                              - label: Imagem
+                                name: image
+                                widget: image
+                          - label: Conteúdo
+                            name: content
+                            widget: text
+                          - label: Conteúdo Grelha
+                            name: intro
+                            widget: object
+                            fields:
+                              - label: Conteúdo
+                                name: blurbs
+                                widget: list
+                                fields:
+                                  - label: Descrição
+                                    name: text
+                                    widget: text
+                                  - label: Imagem
+                                    name: image
+                                    widget: image
+                      - label: PDF
+                        name: pdf
+                        widget: object
+                        fields:
+                          - label: ID
+                            name: idPdf
+                            widget: string
+      - file: "site/content/contact/_index.pt.md"
+        label: "Contact Page PT"
+        name: "contactPT"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
@@ -54,6 +125,13 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+      - file: "site/content/about/_index.pt.md"
+        label: "About Page PT"
+        name: "AboutPT"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
+          - {label: Body, name: body, widget: markdown}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
@@ -67,8 +145,8 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "site/content/values/_index.md"
-        label: "Values Page"
+      - file: "site/content/companies/_index.pt.md"
+        label: "Companies Page PT"
         name: "values"
         fields:
           - {label: Title, name: title, widget: string}
