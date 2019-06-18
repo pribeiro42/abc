@@ -48,15 +48,19 @@
     function hideCarouselIndicators() {
         $('.modal-body').each(function(index,item){
             var $this = $(this).find('.carousel');
-            if ($this.find('.carousel-inner .carousel-item:first').hasClass('active')) {
+            if ($this.find('.carousel-inner .carousel-item:first').hasClass('active') && $this.find('.carousel-inner .carousel-item').length > 1) {
                 $this.children('.carousel-control-prev').hide();
                 $this.children('.carousel-control-next').show();
-            } else if ($this.find('.carousel-inner .carousel-item:last').hasClass('active')) {
+            } else if ($this.find('.carousel-inner .carousel-item:last').hasClass('active') && $this.find('.carousel-inner .carousel-item').length > 1) {
                 $this.children('.carousel-control-prev').show();
                 $this.children('.carousel-control-next').hide();
-            } else {
+            } else if ($this.find('.carousel-inner .carousel-item').length > 1){
                 $this.children('.carousel-control-prev').show();
                 $this.children('.carousel-control-next').show();
+            }
+            else {
+                $this.children('.carousel-control-prev').hide();
+                $this.children('.carousel-control-next').hide();
             }
         });
     }
