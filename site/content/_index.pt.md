@@ -186,8 +186,8 @@ services:
             description: 
           carrousselSlides:
             - image: /img/abc/virtualOfficeService01.png
-              heading: Aluguer de Espaços
-              text: Evento 1
+              heading: 
+              text: 
               nr: 0
               first: yes
             - image: https://picsum.photos/1920/1280/?image=889
