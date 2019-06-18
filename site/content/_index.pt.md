@@ -323,20 +323,13 @@ services:
         - heading: Escritórios Virtuais
           image: /img/abc/virtualOfficeService.png
           key: servicesVirtualOffice
-          intro:
-            blurbs:
-              - image: 
-                text: "Esta tipologia de escritórios representam uma vantagem
+          content:  "Esta tipologia de escritórios representam uma vantagem
                       acrescida para a sua empresa. Podem ser implementados
                       virtualmente de véspera e usados apenas por curtos períodos de
-                      tempo"
-              - image: 
-                text: Ideal para as empresas em início de atividade, para quem trabalha
+                      tempo. Ideal para as empresas em início de atividade, para quem trabalha
                       em casa ou nas instalações dos seus clientes e também para as
                       empresas que pretendam reduzir os riscos da sua expansão para
-                      o nosso mercado.
-            heading: 
-            description: 
+                      o nosso mercado."
           carouselSlides:
             - image: /img/abc/services/virtualoffice/1.png
               nr: 0
