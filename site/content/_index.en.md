@@ -46,7 +46,7 @@ services:
                       <li>Promotion on ABC communication media.</li></ul>"
             heading: 
             description: The Aveiro Business Center has a complete offer of support to the business activity, standing out for the excellence of the office spaces that it has.
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Escritórios
               text: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
@@ -66,7 +66,7 @@ services:
               url: '#availableOffices'
               urlBack: '#servicesOffice'
               back: Voltar
-              carrousselSlides:
+              carouselSlides:
               - image: /img/abc/officeA0.jpg
                 heading: Escritório A0
                 text: Duas portas duas janelas 
@@ -80,6 +80,7 @@ services:
           image: /img/abc/spaceService.png
           key: servicesSpace
           hasAvailableOffices: true
+          subslideshow: true
           intro:
             blurbs:
               - image: /img/illustrations-coffee.svg
@@ -96,7 +97,7 @@ services:
                       eventos empresariais.
             heading: 
             description: 
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Sala de reuniões
@@ -116,7 +117,7 @@ services:
               url: '#availableSpaces'
               urlBack: '#servicesSpace'
               back: Voltar
-              carrousselSlides:
+              carouselSlides:
               - image: /img/abc/officeA0.jpg
                 heading: Sala de reuniões 1
                 text: Duas portas duas janelas 
@@ -146,7 +147,7 @@ services:
                       específicas do cliente.
             heading: 
             description: 
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Evento 1
@@ -178,7 +179,7 @@ services:
                       o nosso mercado.
             heading: 
             description: 
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Evento 1
@@ -248,7 +249,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
     </ul>
   </li>
 </ul>"
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Evento 1
@@ -293,7 +294,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
 
             heading: 
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Sala de reuniões

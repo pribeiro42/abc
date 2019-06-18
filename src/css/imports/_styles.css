@@ -56,6 +56,10 @@
   text-shadow: 4px 4px rgba(0,0,0,0.08);
 }
 
+.bgg-white-off-white{
+  background: radial-gradient(circle, rgba(242,242,242,0.5) 0%, rgba(233,233,233,0.5) 100%);
+}
+
 /*SCROLL*/
 
 ::-webkit-scrollbar {
@@ -129,10 +133,10 @@ outline: 1px solid slategrey;
 }
 .list {
   list-style-type: circle;
-  margin-left: 3em
+  margin-left: 2%;
 }
 .sublist li {
-  margin-left: 2em;
+  margin-left: 4%;
   list-style-type: circle;
 
 }

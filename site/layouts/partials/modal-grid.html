@@ -25,7 +25,7 @@
               <div class="modal-content">
                   <div class="modal-body">
                 <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
-                  {{if .carrousselSlides}}
+                  {{if .carouselSlides}}
                     {{partial "carousel" .}}
                   {{else}}
                   <div class="col s12 l5 hide-on-med-and-down">
@@ -50,7 +50,7 @@
                         <div class="modal-content">
                             <div class="modal-body">
                           <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
-                            {{if .carrousselSlides}}
+                            {{if .carouselSlides}}
                             {{partial "carousel" .}}
                             {{else}}
                             <div class="col s12 l5 hide-on-med-and-down">
@@ -63,6 +63,10 @@
                             </div>
                             {{end}}
                             {{ partial "modalbtn" (dict "url" .urlBack "text" .back)}}
+                            {{ if .intro }}
+                              {{ partial "4-up" .intro }}
+                            {{end}}
+
                         </div>
                       </div>
                     </div>
@@ -104,6 +108,11 @@
   </div>
   <script>
       $(document).ready(function () {
+        if (window.performance) {
+                if (performance.navigation.type == 1) {
+                    window.history.pushState("/", "/", '/');
+                }       
+            }   
           /********EVENTS*********/
         $('#modal-grid .modal-trigger').each(function(index,item){
             $(this).click(function(e){

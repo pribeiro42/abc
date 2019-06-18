@@ -52,27 +52,30 @@ services:
                       <li>Divulgação em suportes comunicacionais do ABC.</li></ul>"
             heading: 
             description: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Escritórios
               text: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
               nr: 0
               first: yes
+              key: servicesOffice
             - image: https://picsum.photos/1920/1280/?image=889
               heading: aluguer de escritorios
               text: aluguer de escritorios
               nr: 1
+              key: servicesOffice
             - image: /img/abc/officeService.png
               heading: aluguer de escritorios
               text: aluguer de escritorios
               nr: 2
+              key: servicesOffice
           availableOffices: 
             - title: Escritórios disponíveis no Aveiro Business Center
               id: 'availableOffices'
               url: '#availableOffices'
               urlBack: '#servicesOffice'
               back: Voltar
-              carrousselSlides:
+              carouselSlides:
               - image: /img/abc/officeA0.jpg
                 heading: Escritório A0
                 text: Duas portas duas janelas 
@@ -102,27 +105,72 @@ services:
                       eventos empresariais.
             heading: 
             description: 
-          carrousselSlides:
-            - image: /img/abc/officeA0.jpg
-              heading: Aluguer de Espaços
-              text: Sala de reuniões
-              nr: 0
-              first: yes
-            - image: https://picsum.photos/1920/1280/?image=889
-              heading: aluguer de escritorios
-              text: Auditório
-              nr: 1
-            - image: /img/abc/officeService.png
-              heading: aluguer de escritorios
-              text: aluguer de escritorios
-              nr: 2
+          carouselSlides:
+              - image: /img/abc/officeA0.jpg
+                heading: Salas de Formação
+                text: Sala de reuniões
+                nr: 0
+                first: yes
+              - image: https://picsum.photos/1920/1280/?image=889
+                heading: aluguer de escritorios
+                text: Auditório
+                nr: 1
+              - image: /img/abc/officeService.png
+                heading: aluguer de escritorios
+                text: aluguer de escritorios
+                nr: 2
           availableOffices: 
-            - title: Espaços disponíveis no Aveiro Business Center
-              id: 'availableSpaces'
-              url: '#availableSpaces'
+            - title: Salas de Formação
+              id: 'availableSpacesTraining'
+              url: '#availableSpacesTraining'
+              urlBack: '#servicesSpace'
+              key: trainingCarousel
+              back: Voltar
+              intro:
+                blurbs:
+                  - image:
+                    text: "O edifício dispõe de 3 salas para a realização de reuniões de trabalho e/ou ações de formação, com a seguinte capacidade:
+                    <ul class='list'> 
+                      <li>Sala A 12 pessoas;</li>
+                      <li>Sala B 10 px;</li>
+                      <li>Sala C 16 px;</li>
+                      <li>Sala A+B 20px;</li>
+                    </ul>"
+                  - image: 
+                    text: As salas estão equipadas com mobiliário de excelência,
+                          modernas tecnologias de informação e comunicação e
+                          sistema de iluminação variável.
+                  - image:
+                    text: "Equipamento permanente:
+                    <ul class='list'> 
+                      <li>Quadro interativo com ecrã de 78”;</li>
+                      <li>Internet wi-fi;</li>
+                      <li>Quadro branco e quadro de folhas móveis (Flipchart). </li>
+                    </ul>"
+                  - image:
+                    text: "Equipamento disponível (se requerido):
+                    <ul class='list'> 
+                      <li>Computador portátil;</li>
+                      <li>Terminais de computador em rede;</li>
+                      <li>Equipamento de gravação e reprodução de áudio e vídeo. </li>
+                    </ul>"
+              carouselSlides:
+              - image: /img/abc/officeA0.jpg
+                heading: Sala de Formação 1
+                text: Duas portas duas janelas 
+                nr: 0
+                first: yes
+              - image: https://picsum.photos/1920/1280/?image=889
+                heading: aluguer de escritorios
+                text: aluguer de escritorios
+                nr: 1 
+            - title: Salas de Reunião
+              id: 'availableSpacesMeeting'
+              key: meetingCarousel
+              url: '#availableSpacesMeeting'
               urlBack: '#servicesSpace'
               back: Voltar
-              carrousselSlides:
+              carouselSlides:
               - image: /img/abc/officeA0.jpg
                 heading: Sala de reuniões 1
                 text: Duas portas duas janelas 
@@ -132,6 +180,91 @@ services:
                 heading: aluguer de escritorios
                 text: aluguer de escritorios
                 nr: 1 
+              intro:
+                blurbs:
+                  - image:
+                    text: "O Aveiro Business Center disponibiliza dois espaços de reunião que incluem uma sala de espera para que possa receber comodamente um cliente ou fornecedor."
+                  - image: 
+                    text: As salas estão equipadas com mobiliário de excelência,
+                          modernas tecnologias de informação e comunicação e
+                          sistema de iluminação variável.
+                  - image:
+                    text: "Tratam-se de salas de charme, cuidadosamente mobiladas que podem ser requeridas à hora, meio dia ou dia inteiro"
+                  - image:
+                    text: "Estas elegantes salas garantem conforto e requinte, enquanto maximizam a sua produtividade num ambiente tranquilo."
+                  - image:
+                    text: "Equipamento permanente:
+                    <ul class='list'> 
+                      <li>Internet WI-FI;</li>
+                      <li>Mobiliário de excelência;</li>
+                      <li>Sala de espera e de receção; </li>
+                      <li>Água.</li>
+                    </ul>"
+                  - image:
+                    text: "Equipamento disponível (se requerido):
+                    <ul class='list'> 
+                      <li>Vídeo projetor;</li>
+                      <li>Flipchart;</li>
+                      <li>Blocos de apontamentos. </li>
+                    </ul>"
+                  - image:
+                    text: "Disponha de uma equipa profissional sempre disponível para garantir o sucesso da sua reunião."
+            - title: Auditório
+              id: 'availableSpacesAuditorium'
+              key: auditoriumCarousel
+              url: '#availableSpacesAuditorium'
+              urlBack: '#servicesSpace'
+              back: Voltar
+              carouselSlides:
+              - image: /img/abc/officeA0.jpg
+                heading: Sala de reuniões 1
+                text: Duas portas duas janelas 
+                nr: 0
+                first: yes
+              - image: https://picsum.photos/1920/1280/?image=889
+                heading: aluguer de escritorios
+                text: aluguer de escritorios
+                nr: 1 
+              intro:
+                blurbs:
+                  - image:
+                    text: "O auditório tem capacidade para 77 lugares, está equipado com poltronas almofadadas de assento rebatível e pequena mesa de escrita, palmatória antipânico, sistema de videoconferência e régie com sala de tradução."
+                  - image: 
+                    text: O espaço dispõe de modernas tecnologias de informação e comunicação, equipamento de projecção de alta definição, som de alta-fidelidade e sistema de iluminação variável.
+                  - image:
+                    text: "Equipamento permanente:
+                    <ul class='list'> 
+                      <li>Microfones (2 fixos em púlpitos, 4 sem fios e 1 de lapela sem fios);</li>
+                      <li>Internet WI-FI;</li>
+                      <li>Sistema de vídeo e áudio conferência.</li>
+                      <li>Sistema de projecção Full HD, com ecrã de 5m2; </li>
+                      <li>Leitor de BD;</li>
+                      <li>Equipamento p/ captação de imagens;</li>
+                      <li>Transmissão de eventos em circuito interno de TV;</li>
+                      <li>Tomadas por fila.</li>
+                    </ul>"
+            - title: Lounge
+              id: 'availableSpacesLounge'
+              key: LoungeCarousel
+              url: '#availableSpacesLounge'
+              urlBack: '#servicesSpace'
+              back: Voltar
+              carouselSlides:
+              - image: /img/abc/officeA0.jpg
+                heading: Lounge
+                text: Duas portas duas janelas 
+                nr: 0
+                first: yes
+              - image: https://picsum.photos/1920/1280/?image=889
+                heading: aluguer de escritorios
+                text: aluguer de escritorios
+                nr: 1 
+              intro:
+                blurbs:
+                  - image:
+                    text: "Espaço amplo e funcional que acolhe o visitante à entrada do ABC (120 m2 no piso 0 e 155 m2 piso -1)."
+                  - image: 
+                    text: É o local ideal para, no intervalo dos eventos, ser servido o coffee break e refeições volantes. Esta área poderá também ser aproveitada para exposições de índole vária (paredes brancas), receção aos eventos, receção de convidados, realização de cocktails, secretariados e todo o tipo de serviços decorrentes da atividade do Auditório e Salas de Formação/Reunião.
         - heading: Organização de Eventos
           image: /img/abc/eventService.png
           key: servicesEvent
@@ -152,7 +285,7 @@ services:
                       específicas do cliente.
             heading: 
             description: 
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Evento 1
@@ -172,19 +305,19 @@ services:
           key: servicesVirtualOffice
           intro:
             blurbs:
-              - image: /img/illustrations-coffee.svg
+              - image: 
                 text: "Esta tipologia de escritórios representam uma vantagem
                       acrescida para a sua empresa. Podem ser implementados
                       virtualmente de véspera e usados apenas por curtos períodos de
                       tempo"
-              - image: /img/illustrations-coffee-gear.svg
+              - image: 
                 text: Ideal para as empresas em início de atividade, para quem trabalha
                       em casa ou nas instalações dos seus clientes e também para as
                       empresas que pretendam reduzir os riscos da sua expansão para
                       o nosso mercado.
             heading: 
             description: 
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/virtualOfficeService01.png
               heading: 
               text: 
@@ -254,7 +387,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
     </ul>
   </li>
 </ul>"
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Evento 1
@@ -300,7 +433,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
 
             heading: 
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.
-          carrousselSlides:
+          carouselSlides:
             - image: /img/abc/officeA0.jpg
               heading: Aluguer de Espaços
               text: Sala de reuniões
