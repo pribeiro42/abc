@@ -20,10 +20,18 @@
 		
 
 		<div>
-	        	{{ range .Params.contact_entries }}
+	        	{{ range first 1 .Params.contact_entries }}
 				<div>
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+					<p>{{ .text | safeHTML }}</p>
+				</div>
+			{{ end }}
+		</div>
+		<div class="flex-ns mb3">
+	        	{{ range last 2 .Params.contact_entries }}
+				<div class="w-50">
+					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
+					<p>{{ .text | safeHTML }}</p>
 				</div>
 			{{ end }}
 		</div>
