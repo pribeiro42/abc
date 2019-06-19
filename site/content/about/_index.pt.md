@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Sobre Nós"
 key: aboutCarousel
 carouselslides:
@@ -12,6 +13,10 @@ carouselslides:
     - image: /img/abc/building4.jpg
       nr: 3
       
+=======
+title: Sobre Nós
+logo: /img/abc/logoFull.png
+>>>>>>> 805180615516970f9db9f00312eae21faf08a886
 ---
 <h3 class="f4 b lh-title mb2">Sobre Nós</h3>
 
