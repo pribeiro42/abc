@@ -17,6 +17,7 @@ contact_entries:
   - heading: 
     text: "<br>40º 34’ 49’’<br>N08º 34’ 55’’ W"
 contactform:
+  action: /pt/submit
   dropline: 'Entre em contacto connosco'
   name: 'Nome'
   email: 'Email'
