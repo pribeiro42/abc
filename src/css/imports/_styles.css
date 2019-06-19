@@ -74,6 +74,10 @@ body {
   color: var(--black);
 }
 
+.ptruncate p {
+  overflow: hidden;
+}
+
 /*SCROLL*/
 
 ::-webkit-scrollbar {

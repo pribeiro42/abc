@@ -495,6 +495,7 @@ footer:
   facebook: https://www.facebook.com/aveirobusinesscenter
   instagram: http://instagram.com/aveirobusinesscenter.oficial
 resources:
+  back: "Voltar"
   news: "Notícias"
   readmore: "Ver mais"
   next: Seguinte

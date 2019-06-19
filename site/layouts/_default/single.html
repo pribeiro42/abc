@@ -1,6 +1,23 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Params.title "date" .Date) }}
-{{ partial "short-text" (dict "text" .Content)}}
+<section class="blog-single section">
+    <div class="container">
+        <div class="row">
+            <div class="mw7 center ptruncate">
+                {{ partial "modalbtn" (dict "url" "/" "text" .Site.GetPage.Params.resources.back )}}
+                <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="w-100 mb-3" alt="Post-Image">
+                <h2>{{ .Title }}</h2>
+                <div class="post-meta mb-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
+                        </li>
+                    </ul>
+                </div>
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
 
 {{ end }}
