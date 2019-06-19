@@ -146,12 +146,6 @@ outline: 1px solid slategrey;
 .carouselSmall img {
   height: 13em !important;
 }
-.carouselSmall .carousel-control-next{
-  border-radius: 1em;
-}
-.carouselSmall .carousel-control-prev {
-border-radius: 1em;
-}
 
 /* JUMBOTRON */
 #jumbotronContent{
