@@ -495,5 +495,7 @@ footer:
 resources:
   news: "Notícias"
   readmore: "Ver mais"
+  next: Seguinte
+  previous: Anterior
 ---
 
