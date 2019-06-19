@@ -1,6 +1,17 @@
 ---
 title: "Sobre Nós"
-logo: "/img/abc/logoFull.png"
+key: aboutCarousel
+carouselslides:
+    - image: /img/abc/building1.jpg
+      nr: 0
+      first: yes
+    - image: /img/abc/building2.jpg
+      nr: 1
+    - image: /img/abc/building3.jpg
+      nr: 2
+    - image: /img/abc/building4.jpg
+      nr: 3
+      
 ---
 <h3 class="f4 b lh-title mb2">Sobre Nós</h3>
 

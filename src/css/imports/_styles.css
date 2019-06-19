@@ -93,6 +93,10 @@ background-color: darkgrey;
 outline: 1px solid slategrey;
 }
   /*NAVBAR*/
+.navbar {
+  z-index: 5001;
+}
+
 #logoNav {
   max-width: 250%;
   position: relative;
@@ -128,6 +132,26 @@ outline: 1px solid slategrey;
 }
 
 /*MODAL*/
+.modal {
+  z-index: 5002;
+}
+
+/*CAROUSEL*/
+.carouselSmall .carousel {
+  height: 16em;
+}
+.carouselSmall .carousel-inner {
+  height: 14em;
+}
+.carouselSmall img {
+  height: 13em !important;
+}
+.carouselSmall .carousel-control-next{
+  border-radius: 1em;
+}
+.carouselSmall .carousel-control-prev {
+border-radius: 1em;
+}
 
 /* JUMBOTRON */
 #jumbotronContent{

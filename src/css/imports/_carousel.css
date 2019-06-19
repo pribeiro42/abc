@@ -7,12 +7,12 @@
 .carousel-control-next{
   width: 10%;
   z-index: 5000;
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 100%);}
+  background: linear-gradient(90deg, rgba(255,255,255,0) 20%, rgba(0,0,0,0.2) 100%);}
  
 .carousel-control-prev {
   width: 10%;
   z-index: 5000;
-  background: linear-gradient(90deg, rgba(0,0,0,0.2) 0%, rgba(255,255,255,0) 100%);}
+  background: linear-gradient(90deg, rgba(0,0,0,0.2) 20%, rgba(255,255,255,0) 100%);}
 
 .carousel-caption {
   height: 10rem;

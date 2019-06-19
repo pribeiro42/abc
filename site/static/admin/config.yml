@@ -52,7 +52,7 @@ collections: # A list of collections the CMS should be able to edit
                         widget: image
                         required: false
                       - label: Slideshow
-                        name: carouselSlides
+                        name: carouselslides
                         widget: list
                         required: false
                         fields: 
@@ -92,7 +92,7 @@ collections: # A list of collections the CMS should be able to edit
                             widget: text
                             required: false
                           - label: Slideshow
-                            name: carouselSlides
+                            name: carouselslides
                             widget: list
                             required: false
                             fields: 

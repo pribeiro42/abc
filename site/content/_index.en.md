@@ -51,7 +51,7 @@ services:
                       <li>Divulgação em suportes comunicacionais do ABC.</li></ul>"
             heading: 
             description: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
-          carouselSlides:
+          carouselslides:
             - image: /img/abc/services/offices/1.jpg
               nr: 0
               first: yes
@@ -69,7 +69,7 @@ services:
               url: '#availableOffices'
               urlBack: '#servicesOffice'
               back: Voltar
-              carouselSlides:
+              carouselslides:
               - image: /img/abc/services/offices/A1.jpg
                 heading: Escritório A1
                 nr: 0
@@ -112,7 +112,7 @@ services:
                       eventos empresariais.
             heading: 
             description: 
-          carouselSlides:
+          carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
                 heading: Auditório
                 nr: 0
@@ -162,7 +162,7 @@ services:
                       <li>Terminais de computador em rede;</li>
                       <li>Equipamento de gravação e reprodução de áudio e vídeo. </li>
                     </ul>"
-              carouselSlides:
+              carouselslides:
               - image: /img/abc/services/training/1.jpg
                 nr: 0
                 first: yes
@@ -187,7 +187,7 @@ services:
               url: '#availableSpacesMeeting'
               urlBack: '#servicesSpace'
               back: Voltar
-              carouselSlides:
+              carouselslides:
               - image: /img/abc/services/meeting/1.jpg
                 nr: 0
                 first: yes
@@ -228,7 +228,7 @@ services:
               url: '#availableSpacesAuditorium'
               urlBack: '#servicesSpace'
               back: Voltar
-              carouselSlides:
+              carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
                 nr: 0
                 first: yes
@@ -264,7 +264,7 @@ services:
               url: '#availableSpacesLounge'
               urlBack: '#servicesSpace'
               back: Voltar
-              carouselSlides:
+              carouselslides:
               - image: /img/abc/services/lounge/1.jpg
                 nr: 0
                 first: yes
@@ -302,7 +302,7 @@ services:
                       específicas do cliente.
             heading: 
             description: 
-          carouselSlides:
+          carouselslides:
             - image: /img/abc/services/events/1.jpg
               nr: 0
               first: yes
@@ -331,7 +331,7 @@ services:
                       em casa ou nas instalações dos seus clientes e também para as
                       empresas que pretendam reduzir os riscos da sua expansão para
                       o nosso mercado."
-          carouselSlides:
+          carouselslides:
             - image: /img/abc/services/virtualoffice/1.png
               nr: 0
               first: yes
@@ -391,7 +391,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
     </ul>
   </li>
 </ul>"
-          carouselSlides:
+          carouselslides:
             - image: /img/abc/services/support/1.jpg
               nr: 0
               first: yes
@@ -435,7 +435,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
 
             heading: 
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.
-          carouselSlides:
+          carouselslides:
             - image: /img/abc/services/restaurant/1.jpg
               nr: 0
               first: yes

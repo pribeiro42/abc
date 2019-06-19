@@ -1,11 +1,11 @@
 <div id="{{.key}}Carousel" class="carousel slide pv4" data-ride="carousel" data-interval="false">
     <!-- <ol class="carousel-indicators">
-        {{ range .carouselSlides}}
+        {{ range .carouselslides}}
         <li data-target="#{{.key}}Carousel" data-slide-to="{{.nr}}"></li>
         {{end}}
     </ol> -->
     <div class="carousel-inner">
-        {{ range .carouselSlides}}
+        {{ range .carouselslides}}
         <div class="carousel-item {{if .first}}active{{end}}">
             <img class="d-block h-100 center" src="{{.image}}" alt="First slide">
             {{ if .heading }}
@@ -46,8 +46,8 @@
     });
 
     function hideCarouselIndicators() {
-        $('.modal-body').each(function(index,item){
-            var $this = $(this).find('.carousel');
+        $('.carousel').each(function(index,item){
+            var $this = $(this);
             if ($this.find('.carousel-inner .carousel-item:first').hasClass('active') && $this.find('.carousel-inner .carousel-item').length > 1) {
                 $this.children('.carousel-control-prev').hide();
                 $this.children('.carousel-control-next').show();
