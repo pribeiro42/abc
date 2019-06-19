@@ -6,6 +6,14 @@
                         <h2 class="f2 b lh-title mb2 modalTitle black">{{.title}}</h2>
                 </div>
             </div>
+            <div id="availableFormSuccessModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-body">
+                  <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
+                  <h1 class="f1 center">Formulario submetido com sucesso!</h1>
+                </div>
+              </div>
+            </div>
             {{ range .rows }}
             <div class="row">
             {{ range .items }}
