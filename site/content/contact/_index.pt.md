@@ -17,10 +17,10 @@ contact_entries:
   - heading: 
     text: "<br>40º 34’ 49’’<br>N08º 34’ 55’’ W"
 contactform:
-  dropline: 'Entra em contacto connosco'
+  dropline: 'Entre em contacto connosco'
   name: 'Nome'
   email: 'Email'
   message: 'Mensagem'
-  messageplaceholder: 'A tua mensagem'
+  messageplaceholder: 'A sua mensagem'
   submit: 'Submeter'
 ---

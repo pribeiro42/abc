@@ -483,10 +483,10 @@ nav:
     value: "/pt/contact"
     dropdown: false
 footer:
-  title: Subscreve o newsletter!
-  text: Recebe novidades acerca do Aveiro Business Center no teu email!
-  email: O teu email
-  submit_email: Introduz o email
+  title: Subscreva o newsletter!
+  text: Receba novidades por email acerca do Aveiro Business Center!
+  email: O seu email
+  submit_email: Email
   submit: Submeter
   privacy: Política de Proteção de Dados
   urlprivacy: /pt/privacy
