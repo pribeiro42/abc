@@ -1,7 +1,7 @@
 <form name="newsletterForm" method="POST" class="flex-ns mb3 pt2" action="{{.action}}" netlify>
 
   <fieldset class="flex-auto mb2 mb0-ns mr2-ns" name="newsletter" action="newsletter-subscribe">
-    <input type="text" id="emailNewsletter" placeholder="{{ .email }}" class="w-100" name="emailNewsletter">
+    <input type="email" id="emailNewsletter" placeholder="{{ .email }}" class="w-100" name="emailNewsletter">
     <label for="emailNewsletter">{{ .submit_email }}</label>
   </fieldset>
 

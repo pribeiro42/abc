@@ -1,19 +1,27 @@
 ---
-title: "Contact"
+title: "Contactos"
 logo: "/img/abc/logoFull.png"
+contacts: 
+  - text: Email
+    url: mailto:geral@aveirobusinesscenter.com
+    urlValue: geral@aveirobusinesscenter.com
+  - text: Tel
+    value: +351 234 290 290
+  - text: Fax
+    value: +351 234 290 299
 contact_entries:
-  - heading: Location
-    text: "3153 Lynn Avenue, South San Francisco, California 94080"
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Horário
+    text: "Segunda – Sexta: 9AM – 18:30PM"
+  - heading: Localização
+    text: "Aveiro Business Center<br>Rua da Igreja, nº79<br>Nª Srª de Fátima<br>3810-744 Aveiro"
+  - heading: 
+    text: "<br>40º 34’ 49’’<br>N08º 34’ 55’’ W"
+contactform:
+  action: /pt/success
+  dropline: 'Entre em contacto connosco'
+  name: 'Nome'
+  email: 'Email'
+  message: 'Mensagem'
+  messageplaceholder: 'A sua mensagem'
+  submit: 'Submeter'
 ---
-
-We’d love to get in touch with you and hear your ideas and
-questions. We strive to grow and improve constantly and your feedback
-is valuable for us.
-
-<h3 class="f4 b lh-title mb2">How can I get…?</h3>
-
-You can also use the form below for any inquiries about coffee
-availability, monthly subscriptions and scheduling a 1-on-1 session
-with our baristas. Don’t be shy, drop us a line!
