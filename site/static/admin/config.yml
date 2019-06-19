@@ -71,6 +71,7 @@ collections: # A list of collections the CMS should be able to edit
                               - label: Imagem
                                 name: image
                                 widget: image
+                                required: false
                       - label: SubServiço
                         name: availableOffices
                         widget: list
