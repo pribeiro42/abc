@@ -49,6 +49,10 @@
                   {{range .availableOffices}}
                   {{ partial "modalbtn" (dict "url" .url "text" .title)}}
                   {{end}}
+                  {{ else }}
+                  {{range .availableOffices}}
+                  {{ partial "modalbtn" (dict "text" .nooffice "nolink" "true")}}
+                  {{end}}
                   {{end}}
                   {{if .hasAvailableOffices}}
                   {{range .availableOffices}}

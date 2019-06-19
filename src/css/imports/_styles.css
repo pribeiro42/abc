@@ -15,6 +15,10 @@
 }
 /***************MAIN********************/
 
+body {
+  color: var(--black);
+}
+
 /*var*/
 
 .floatR{
@@ -58,6 +62,16 @@
 
 .bgg-white-off-white{
   background: radial-gradient(circle, rgba(242,242,242,0.5) 0%, rgba(233,233,233,0.5) 100%);
+}
+
+.noLink{
+  text-decoration: none;
+  cursor: default;
+}
+.noLink:hover{
+  text-decoration: none;
+  cursor: default;
+  color: var(--black);
 }
 
 /*SCROLL*/

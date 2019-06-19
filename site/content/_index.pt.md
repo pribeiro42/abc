@@ -64,6 +64,7 @@ services:
               key: servicesOffice
           availableOffices: 
             - title: Escritórios disponíveis no Aveiro Business Center
+              nooffice: Sem qualquer escritório disponível neste momento.
               id: 'availableOffices'
               url: '#availableOffices'
               urlBack: '#servicesOffice'
@@ -483,7 +484,7 @@ nav:
     value: "/pt/contact"
     dropdown: false
 footer:
-  action: /pt/submit
+  action: /pt/success
   title: Subscreva o newsletter!
   text: Receba novidades por email acerca do Aveiro Business Center!
   email: O seu email

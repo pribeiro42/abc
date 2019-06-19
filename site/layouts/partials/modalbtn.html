@@ -1,3 +1,7 @@
 <div class="pv2 bg-grey-1 hashModalLink">
+        {{if .nolink}}
+        <span><h2>{{.text}}</h2></span>
+        {{else}}
         <a href="{{ .url }}" class="raise"><h2>{{.text}}</h2></a>
+        {{end}}
         </div>
