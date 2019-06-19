@@ -158,6 +158,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - {label: Logo, name: logo, widget: image, required: false}
           - {label: Body, name: body, widget: markdown, required: false}
+          - {label: Slideshow, name: carouselslides, widget: object, required: false, fields: [
+              {label: "ImageList", name: "image", widget: list, required: false, fields: [{
+                label: Image, name: image, widget: image, required:false
+              }]
+              }]}
       - file: "site/content/companies/_index.pt.md"
         label: "Companies Page PT"
         name: "values"
