@@ -52,4 +52,12 @@ resources:
   next: Seguinte
   previous: Anterior
   close: Fechar
+contactform:
+  action: /pt/success
+  dropline: 'Entre em contacto connosco'
+  name: 'Nome'
+  email: 'Email'
+  message: 'Mensagem'
+  messageplaceholder: 'A sua mensagem'
+  submit: 'Submeter'
 ---
