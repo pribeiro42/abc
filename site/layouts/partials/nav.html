@@ -43,15 +43,28 @@
 
 	$(document).ready(function() {
 		// ADD ACTIVE CLASS TO NAV ITEMS
-		var windowVal=window.location.pathname;
-		$('.nav-item').each(function (index,item){
+		var windowVal=window.location.pathname.split("/");
+		if (windowVal.length>=3 && windowVal[2].length > 0){
+			$('.nav-item').each(function (index,item){
 			var href = $(this).find('a').attr('href');
-			if (windowVal.indexOf(href) > 0 ){
+			if (href.indexOf(windowVal[2]) >= 0 ){
 				$(this).addClass("active");
 			}
 			else {
 				$(this).removeClass("active");
 			}
 		});
+		}
+		else {
+			$('.nav-item').each(function (index,item){
+				var href = $(this).find('a').attr('href');
+				if (href == "services"){
+					$(this).addClass("active");
+				}
+				else {
+					$(this).removeClass("active");
+				}
+			});
+		}
 	});
 </script>
