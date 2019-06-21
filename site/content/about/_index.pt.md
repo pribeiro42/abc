@@ -1,8 +1,8 @@
 ---
 title: Sobre Nós
 carouselslides:
-  - image: /img/abc/building2.jpg
   - image: /img/abc/building1.jpg
+  - image: /img/abc/building2.jpg
   - image: /img/abc/building3.jpg
   - image: /img/abc/building4.jpg
 ---
