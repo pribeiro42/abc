@@ -136,6 +136,7 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             fields:
               - {label: Title, name: heading, widget: string, required: false}
+              - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
               - {label: Website, name: web, widget: string, required: false}
               - {label: Email, name: email, widget: string, required: false}
               - {label: Text, name: text, widget: text, required: false}
@@ -146,7 +147,6 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
       - {label: "Intro Blurb", name: "description", widget: "text", required: false}
       - {label: "Image", name: "image", widget: "image", required: false}
