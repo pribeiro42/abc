@@ -147,7 +147,7 @@ collections: # A list of collections the CMS should be able to edit
                         widget: object
                         required: false
                         fields:                         
-                          - label: ID Google Doc
+                          - label: IDGoogleDoc
                             name: idPdf
                             widget: string
                             required: false
@@ -156,7 +156,7 @@ collections: # A list of collections the CMS should be able to edit
                             widget: string
                             required: false
                           - label: ID
-                            name: id
+                            name: idDiv
                             widget: string
                             required: false
                           - label: url

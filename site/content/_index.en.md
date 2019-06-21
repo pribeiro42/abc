@@ -46,13 +46,10 @@ services:
             description: O Aveiro Business Center possui uma oferta completa de apoio à atividade empresarial, destacando-se pela excelência dos espaços de escritório de que dispõe.
           carouselslides:
             - image: /img/abc/services/offices/1.jpg
-              nr: 0
               key: servicesOffice
             - image: /img/abc/services/offices/2.jpg
-              nr: 1
               key: servicesOffice
             - image: /img/abc/services/offices/3.jpg
-              nr: 2
               key: servicesOffice
           availableOffices: 
             - title: Escritórios disponíveis no Aveiro Business Center
@@ -64,25 +61,18 @@ services:
               carouselslides:
               - image: /img/abc/services/offices/A1.jpg
                 heading: Escritório A1
-                nr: 0
               - image: /img/abc/services/offices/A2.jpg
                 heading: Escritório A2
-                nr: 1 
               - image: /img/abc/services/offices/A3.jpg
                 heading: Escritório A3
-                nr: 2
               - image: /img/abc/services/offices/C1.jpg
                 heading: Escritorio C1
-                nr: 3 
               - image: /img/abc/services/offices/C2.jpg
                 heading: Escritorio C2
-                nr: 4 
               - image: /img/abc/services/offices/C3.jpg
                 heading: Escritorio C3
-                nr: 5 
               - image: /img/abc/services/offices/E3.jpg
                 heading: Escritorio E3
-                nr: 6 
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           key: servicesSpace
@@ -106,17 +96,13 @@ services:
           carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
                 heading: Auditório
-                nr: 0
               - image: /img/abc/services/training/roomA.jpg
                 heading: Sala de Formação
                 text: Sala A
-                nr: 1
               - image: /img/abc/services/lounge/1.jpg
                 heading: Lounge
-                nr: 2
               - image: /img/abc/services/meeting/1.jpg
                 heading: Sala de Reuniões
-                nr: 3
           availableOffices: 
             - title: Salas de Formação
               id: 'availableSpacesTraining'
@@ -154,22 +140,15 @@ services:
                     </ul>"
               carouselslides:
               - image: /img/abc/services/training/1.jpg
-                nr: 0
               - image: /img/abc/services/training/2.jpg
-                nr: 1
               - image: /img/abc/services/training/3.jpg
-                nr: 2
               - image: /img/abc/services/training/4.jpg
-                nr: 3  
               - image: /img/abc/services/training/roomA.jpg
                 heading: Sala A
-                nr: 4 
               - image: /img/abc/services/training/roomB.jpg
                 heading: Sala B
-                nr: 5
               - image: /img/abc/services/training/roomC.jpg
                 heading: Sala C
-                nr: 6 
             - title: Salas de Reunião
               id: 'availableSpacesMeeting'
               key: meetingCarousel
@@ -178,9 +157,7 @@ services:
               back: Voltar
               carouselslides:
               - image: /img/abc/services/meeting/1.jpg
-                nr: 0
               - image: /img/abc/services/meeting/2.jpg
-                nr: 1 
               intro:
                 blurbs:
                   - image:
@@ -218,15 +195,10 @@ services:
               back: Voltar
               carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
-                nr: 0
               - image: /img/abc/services/auditorium/2.jpg
-                nr: 1
               - image: /img/abc/services/auditorium/3.jpg
-                nr: 2
               - image: /img/abc/services/auditorium/4.jpg
-                nr: 3
               - image: /img/abc/services/auditorium/5.jpg
-                nr: 4
               intro:
                 blurbs:
                   - image:
@@ -253,15 +225,10 @@ services:
               back: Voltar
               carouselslides:
               - image: /img/abc/services/lounge/1.jpg
-                nr: 0
               - image: /img/abc/services/lounge/2.jpg
-                nr: 1
               - image: /img/abc/services/lounge/3.jpg
-                nr: 2
               - image: /img/abc/services/lounge/4.jpg
-                nr: 3
               - image: /img/abc/services/lounge/5.jpg
-                nr: 4
               intro:
                 blurbs:
                   - image:
@@ -290,21 +257,13 @@ services:
             description: 
           carouselslides:
             - image: /img/abc/services/events/1.jpg
-              nr: 0
             - image: /img/abc/services/events/2.jpg
-              nr: 1
             - image: /img/abc/services/events/3.jpg
-              nr: 2
             - image: /img/abc/services/events/4.jpg
-              nr: 3
             - image: /img/abc/services/events/5.jpg
-              nr: 4
             - image: /img/abc/services/events/6.jpg
-              nr: 5
             - image: /img/abc/services/events/7.jpg
-              nr: 6
             - image: /img/abc/services/events/8.jpg
-              nr: 7
       - items:
         - heading: Escritórios Virtuais
           image: /img/abc/virtualOfficeService.png
@@ -318,7 +277,6 @@ services:
                       o nosso mercado."
           carouselslides:
             - image: /img/abc/services/virtualoffice/1.png
-              nr: 0
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
           key: servicesSupport
@@ -377,15 +335,10 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
 </ul>"
           carouselslides:
             - image: /img/abc/services/support/1.jpg
-              nr: 0
             - image: /img/abc/services/support/2.jpg
-              nr: 1
             - image: /img/abc/services/support/3.jpg
-              nr: 2
             - image: /img/abc/services/support/4.jpg
-              nr: 3
             - image: /img/abc/services/support/5.jpg
-              nr: 4
         - heading: Restaurante
           image: /img/abc/restaurantService.png
           key: servicesRestaurant
@@ -394,7 +347,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
             idPdf: '1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV'
-            id: availablePdf
+            idDiv: availablePdf
             back: Voltar
           intro:
             blurbs:
@@ -420,21 +373,13 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.
           carouselslides:
             - image: /img/abc/services/restaurant/1.jpg
-              nr: 0
             - image: /img/abc/services/restaurant/2.jpg
-              nr: 1
             - image: /img/abc/services/restaurant/3.jpg
-              nr: 2
             - image: /img/abc/services/restaurant/4.jpg
-              nr: 3
             - image: /img/abc/services/restaurant/5.jpg
-              nr: 4
             - image: /img/abc/services/restaurant/6.jpg
-              nr: 5
             - image: /img/abc/services/restaurant/7.jpg
-              nr: 6
             - image: /img/abc/services/restaurant/8.jpg
-              nr: 7
 
 ---
 
