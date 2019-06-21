@@ -129,15 +129,15 @@ collections: # A list of collections the CMS should be able to edit
                           - label: url
                             name: url
                             widget: string
-                            required: true
+                            required: false
                           - label: urlBack
                             name: urlBack
                             widget: string
-                            required: true
+                            required: false
                           - label: key
                             name: key
                             widget: string
-                            required: true
+                            required: false
                           - label: back
                             name: back
                             widget: string
