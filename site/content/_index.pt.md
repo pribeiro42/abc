@@ -3,7 +3,6 @@ title: "Aveiro Business Center"
 jumbotitle: Um espaço de prestígio a pensar no sucesso da sua empresa
 jumbosubtitle: 
 image: /img/home-jumbotron.jpg
-logo: /img/abc/logoFull.png
 blurb:
     heading: 
     text: "O Aveiro Business Center possui um vasto leque de serviços para o desenvolvimento da atividade empresarial. Está equipado com mobiliário de excelência e modernas tecnologias, constituindo espaços elegantes que garantem conforto e requinte enquanto maximizam a sua produtividade."
