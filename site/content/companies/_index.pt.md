@@ -3,7 +3,7 @@ title: Empresas
 image: /img/home-jumbotron.png
 values:
   - email: vlm@vlm.pt
-    heading: VLM Consultore
+    heading: VLM Consultores
     imageUrl: /img/abc/companies/vlm_con.png
     text: Relações de sucesso
     web: www.vlm.pt
