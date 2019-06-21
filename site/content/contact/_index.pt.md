@@ -3,7 +3,7 @@ title: Contactos
 contacts:
   - text: Email
     url: 'mailto:geral@aveirobusinesscenter.com'
-    urlValue: geral@aveirobusinesscenter.come
+    urlValue: geral@aveirobusinesscenter.com
   - text: Tel
     value: +351 234 290 290
   - text: Fax
