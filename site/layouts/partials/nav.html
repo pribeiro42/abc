@@ -9,7 +9,7 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				{{ range .Site.GetPage.Params.nav }}
+				{{ range .Site.Data.resources.nav }}
 					{{ if .dropdown }}
 						<li class="nav-item dropdown">
 						<a class="nav-link js-scroll-trigger" data-toggle="dropdown"  href="{{.value}}">{{.text}}</a>

@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="mw6 center">
-                {{ partial "modalbtn" (dict "url" "/" "text" .Site.GetPage.Params.resources.back "class" "goBack" )}}
+                {{ partial "modalbtn" (dict "url" "/" "text" .Site.Data.resources.resources.back "class" "goBack" )}}
                 <img src="{{ with .Params.image }}{{ . | absURL }}{{ end }}" class="mb-3 mw6 center dropshadow" alt="Post-Image">
                 <h2 class="f2">{{ .Title }}</h2>
                 <div class="post-meta mb-5">
