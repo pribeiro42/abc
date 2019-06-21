@@ -29,7 +29,7 @@ services:
             - image: /img/abc/services/offices/1.jpg
             - image: /img/abc/services/offices/2.jpg
             - image: /img/abc/services/offices/3.jpg
-          hasavailableoffices: false
+          hasavailableoffices: true
           heading: Aluguer de Escritórios
           image: /img/abc/officeService.png
           intro:
