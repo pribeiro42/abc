@@ -1,4 +1,4 @@
 ---
 title: "News"
-image: /img/home-jumbotron.png
+image: /img/home-jumbotron.jpg
 ---

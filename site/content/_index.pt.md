@@ -2,7 +2,7 @@
 title: "Aveiro Business Center"
 jumbotitle: Um espaço de prestígio a pensar no sucesso da sua empresa
 jumbosubtitle: 
-image: /img/home-jumbotron.png
+image: /img/home-jumbotron.jpg
 logo: /img/abc/logoFull.png
 blurb:
     heading: 

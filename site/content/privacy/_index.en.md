@@ -1,6 +1,6 @@
 ---
 title: "Contactos"
-image: /img/home-jumbotron.png
+image: /img/home-jumbotron.jpg
 contacts: 
   - text: Email
     url: mailto:geral@abc.com
