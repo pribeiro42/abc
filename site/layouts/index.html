@@ -4,6 +4,6 @@
 
 {{ partial "short-text" .Params.blurb}}
 
-{{ partial "modal-grid" .Params.services}}
+{{ partial "modal-grid" (dict "services" .Params.services "resources" .Site.Data.resources)}}
 
 {{ end }}

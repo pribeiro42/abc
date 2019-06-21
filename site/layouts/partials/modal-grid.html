@@ -1,9 +1,9 @@
-<div class="section pv1 {{ .class }}" id="modal-grid">
+<div class="section pv1 {{ .Site.Data.resources.services.class }}" id="modal-grid">
         
     <div class="container">
             <div class="bg-off-white pv2 mv3-ns center">
                     <div class="ph3 mw7 center">
-                        <h2 class="f2 b lh-title mb2 modalTitle black">{{.title}}</h2>
+                        <h2 class="f2 b lh-title mb2 modalTitle black">{{.resources.services.title}}</h2>
                 </div>
             </div>
             <div id="availableFormSuccessModal" class="modal">
@@ -14,7 +14,7 @@
                 </div>
               </div>
             </div>
-            {{ range .rows }}
+            {{ range .services.rows }}
             <div class="row">
             {{ range .items }}
 
@@ -45,7 +45,7 @@
                       <p>{{.content}}</p>
                   </div>
                   {{end}}
-                  {{if .hasAvailableOffices}}
+                  {{if .hasavailableoffices}}
                   {{range .availableOffices}}
                   {{ partial "modalbtn" (dict "url" .url "text" .title)}}
                   {{end}}
@@ -54,7 +54,7 @@
                   {{ partial "modalbtn" (dict "text" .nooffice "nolink" "true")}}
                   {{end}}
                   {{end}}
-                  {{if .hasAvailableOffices}}
+                  {{if .hasavailableoffices}}
                   {{range .availableOffices}}
                   
 

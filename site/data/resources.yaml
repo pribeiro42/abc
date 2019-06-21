@@ -41,10 +41,15 @@ footer:
   urlprivacy: /pt/privacy
   facebook: https://www.facebook.com/aveirobusinesscenter
   instagram: http://instagram.com/aveirobusinesscenter.oficial
+services:
+    heading: Serviços
+    title: Conheça os nossos serviços!
+    class: services
 resources:
   back: "Voltar"
   news: "Notícias"
   readmore: "Ver mais"
   next: Seguinte
   previous: Anterior
+  close: Fechar
 ---

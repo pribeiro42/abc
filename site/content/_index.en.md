@@ -3,22 +3,15 @@ title: "Aveiro Business Center"
 jumbotitle: Um espaço de prestígio a pensar no sucesso da sua empresa
 jumbosubtitle: 
 image: /img/home-jumbotron.jpg
-logo: /img/abc/logoFull.png
 blurb:
-    heading: 
     text: "O Aveiro Business Center possui um vasto leque de serviços para o desenvolvimento da atividade empresarial. Está equipado com mobiliário de excelência e modernas tecnologias, constituindo espaços elegantes que garantem conforto e requinte enquanto maximizam a sua produtividade."
 services:
-    heading: Serviços
-    title: Conheça os nossos serviços!
-    text: ""
-    close: Fechar
-    class: services
     rows:
       - items:
         - heading: Aluguer de Escritórios
           image: /img/abc/officeService.png
           key: servicesOffice
-          hasAvailableOffices: true
+          hasavailableoffices: true
           intro:
             blurbs:
               - image: /img/abc/services/offices/C3.jpg
@@ -54,7 +47,6 @@ services:
           carouselslides:
             - image: /img/abc/services/offices/1.jpg
               nr: 0
-              first: yes
               key: servicesOffice
             - image: /img/abc/services/offices/2.jpg
               nr: 1
@@ -73,7 +65,6 @@ services:
               - image: /img/abc/services/offices/A1.jpg
                 heading: Escritório A1
                 nr: 0
-                first: yes
               - image: /img/abc/services/offices/A2.jpg
                 heading: Escritório A2
                 nr: 1 
@@ -95,7 +86,7 @@ services:
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           key: servicesSpace
-          hasAvailableOffices: true
+          hasavailableoffices: true
           intro:
             blurbs:
               - image: /img/abc/services/auditorium/2.jpg
@@ -116,7 +107,6 @@ services:
               - image: /img/abc/services/auditorium/1.jpg
                 heading: Auditório
                 nr: 0
-                first: yes
               - image: /img/abc/services/training/roomA.jpg
                 heading: Sala de Formação
                 text: Sala A
@@ -165,7 +155,6 @@ services:
               carouselslides:
               - image: /img/abc/services/training/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/training/2.jpg
                 nr: 1
               - image: /img/abc/services/training/3.jpg
@@ -190,7 +179,6 @@ services:
               carouselslides:
               - image: /img/abc/services/meeting/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/meeting/2.jpg
                 nr: 1 
               intro:
@@ -231,7 +219,6 @@ services:
               carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/auditorium/2.jpg
                 nr: 1
               - image: /img/abc/services/auditorium/3.jpg
@@ -267,7 +254,6 @@ services:
               carouselslides:
               - image: /img/abc/services/lounge/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/lounge/2.jpg
                 nr: 1
               - image: /img/abc/services/lounge/3.jpg
@@ -305,7 +291,6 @@ services:
           carouselslides:
             - image: /img/abc/services/events/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/events/2.jpg
               nr: 1
             - image: /img/abc/services/events/3.jpg
@@ -334,7 +319,6 @@ services:
           carouselslides:
             - image: /img/abc/services/virtualoffice/1.png
               nr: 0
-              first: yes
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
           key: servicesSupport
@@ -394,7 +378,6 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
           carouselslides:
             - image: /img/abc/services/support/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/support/2.jpg
               nr: 1
             - image: /img/abc/services/support/3.jpg
@@ -438,7 +421,6 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
           carouselslides:
             - image: /img/abc/services/restaurant/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/restaurant/2.jpg
               nr: 1
             - image: /img/abc/services/restaurant/3.jpg
@@ -453,51 +435,6 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
               nr: 6
             - image: /img/abc/services/restaurant/8.jpg
               nr: 7
-nav:
-  - text: "Serviços"
-    value: "services"
-    dropdown: true
-    class: "jumpToAnchor"
-    items:
-     - text: Aluguer de Escritórios
-       value: "/pt/#servicesOffice"
-     - text: Aluguer de Espaços
-       value: "/pt/#servicesSpace"
-     - text: Organização de Eventos
-       value: "/pt/#servicesEvent"
-     - text: Escritórios Virtuais
-       value: "/pt/#servicesVirtualOffice"
-     - text: Serviços de Apoio
-       value: "/pt/#servicesSupport"
-     - text: Restaurante
-       value: "/pt/#servicesRestaurant"
-  - text: "Empresas"
-    value: "/pt/companies"
-    dropdown: false
-  - text: "Notícias"
-    value: "/pt/news"
-    dropdown: false
-  - text: "Sobre nós"
-    value: "/pt/about"
-    dropdown: false
-  - text: "Contactos"
-    value: "/pt/contact"
-    dropdown: false
-footer:
-  action: /pt/success
-  title: Subscreva o newsletter!
-  text: Receba novidades por email acerca do Aveiro Business Center!
-  email: O seu email
-  submit_email: Email
-  submit: Submeter
-  privacy: Política de Proteção de Dados
-  urlprivacy: /pt/privacy
-  facebook: https://www.facebook.com/aveirobusinesscenter
-  instagram: http://instagram.com/aveirobusinesscenter.oficial
-resources:
-  news: "Notícias"
-  readmore: "Ver mais"
-  next: Seguinte
-  previous: Anterior
+
 ---
 

@@ -1,9 +1,4 @@
 <div id="{{.key}}Carousel" class="carousel slide pv4" data-ride="carousel" data-interval="false">
-    <!-- <ol class="carousel-indicators">
-        {{ range .carouselslides}}
-        <li data-target="#{{.key}}Carousel" data-slide-to="{{.nr}}"></li>
-        {{end}}
-    </ol> -->
     <div class="carousel-inner">
         {{ range .carouselslides}}
         <div class="carousel-item {{if .first}}active{{end}}">
