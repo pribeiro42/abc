@@ -45,7 +45,7 @@ collections: # A list of collections the CMS should be able to edit
                       - label: key
                         name: key
                         widget: string
-                        required: true
+                        required: false
                       - label: Slideshow
                         name: carouselslides
                         widget: list
