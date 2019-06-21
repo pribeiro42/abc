@@ -156,7 +156,7 @@ collections: # A list of collections the CMS should be able to edit
                             widget: string
                             required: false
                           - label: ID
-                            name: idPdf
+                            name: id
                             widget: string
                             required: false
                           - label: url
