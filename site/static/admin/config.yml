@@ -42,6 +42,10 @@ collections: # A list of collections the CMS should be able to edit
                         name: image
                         widget: image
                         required: false
+                      - label: key
+                        name: key
+                        widget: image
+                        required: true
                       - label: Slideshow
                         name: carouselslides
                         widget: list
@@ -118,13 +122,49 @@ collections: # A list of collections the CMS should be able to edit
                                     name: image
                                     widget: image
                                     required: false
+                          - label: id
+                            name: id
+                            widget: string
+                            required: false
+                          - label: url
+                            name: url
+                            widget: string
+                            required: true
+                          - label: urlBack
+                            name: urlBack
+                            widget: string
+                            required: true
+                          - label: key
+                            name: key
+                            widget: string
+                            required: true
+                          - label: back
+                            name: back
+                            widget: string
+                            required: false
                       - label: PDF
                         name: pdf
                         widget: object
                         required: false
-                        fields:
+                        fields:                         
                           - label: ID
                             name: idPdf
+                            widget: string
+                            required: false
+                          - label: Title
+                            name: title
+                            widget: string
+                            required: false
+                          - label: url
+                            name: url
+                            widget: string
+                            required: false
+                          - label: urlBack
+                            name: urlBack
+                            widget: string
+                            required: false
+                          - label: Back
+                            name: back
                             widget: string
                             required: false
   - name: "companies"
