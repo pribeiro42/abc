@@ -3,7 +3,7 @@ import { List } from 'immutable';
 
 import Jumbotron from "./components/jumbotron";
 
-const MediaBlock = ({heading, text, imageUrl, reverse}) => {
+const MediaBlock = ({heading, text, web, email, imageUrl, reverse}) => {
   const imageContainerClassName = reverse
     ? "ph3-m w-50-m"
     : "ph3-m w-50-m order-last-m";
@@ -14,6 +14,8 @@ const MediaBlock = ({heading, text, imageUrl, reverse}) => {
     <div className="ph3-m w-50-m">
       <h3 className="f3 b lh-title mb1">{heading}</h3>
       <p>{text}</p>
+      <p>{web}</p>
+      <p>{email}</p>
     </div>
   </div>;
 };
@@ -36,8 +38,8 @@ export default class ValuesPreview extends React.Component {
       <Jumbotron image={image} title={entry.getIn(["data", "title"])} />
       <div className="bg-off-white pv4">
         <div className="mw7 center ph3 pt4">
-          {values.map(({text, heading, imageUrl}, i) =>
-            <MediaBlock key={i} text={text} heading={heading} imageUrl={imageUrl} reverse={i % 2 === 0} />
+          {values.map(({text, heading, web, email, imageUrl}, i) =>
+            <MediaBlock key={i} text={text} heading={heading} web={web} email = {email} imageUrl={imageUrl} reverse={i % 2 === 0} />
           )}
         </div>
       </div>

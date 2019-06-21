@@ -1,6 +1,5 @@
 ---
 title: "Contactos"
-logo: "/img/abc/logoFull.png"
 contacts: 
   - text: Email
     url: mailto:geral@aveirobusinesscenter.com

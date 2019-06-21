@@ -84,19 +84,4 @@
       color: var(--primary);
     }
 	}
-
-  /* Blockquotes */
-  & blockquote {
-    background-color: var(--grey-1);
-    display: block;
-    border-radius: var(--border-radius);
-    padding: var(--spacing-medium);
-    color: var(--primary);
-    font-weight: 700;
-    font-size: 1.25rem;;
-    margin-bottom: var(--spacing-medium);
-    & p {
-      margin: 0;
-    }
-  }
 }

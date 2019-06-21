@@ -5,18 +5,8 @@ media_folder: "site/static/img/uploads" # Folder where user uploaded files shoul
 public_folder: "/img/uploads"
 
 collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/news/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    fields: # The fields each document in this collection have
-      - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-      - {label: "Intro Blurb", name: "description", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "pages"
-    label: "Pages"
+  - name: "home"
+    label: "Home"
     files:
       - file: "site/content/_index.pt.md"
         label: "Home Page PT"
@@ -131,13 +121,76 @@ collections: # A list of collections the CMS should be able to edit
                             name: idPdf
                             widget: string
                             required: false
+  - name: "companies"
+    label: "Companies"
+    files:
+      - file: "site/content/companies/_index.pt.md"
+        label: "Companies Page PT"
+        name: "companies"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Image, name: image, widget: image, required: false}
+          - label: Values
+            name: values
+            widget: list
+            required: false
+            fields:
+              - {label: Title, name: heading, widget: string, required: false}
+              - {label: Website, name: web, widget: string, required: false}
+              - {label: Email, name: email, widget: string, required: false}
+              - {label: Text, name: text, widget: text, required: false}
+              - {label: Image, name: imageUrl, widget: image, required: false}
+  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "News" # Used in the UI, ie.: "New Post"
+    folder: "site/content/news/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Intro Blurb", name: "description", widget: "text", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+  - name: "about"
+    label: "About"
+    files:
+      - file: "site/content/about/_index.pt.md"
+        label: "About Page PT"
+        name: "AboutPT"
+        fields:
+          - {label: Title, name: title, widget: string, required: false}
+          - {label: Body, name: body, widget: markdown, required: false}
+          - {label: Slideshow, name: carouselslides, widget: list, required: false, fields: [
+              {label: Image, name: image, widget: image, required: false
+              }]}
+  - name: "contact"
+    label: "Contact"
+    files:
       - file: "site/content/contact/_index.pt.md"
         label: "Contact Page PT"
         name: "contactPT"
         fields:
           - {label: Title, name: title, widget: string, required: false}
-          - {label: Logo, name: logo, widget: image, required: false}
-          - {label: Body, name: body, widget: markdown, required: false}
+          - label: Contacts
+            name: contacts
+            widget: list
+            required: false
+            fields:
+              - label: Heading
+                name: text
+                widget: string
+                required: false
+              - label: Url
+                name: url
+                widget: string
+                required: false
+              - label: UrlValue
+                name: urlValue
+                widget: string
+                required: false
+              - label: Value
+                name: value
+                widget: string
+                required: false
           - label: Contact Entries
             name: contact_entries
             widget: list
@@ -151,29 +204,3 @@ collections: # A list of collections the CMS should be able to edit
                 name: text
                 widget: text
                 required: false
-      - file: "site/content/about/_index.pt.md"
-        label: "About Page PT"
-        name: "AboutPT"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - {label: Logo, name: logo, widget: image, required: false}
-          - {label: Body, name: body, widget: markdown, required: false}
-          - {label: Slideshow, name: carouselslides, widget: object, required: false, fields: [
-              {label: "ImageList", name: "image", widget: list, required: false, fields: [{
-                label: Image, name: image, widget: image, required:false
-              }]
-              }]}
-      - file: "site/content/companies/_index.pt.md"
-        label: "Companies Page PT"
-        name: "values"
-        fields:
-          - {label: Title, name: title, widget: string, required: false}
-          - {label: Image, name: image, widget: image, required: false}
-          - label: Values
-            name: values
-            widget: list
-            required: false
-            fields:
-              - {label: Heading, name: heading, widget: string, required: false}
-              - {label: Text, name: text, widget: text, required: false}
-              - {label: Image, name: imageUrl, widget: image, required: false}

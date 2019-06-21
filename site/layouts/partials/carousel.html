@@ -31,6 +31,10 @@
 
 <script>
     $(document).ready(function () {
+        $('.carousel').each(function(index,item){
+            var $this = $(this);
+            $this.find('.carousel-inner .carousel-item:first').addClass('active');
+        });
         /********CALLS*********/
         hideCarouselIndicators();
         $('.carousel').on('slid', '', hideCarouselIndicators); // on carousel move

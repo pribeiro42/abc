@@ -4,7 +4,6 @@ key: aboutCarousel
 carouselslides:
   - image: /img/abc/building1.jpg
     nr: 0
-    first: yes
   - image: /img/abc/building2.jpg
     nr: 1
   - image: /img/abc/building3.jpg

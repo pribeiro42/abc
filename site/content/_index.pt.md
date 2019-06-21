@@ -54,7 +54,6 @@ services:
           carouselslides:
             - image: /img/abc/services/offices/1.jpg
               nr: 0
-              first: yes
               key: servicesOffice
             - image: /img/abc/services/offices/2.jpg
               nr: 1
@@ -73,7 +72,6 @@ services:
               - image: /img/abc/services/offices/A1.jpg
                 heading: Escritório A1
                 nr: 0
-                first: yes
               - image: /img/abc/services/offices/A2.jpg
                 heading: Escritório A2
                 nr: 1 
@@ -116,7 +114,6 @@ services:
               - image: /img/abc/services/auditorium/1.jpg
                 heading: Auditório
                 nr: 0
-                first: yes
               - image: /img/abc/services/training/roomA.jpg
                 heading: Sala de Formação
                 text: Sala A
@@ -165,7 +162,6 @@ services:
               carouselslides:
               - image: /img/abc/services/training/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/training/2.jpg
                 nr: 1
               - image: /img/abc/services/training/3.jpg
@@ -190,7 +186,6 @@ services:
               carouselslides:
               - image: /img/abc/services/meeting/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/meeting/2.jpg
                 nr: 1 
               intro:
@@ -231,7 +226,6 @@ services:
               carouselslides:
               - image: /img/abc/services/auditorium/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/auditorium/2.jpg
                 nr: 1
               - image: /img/abc/services/auditorium/3.jpg
@@ -267,7 +261,6 @@ services:
               carouselslides:
               - image: /img/abc/services/lounge/1.jpg
                 nr: 0
-                first: yes
               - image: /img/abc/services/lounge/2.jpg
                 nr: 1
               - image: /img/abc/services/lounge/3.jpg
@@ -305,7 +298,6 @@ services:
           carouselslides:
             - image: /img/abc/services/events/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/events/2.jpg
               nr: 1
             - image: /img/abc/services/events/3.jpg
@@ -334,7 +326,6 @@ services:
           carouselslides:
             - image: /img/abc/services/virtualoffice/1.png
               nr: 0
-              first: yes
         - heading: Serviços de Apoio
           image: /img/abc/supportService.png
           key: servicesSupport
@@ -394,7 +385,6 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
           carouselslides:
             - image: /img/abc/services/support/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/support/2.jpg
               nr: 1
             - image: /img/abc/services/support/3.jpg
@@ -438,7 +428,6 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
           carouselslides:
             - image: /img/abc/services/restaurant/1.jpg
               nr: 0
-              first: yes
             - image: /img/abc/services/restaurant/2.jpg
               nr: 1
             - image: /img/abc/services/restaurant/3.jpg
