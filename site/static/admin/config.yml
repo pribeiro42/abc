@@ -129,6 +129,7 @@ collections: # A list of collections the CMS should be able to edit
         name: "companies"
         fields:
           - {label: Title, name: title, widget: string, required: false}
+          - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
           - {label: Image, name: image, widget: image, required: false}
           - label: Values
             name: values
@@ -136,7 +137,6 @@ collections: # A list of collections the CMS should be able to edit
             required: false
             fields:
               - {label: Title, name: heading, widget: string, required: false}
-              - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
               - {label: Website, name: web, widget: string, required: false}
               - {label: Email, name: email, widget: string, required: false}
               - {label: Text, name: text, widget: text, required: false}
