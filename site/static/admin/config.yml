@@ -96,6 +96,10 @@ collections: # A list of collections the CMS should be able to edit
                             widget: list
                             required: false
                             fields: 
+                              - label: Heading
+                                name: heading
+                                widget: string
+                                required: false
                               - label: Imagem
                                 name: image
                                 widget: image

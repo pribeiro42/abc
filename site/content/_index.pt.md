@@ -347,7 +347,7 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
             idPdf: '1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV'
-            idDiv: availablePdf
+            id: availablePdf
             back: Voltar
           intro:
             blurbs:
