@@ -5,10 +5,11 @@
 		<div class="measure-narrow center mb4">
 
 			<img src="/img/abc/logo.png" alt="ABC logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.resources.footer.title }}</p>
-			<p>{{ .Site.Data.resources.footer.text }}</p>
+			{{ $data := index .Site.Data .Site.Language.Lang }}
+			<p class="f3 lh-title light-gray b tc mb2">{{ $data.resources.footer.title }}</p>
+			<p>{{ $data.resources.footer.text }}</p>
 
-			{{ partial "newsletter-form" .Site.Data.resources.footer }}
+			{{ partial "newsletter-form" $data.resources.footer }}
 
 		</div>
 
@@ -21,7 +22,7 @@
 
 		<div class="socialMediaDiv">
 				<ul class="mb3">
-						<li><a href="{{ .Site.Data.resources.footer.urlprivacy }}" class="link">{{ .Site.Data.resources.footer.privacy }}</a></li>
+						<li><a href="{{ $data.resources.footer.urlprivacy }}" class="link">{{ $data.resources.footer.privacy }}</a></li>
 				</ul>
 		</div>
 		<div class="socialMediaDiv">
@@ -34,7 +35,7 @@
 
 </footer>
 
-{{ partial "svg" .Site.Data.resources.footer }}
+{{ partial "svg" $data.resources.footer }}
 
 <script src="/app.js"></script>
 

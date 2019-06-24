@@ -1,74 +1,64 @@
 ---
-title: "Sobre Nós"
-key: aboutCarousel
+title: About us
 carouselslides:
-    - image: /img/abc/building1.jpg
-      nr: 0
-    - image: /img/abc/building2.jpg
-      nr: 1
-    - image: /img/abc/building3.jpg
-      nr: 2
-    - image: /img/abc/building4.jpg
-      nr: 3
-      
+  - image: /img/abc/building1.jpg
+  - image: /img/abc/building2.jpg
+  - image: /img/abc/building3.jpg
+  - image: /img/abc/building4.jpg
 ---
-<h3 class="f4 b lh-title mb2">Sobre Nós</h3>
+<h3 class="f4 b lh-title mb2">About us</h3>
 
  <div class='pv2'>
-O Aveiro Business Center é um moderno edifício de serviços, com 1890 m2, distribuídos
-por três pisos, localizado numa zona de acesso privilegiado, no concelho de Aveiro,
-entre o nó de Mamodeiro da A17 e o nó de Aveiro Sul da A1. Possui um parque de
-estacionamento para 90 viaturas, evitando o stress de procurar um lugar no centro da
-cidade. 
+Aveiro Business Center is a modern services building with 1890 m2 spread over
+three floors. It is located in a privileged access area, in the parish of Nossa Senhora de
+Fátima, Aveiro district, between the A17 Mamodeiro interchange and the A1 Aveiro –
+Sul interchange. It possesses a car park with 90 parking spaces, so you can avoid the
+stress of finding a parking space in the center city.
 </div>
  <div class='pv2'>
-O Aveiro Business Center® é um centro de negócios constituído por espaços de
-escritório, salas de reunião, salas de formação, auditório, lounge, galeria de arte e
-restaurante de apoio. 
+The Aveiro Business Center® is a business building consisting of office spaces, meeting
+rooms, training rooms, auditorium, lounge, art gallery and support restaurant.
 </div>
  <div class='pv2'>
-Possuindo uma oferta completa de apoio à atividade empresarial, o edifício destaca-se
-pela excelência dos espaços de escritório de que dispõe, escritórios versáteis e
-completamente preparados para o desenvolvimento de negócios. 
+With a complete offer of support for business activity, the building stands out for the
+excellence of the office spaces it has, versatile offices and completely prepared for the
+development of business.
 </div>
  <div class='pv2'>
-Para além dos escritórios físicos, o Aveiro Business Center® possui soluções de
-escritórios virtuais, indicado para empresas em fase de arranque, que exerçam
-atividade em casa ou nas instalações dos clientes, e para empresas estrangeiras que
-pretendam desenvolver a sua atividade em Portugal sem efetuarem investimentos em
-instalações. Mantendo a empresa em funcionamento a custos muito reduzidos, é
-possível usufruir de um endereço de prestígio, atendimento personalizado de chamadas
-em diversas línguas (português, espanhol e inglês), reencaminhamento de chamadas
-telefónicas, receção e reenvio de correspondência, disponibilização de endereço
-eletrónico, disponibilização de salas para reuniões, entre outros serviços que podem ser
-adaptados às exigências de cada empresa. 
+In addition to the physical offices, the Aveiro Business Center® has virtual office
+solutions, suitable for start-up companies that carry out activities at home or at clients'
+premises, and for foreign companies that wish to develop their activity in Portugal
+without doing investments in facilities. Keeping the company running at a very low cost,
+it is possible to enjoy a prestigious address, personalized call service in several languages
+(Portuguese, Spanish and English), re-routing of telephone calls, receiving and sending
+correspondence, providing electronic adress, provision of meeting rooms, among other
+services that can be adapted to the requirements of each company.
 </div>
  <div class='pv2'>
-Como suporte à atividade empresarial, o Aveiro Business Center® dispõe ainda de 3
-salas de formação, duas salas de reunião, um auditório, bem como outros serviços
-complementares, onde se destaca o serviço de restauração, apoio logístico aos eventos
-e o aluguer de equipamento. Estes são espaços e serviços de excelência, ideais para a
-organização de seminários, workshops, exposições, formações e outros eventos
-empresariais. 
+As a support to business activity, the Aveiro Business Center® also has 3 training rooms,
+two meeting rooms, an auditorium, as well as other complementary services, where the
+restaurant service, logistical support for events and equipment rental are highlighted .
+These are excellent spaces and services, ideal for organizing seminars, workshops,
+exhibitions, trainings and other business events.
 </div>
  <div class='pv2'>
-Todos estes espaços foram concebidos a pensar na qualidade e sucesso das empresas e
-dos eventos a realizar nos mesmos. O edifício está equipado com meios tecnológicos
-inovadores e mobiliário de excelência, dispondo de soluções que se ajustam às mais
-variadas áreas de negócio, independentemente da natureza da atividade, num ambiente
-profissional, cultural, tranquilo e adequado às necessidades de cada empresa. 
+All these spaces were conceived to think about the quality and success of the companies
+and the events to carry out in them. The building is equipped with innovative
+technological means and furniture of excellence, offering solutions that adapt to the
+most varied business areas, regardless of the nature of the activity, in a professional,
+cultural, quiet and suitable to the needs of each company.
 </div>
  <div class='pv2'>
-O Business Center dirige-se a todo o tipo de profissionais, desde profissionais liberais,
-associações empresariais, PME’s e empresas recém-criadas, que utilizam o espaço como
-sede operativa ou virtual, como também, grandes empresas que pretendam estabelecer
-uma delegação noutra região do país ou no nosso país (entidades estrangeiras). 
+The Business Center is aimed to all types of professionals, from liberal professionals,
+business associations, SMEs and newly created companies, who use the space as an
+operating or virtual headquarters, as well as large companies wishing to establish a
+delegation in another region of the country or in our country (foreign entities).
 </div>
  <div class='pv2'>
-Um genuíno centro de negócios, o Aveiro Business Center® assume-se ainda como
-centro de networking empresarial, capaz de potenciar contacto entre clientes e de criar
-oportunidades e sinergias entre as empresas aqui sediadas. 
+A genuine business center, the Aveiro Business Center® is still a center of networking,
+capable of fostering contact between customers and creating opportunities and
+synergies between the companies located here.
 </div>
  <div class='pv2'>
-Fica desde já o convite para visitar o edifício e conhecer melhor as nossas instalações!
+We would like to invite you to visit the building and get to know our facilities better!
 </div>

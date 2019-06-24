@@ -27,7 +27,7 @@ services:
                 text: "Os espaços incluem:
                       <ul class='list'> 
                       <li>Acesso a linha de telefone autónoma, com nº próprio; </li>
-                      <li>Acesso à Internet, no espaço e em áreas omuns;</li>
+                      <li>Acesso à Internet, no espaço e em áreas comuns;</li>
                       <li>Acesso a eletricidade, água e limpeza;</li>
                       <li>Luz natural;</li>
                       <li>Mobiliário e decoração minimalista;</li>
@@ -66,13 +66,13 @@ services:
               - image: /img/abc/services/offices/A3.jpg
                 heading: Escritório A3
               - image: /img/abc/services/offices/C1.jpg
-                heading: Escritorio C1
+                heading: Escritório C1
               - image: /img/abc/services/offices/C2.jpg
-                heading: Escritorio C2
+                heading: Escritório C2
               - image: /img/abc/services/offices/C3.jpg
-                heading: Escritorio C3
+                heading: Escritório C3
               - image: /img/abc/services/offices/E3.jpg
-                heading: Escritorio E3
+                heading: Escritório E3
         - heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
           key: servicesSpace
@@ -367,7 +367,12 @@ disponibilizamos ainda acesso direto aos seguintes serviços:</span>
                       diariamente, de segunda a sexta-feira, apenas ao almoço.
               - image: /img/abc/services/restaurant/7.jpg
                 text: Usufrua de um atendimento personalizado, ementa requintada e
-                      diversificada e ambiente acolhedor, confortável e distintivo.
+                      diversificada e ambiente acolhedor, confortável e distintivo.                      
+              - image: /img/abc/services/restaurant/8.jpg
+                text: "O nosso chef - Rui Monteiro <br>
+                Cozinheiro dinâmico e aventureiro, estudou na Escola de Hotelaria e Turismo de Coimbra. Iniciou a sua carreira profissional no Hotel das Termas de Curia, sob chefia do Chef Luís Daniel Lavrador (Chef da Seleção Nacional) e passou pelo Casino da Figueira. Atualmente é o Chef responsável pela execução e confeção de toda a ementa do Salicornia Restaurante."
+              - image: /img/abc/services/restaurant/1.jpg
+                text: "Este serviço está sujeito a reserva prévia para os seguintes contactos: <a href='mailto:rest@aveirobusinesscenter.com'>rest@aveirobusinesscenter.com</a> | 234 290 298"
 
             heading: 
             description: Dispomos de serviços de refeições adequados à dimensão dos eventos a realizar.

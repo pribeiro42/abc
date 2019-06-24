@@ -1,78 +1,76 @@
 ---
-title: "Empresas"
-image: /img/about-jumbotron.jpg
-logo: /img/abc/logoFull.png
+title: Companies
+jumbotitle: Companies
+image: /img/home-jumbotron.png
 values:
-  - heading: "VLM Consultores"
-    text: Relações de sucesso
-    imageUrl: "/img/about-shade-grown.jpg"
-  - heading: "Academia VLM"
+  - email: vlm@vlm.pt
+    heading: VLM Consultores
+    imageUrl: /img/abc/companies/vlm_con.png
+    text:
+    web: www.vlm.pt
+  - email: academia@vlm.pt
+    heading: Academia VLM
+    imageUrl: /img/abc/companies/academia_vlm.png
     text: Growing your skills
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "VLM Compliance"
-    text: 
-    imageUrl: "/img/about-single-origin.jpg"
-  - heading: "WinSig"
-    text: Soluções Integradas de Gestão
-    imageUrl: "/img/about-direct-sourcing.jpg"
-  - heading: "RHO"
+    web: www.academiavlm.pt
+  - heading: VLM Compliance
+    imageUrl: /img/abc/companies/vlm_com.png
+    web: www.vlm.pt/contactos
+  - email: marketing@winsig.pt
+    heading: WinSig
+    imageUrl: /img/abc/companies/winsig.png
+    text:
+    web: www.winsig.pt
+  - email: hello@rho.pt
+    heading: RHO
+    imageUrl: /img/abc/companies/rho.png
     text: Not that kind of software development company.
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Flintbee"
+    web: www.rho.pt
+  - email: info@flintbee.com
+    heading: Flintbee
+    imageUrl: /img/abc/companies/vlm_con.png
+    web: www.flintbee.com
+  - email: comercial@disfarmed.org
+    heading: Disfarmed
+    imageUrl: /img/abc/companies/disfarmed.png
+    web: www.disfarmed.org
+  - email: infomiguelmatos@gmail.com
+    heading: Miguel Matos
+    imageUrl: /img/abc/companies/miguel_matos.png
+    web: www.miguelmatos.net
+  - email: pbarros@expensereduction.com
+    heading: Expense reduction analysts
+    imageUrl: /img/abc/companies/expense_reduction_analysts.png
+    web: www.expensereduction.com
+  - email: geral@esperanco-batina.eu
+    heading: Esperanço Batina
+    imageUrl: /img/abc/companies/esperanco.png
+    web: www.esperanco-batina.eu
+  - email: beatriz.campos@arrowheadis.com
+    heading: ArrowHead
+    imageUrl: /img/abc/companies/arrowhead.png
+    web: www.arrowheadis.com
+  - email: opco@opco.pt
+    heading: OPCO
+    imageUrl: /img/abc/companies/opco.png
+    web: www.opco.pt
+  - email: geral@mso.pt
+    heading: MSO Medical Solutions
+    imageUrl: /img/abc/companies/mso.png
+    web: www.msomedicalsolutions.com
+  - email: info@weart.pt
+    heading: We Art
+    imageUrl: /img/abc/companies/vlm_con.png
+    text:
+    web: www.weart.pt
+  - email: idealhome@idealhome.com.pt
+    heading: IdealHOME
+    imageUrl: /img/abc/companies/idealhome.png
     text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Disfarmed"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Miguel Matos"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Expense reduction analysts"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Esperano Batina"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "ArrowHead"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "OPCO"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "MSO Medical Solutions"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "We Art"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "IdealHOME"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-  - heading: "Criamagin"
-    text: 
-    imageUrl: "/img/about-reinvest-profits.jpg"
-
-nav:
-  - text: "Serviços"
-    value: "services"
-    dropdown: true
-    items:
-     - text: Aluguer de Escritórios
-       value: "/pt/#services"
-     - text: Aluguer de Espaços
-       value: "#services"
-     - text: Aluguer de Espaços
-       value: "services"
-  - text: "Empresas"
-    value: "companies"
-    dropdown: false
-  - text: "Notícias"
-    value: "news"
-    dropdown: false
-  - text: "Sobre nós"
-    value: "about"
-    dropdown: false
-  - text: "Contactos"
-    value: "contact"
-    dropdown: false
+    web: www.idealhome.com.pt
+  - email: geral@criamagin.com
+    heading: Criamagin
+    imageUrl: /img/abc/companies/criamagin.png
+    web: www.criamagin.com
 ---
+

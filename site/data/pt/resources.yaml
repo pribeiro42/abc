@@ -1,5 +1,6 @@
 ---
 logo: /img/abc/logoFull.png
+logoUrl: /pt
 nav:
   - text: "Serviços"
     value: "services"
