@@ -322,7 +322,7 @@ following services:</span>
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
             idPdf: '1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV'
-            id: availablePdf
+            idDiv: availablePdf
             back: Back
           intro:
             blurbs:
