@@ -26,7 +26,6 @@ export default {
   context: path.join(__dirname, "src"),
   entry: {
     app: ["./js/app"],
-    parallax_background: ["./js/parallax_background"],
     cms: ["./js/cms"]
   },
   output: {
