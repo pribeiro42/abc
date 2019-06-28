@@ -383,7 +383,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image, name: imageUrl, widget: image, required: false}
   - name: "newsPT" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "News PT" # Used in the UI, ie.: "New Post"
-    folder: "site/content/news/posts" # The path to the folder where the documents are stored
+    folder: "site/content/news/posts/pt" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     #filter: {field: "language", value: "pt"}
     fields: # The fields each document in this collection have
