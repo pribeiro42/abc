@@ -4,17 +4,13 @@
 
 <div class="mw7 center ptruncate">
   <ul class="flex-ns flex-wrap mhn1-ns pa3">
-      {{ range .AllTranslations }}
       {{ range (.Paginator 8).Pages.ByPublishDate.Reverse }}
-      <div class="w-50-ns ph1-ns flex">
-        {{ .Render "li"}}
-      </div>
-  {{ end }}
-{{end}}
+          <div class="w-50-ns ph1-ns flex">
+            {{ .Render "li"}}
+          </div>
+      {{ end }}
   </ul>
-  {{range first 1 .AllTranslations}}
   {{ partial "pagination" . }}
-  {{end}}
 </div>
 
 {{end}}
