@@ -381,23 +381,11 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Email, name: email, widget: string, required: false}
               - {label: Text, name: text, widget: text, required: false}
               - {label: Image, name: imageUrl, widget: image, required: false}
-  - name: "newsPT" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "News PT" # Used in the UI, ie.: "New Post"
+  - name: "news" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "News" # Used in the UI, ie.: "New Post"
     folder: "site/content/news/posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    filter: {field: "language", value: "pt"}
-    fields: # The fields each document in this collection have
-      - {label: "Language", name: "language", widget: "select", options: ["pt", "en"]}
-      - {label: "Title", name: "title", widget: "string", required: false}
-      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
-      - {label: "Intro Blurb", name: "description", widget: "text", required: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-  - name: "newsEN" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "News EN" # Used in the UI, ie.: "New Post"
-    folder: "site/content/news/posts" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    filter: {field: "language", value: "en"}
+    #filter: {field: "language", value: "pt"}
     fields: # The fields each document in this collection have
       - {label: "Language", name: "language", widget: "select", options: ["pt", "en"]}
       - {label: "Title", name: "title", widget: "string", required: false}
