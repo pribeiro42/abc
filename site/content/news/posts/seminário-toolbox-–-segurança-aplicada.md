@@ -2,6 +2,7 @@
 title: SEMINÁRIO TOOLBOX – SEGURANÇA APLICADA
 date: 2013-05-15T15:45:18.151Z
 image: /img/uploads/ecard_seminário.png
+language: pt
 ---
 A Academia VLM® leva a cabo o 4º Seminário de Segurança e Saúde no Trabalho, este ano dedicado ao tema: TOOL BOX – Segurança Aplicada.
 
@@ -13,10 +14,12 @@ Venha partilhar a sua experiência, e conheça as opiniões de especialistas na 
 
 Contamos com a sua presença!
 
-Consulte o programa:\
+Consulte o programa:
+\
 http://www.academiavlm.pt/media/5187bc4de3e5f.pdf
 
-Inscrições em: www.academiavlm.pt
+
+Inscrições em: www.academiavlm.pt
 
 \-----------------------------------------------------------------------------
 

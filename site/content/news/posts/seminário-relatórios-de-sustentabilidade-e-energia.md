@@ -3,6 +3,7 @@ title: 'SEMINÁRIO: RELATÓRIOS DE SUSTENTABILIDADE E ENERGIA'
 date: 2012-06-06T15:22:26.274Z
 description: ''
 image: /img/uploads/imagem-300x238.png
+language: pt
 ---
 Dando seguimento à iniciativa dos últimos anos, a AcademiaVLM® leva a cabo a 3ª Edição do seminário de sustentabilidade, este ano dedicado ao tema dos Relatórios de Sustentabilidade e Energia, a decorrer no próximo dia 6 de Junho, durante a parte da tarde.
 

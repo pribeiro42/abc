@@ -2,6 +2,7 @@
 title: WORKSHOP DE FOTOGRAFIA DIGITAL NA WE ART
 date: 2012-09-27T15:33:10.815Z
 image: /img/uploads/photo-300x143.jpg
+language: pt
 ---
 O Workshop de Fotografia Digital inaugura o plano de formação da WE ART já a partir do mês de setembro.
 

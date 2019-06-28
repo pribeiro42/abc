@@ -1,6 +1,7 @@
 ---
 title: AVEIRO BUSINESS CENTER PROMOVE DIA ABERTO A ADOLESCENTES
 date: 2012-12-20T16:41:39.487Z
+language: pt
 ---
 O Aveiro Business Center e as empresas residentes, Klim, Network, NMCOM Telecomunicações, VLM, Walk e We Art vão promover um dia aberto a adolescentes, dos 14 aos 18 anos, para conhecerem o contexto empresarial. Esta iniciativa decorrerá no próximo dia 19 de dezembro (quarta-feira) e terá como objetivo proporcionar aos jovens um primeiro contacto com o mundo empresarial, visto que serão estes os próximos ativos das empresas.
 

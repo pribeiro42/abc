@@ -2,6 +2,7 @@
 title: 'WE ART: A NOVA EMPRESA RESIDENTE NO AVEIRO BUSINESS CENTER'
 date: 2012-02-02T16:14:05.957Z
 image: /img/uploads/424418_365917783438366_1481500558_n.jpg
+language: pt
 ---
 A We Art é uma agência de arte que atua no âmbito do mercado das artes plásticas através de um conjunto de actividades e serviços que visam a  promoção de artistas plásticos.
 

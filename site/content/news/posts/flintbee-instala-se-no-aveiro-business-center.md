@@ -2,6 +2,7 @@
 title: FLINTBEE INSTALA-SE NO AVEIRO BUSINESS CENTER
 date: 2015-01-19T17:22:47.730Z
 image: /img/uploads/logo144x60-gmail_abc-300x124.png
+language: pt
 ---
 A Flintbee é a mais recente empresa a instalar-se no Aveiro Business Center.
 

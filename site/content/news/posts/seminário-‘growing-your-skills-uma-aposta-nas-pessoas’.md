@@ -1,6 +1,7 @@
 ---
 title: SEMINÁRIO ‘GROWING YOUR SKILLS | UMA APOSTA NAS PESSOAS’
 date: 2012-02-16T16:16:58.291Z
+language: pt
 ---
 O que tem a ver Aquiles, Kryptonite ou Marcas, com a gestão de pessoas?
 

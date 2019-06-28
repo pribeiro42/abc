@@ -1,6 +1,7 @@
 ---
 title: INAUGURAÇÃO DA EXPOSIÇÃO JOANA RÊGO E ANDRÉ SILVA
 image: /img/uploads/foto_1-300x199.jpg
+language: pt
 ---
 O Comendador Joe  Berardo esteve presente na passada sexta-feira, dia 9 de novembro, na inauguração da Exposição de Pintura e Desenho dos artistas plásticos Joana Rêgo e André Silva, apadrinhando o projeto We Art.
 
