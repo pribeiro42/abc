@@ -1,4 +1,5 @@
 ---
+language: pt
 title: 'ACADEMIA VLM REALIZOU SEMINÁRIO DE 3º SST: INVESTIR NA PREVENÇÃO!'
 date: 2012-05-16T15:26:29.208Z
 image: /img/uploads/seminário-sst_e-card.png
