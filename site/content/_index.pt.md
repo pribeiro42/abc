@@ -112,8 +112,8 @@ services:
               urlBack: '#servicesSpace'
             - back: Voltar
               carouselslides:
-                - image: /img/abc/services/meeting/1.jpg
-                - image: /img/abc/services/meeting/2.jpg
+                - image: /img/uploads/sala-premium.jpg
+                - image: /img/uploads/dsc_0319.jpg
               id: availableSpacesMeeting
               intro:
                 blurbs:
@@ -208,7 +208,7 @@ services:
             - image: /img/abc/services/auditorium/1.jpg
             - image: /img/abc/services/training/roomA.jpg
             - image: /img/abc/services/lounge/1.jpg
-            - image: /img/abc/services/meeting/1.jpg
+            - image: /img/uploads/sala-premium.jpg
           hasavailableoffices: true
           heading: Aluguer de Espaços
           image: /img/abc/spaceService.png
