@@ -110,8 +110,8 @@ services:
               urlBack: '#servicesSpace'
             - back: Back
               carouselslides:
-                - image: /img/abc/services/meeting/1.jpg
-                - image: /img/abc/services/meeting/2.jpg
+                - image: /img/uploads/sala-premium.jpg
+                - image: /img/uploads/img_20190709_103132.jpg
               id: availableSpacesMeeting
               intro:
                 blurbs:
