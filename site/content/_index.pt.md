@@ -350,7 +350,7 @@ services:
                 text: >-
                   Usufrua de um atendimento personalizado, ementa requintada e
                   diversificada e ambiente acolhedor, confortável e distintivo.
-              - image: /img/abc/services/restaurant/3.jpg
+              - image: /img/uploads/rui-monteiro_2.jpg
                 text: >-
                   O nosso chef - Rui Monteiro <br> Cozinheiro dinâmico e
                   aventureiro, estudou na Escola de Hotelaria e Turismo de
