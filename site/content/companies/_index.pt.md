@@ -60,7 +60,7 @@ values:
     web: www.msomedicalsolutions.com
   - email: info@weart.pt
     heading: We Art
-    imageUrl: /img/uploads/424418_365917783438366_1481500558_n.jpg
+    imageUrl: /img/uploads/untitled-2-01.png
     text: Agência de Arte
     web: www.weart.pt
   - email: idealhome@idealhome.com.pt
