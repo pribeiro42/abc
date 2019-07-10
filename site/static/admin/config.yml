@@ -348,7 +348,7 @@ collections: # A list of collections the CMS should be able to edit
     files:
       - file: "site/content/companies/_index.pt.md"
         label: "Companies Page PT"
-        name: "companies"
+        name: "companiesEn"
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
@@ -366,7 +366,7 @@ collections: # A list of collections the CMS should be able to edit
  
       - file: "site/content/companies/_index.en.md"
         label: "Companies Page EN"
-        name: "companies"
+        name: "companiesPt"
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: "Image Title", name: "jumbotitle", widget: "string", required: false}
