@@ -28,7 +28,7 @@ values:
     web: www.rho.pt
   - email: info@flintbee.com
     heading: Flintbee
-    imageUrl: /img/abc/companies/vlm_con.png
+    imageUrl: /img/uploads/logo_flintbee.png
     web: www.flintbee.com
   - email: comercial@disfarmed.org
     heading: Disfarmed
@@ -60,7 +60,7 @@ values:
     web: www.msomedicalsolutions.com
   - email: info@weart.pt
     heading: We Art
-    imageUrl: /img/abc/companies/vlm_con.png
+    imageUrl: /img/uploads/424418_365917783438366_1481500558_n.jpg
     text: Agência de Arte
     web: www.weart.pt
   - email: idealhome@idealhome.com.pt
