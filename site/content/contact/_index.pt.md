@@ -15,6 +15,6 @@ contact_entries:
     text: >-
       Aveiro Business Center<br>Rua da Igreja, nº79<br>Nª Srª de
       Fátima<br>3810-744 Aveiro
-  - text: <br>40º 34’ 49’’<br>N08º 34’ 55’’ W
+  - text: <br>40º 34’ 49’’ N<br>08º 34’ 55’’ W
 ---
 
