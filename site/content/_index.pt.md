@@ -89,16 +89,21 @@ services:
                   - text: >-
                       O edifício dispõe de 3 salas para a realização de reuniões
                       de trabalho e/ou ações de formação, com a seguinte
-                      capacidade: <ul class='list'>  <li>Sala A 12 pessoas;</li>
-                      <li>Sala B 10 px;</li> <li>Sala C 16 px;</li> <li>Sala A+B
-                      20px;</li> </ul>
+                      capacidade: <ul class='list'>  <li>Sala A - 12
+                      pessoas;</li> <li>Sala B - 10 pessoas;</li> <li>Sala C -
+                      16 pessoas;</li> <li>Sala A+B - 20 pessoas;</li> </ul>
                   - text: >-
                       As salas estão equipadas com mobiliário de excelência,
                       modernas tecnologias de informação e comunicação e sistema
                       de iluminação variável.
                   - text: >-
                       Equipamento permanente: <ul class='list'>  <li>Quadro
-                      interativo com ecrã de 78”;</li> <li>Internet wi-fi;</li>
+                      interativo com ecrã de 78”;</li> <li>Internet wi-fi;</li> 
+
+                      <li>Vídeo projetor;</li>
+
+                      <li>Sistema de iluminação variável;</li>
+
                       <li>Quadro branco e quadro de folhas móveis (Flipchart).
                       </li> </ul>
                   - text: >-
@@ -324,7 +329,7 @@ services:
             - image: /img/abc/services/restaurant/5.jpg
             - image: /img/abc/services/restaurant/6.jpg
             - image: /img/abc/services/restaurant/7.jpg
-            - image: /img/uploads/images.jpg
+            - image: /img/abc/services/restaurant/8.jpg
           heading: Restaurante
           image: /img/abc/restaurantService.png
           intro:
