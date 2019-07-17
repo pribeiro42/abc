@@ -364,7 +364,7 @@ services:
                   da Seleção Nacional) e passou pelo Casino da Figueira.
                   Atualmente é o Chef responsável pela execução e confeção de
                   toda a ementa do Salicornia Restaurante.
-              - image: /img/abc/services/restaurant/1.jpg
+              - image: /img/uploads/images.jpg
                 text: >-
                   Este serviço está sujeito a reserva prévia para os seguintes
                   contactos: <a
