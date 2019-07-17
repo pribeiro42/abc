@@ -345,19 +345,19 @@ services:
                   warm, comfortable and distinctive atmosphere.
               - image: /img/abc/services/restaurant/8.jpg
                 text: >-
-                  Our chef - Rui Monteiro <br> Dynamic and adventurous cook,
-                  studied at the School of Hospitality and Tourism of Coimbra.
-                  He began his professional career at the Hotel das Termas de
-                  Curia, headed by Chef Luís Daniel Lavrador (Chef of the
-                  National Team) and went through the Casino of Figueira.
+                  <b> Our chef - Rui Monteiro </b> <br> Dynamic and adventurous
+                  cook, studied at the School of Hospitality and Tourism of
+                  Coimbra. He began his professional career at the Hotel das
+                  Termas de Curia, headed by Chef Luís Daniel Lavrador (Chef of
+                  the National Team) and went through the Casino of Figueira.
                   Currently is the Chef responsible for the execution and
                   confection of all the menu of the Salicornia Restaurant.
-              - image: /img/abc/services/restaurant/1.jpg
+              - image: /img/uploads/dsc_9624.jpg
                 text: >-
                   This service is subject to prior reservation for the following
-                  contacts: <a
+                  contacts: <br> <a
                   href="mailto:rest@aveirobusinesscenter.com">rest@aveirobusinesscenter.com</a>
-                  | 234 290 298
+                  <br> 234 290 298
           key: servicesRestaurant
           pdf:
             back: Back
