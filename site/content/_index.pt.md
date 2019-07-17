@@ -374,7 +374,7 @@ services:
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
             contactform:
-              action: /pt/success
+              action: /success
               dropline: 'Faça a sua reserva'
               name: 'Nome'
               email: 'Email'
