@@ -89,7 +89,7 @@ services:
                   - text: >-
                       O edifício dispõe de 3 salas para a realização de reuniões
                       de trabalho e/ou ações de formação, com a seguinte
-                      capacidade: <ul class='list'>  <li>Sala A 12 pessoas;</li>
+                      capacidade: <ul class='list'>  <li>Sala A 10 pessoas;</li>
                       <li>Sala B 10 px;</li> <li>Sala C 16 px;</li> <li>Sala A+B
                       20px;</li> </ul>
                   - text: >-
@@ -373,14 +373,5 @@ services:
             title: Ver Ementa
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
-            contactform:
-              action: /pt/success
-              dropline: 'Faça a sua reserva'
-              name: 'Nome'
-              email: 'Email'
-              pax: 'Nr de Pessoas'
-              meals: 'Opções'
-              mealsplaceholder: 'Opções'
-              submit: 'Reservar'
 ---
 
