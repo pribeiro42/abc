@@ -94,10 +94,10 @@
                   {{ if .content }}
                   <div class="center">
                       <div class="ph3">
-                          <h2 class="lh-title mb2 textAlignL">{{.title}}</h2>
+                          <h2 class="lh-title mb2 justify">{{.title}}</h2>
                       </div>
 
-                      <div class="ph3 pv2 textAlignL">{{ .content | safeHTML }}</div>
+                      <div class="ph3 pv2 f6 justify">{{ .content | safeHTML }}</div>
                   </div>
                   {{else}}
                   {{ partial "4-up" .intro }}

@@ -37,7 +37,7 @@ services:
             - image: /img/uploads/a2.jpg
             - image: /img/abc/services/offices/3.jpg
           hasavailableoffices: true
-          heading: Aluguer de Escritórios
+          heading: Escritórios
           image: /img/abc/officeService.png
           intro:
             blurbs:
@@ -230,6 +230,19 @@ services:
                   eventos empresariais.
           key: servicesSpace
         - carouselslides:
+            - image: /img/abc/services/virtualoffice/1.png
+          content: >-
+            Esta tipologia de escritórios representam uma vantagem acrescida
+            para a sua empresa. Podem ser implementados virtualmente de véspera
+            e usados apenas por curtos períodos de tempo. Ideal para as empresas
+            em início de atividade, para quem trabalha em casa ou nas
+            instalações dos seus clientes e também para as empresas que
+            pretendam reduzir os riscos da sua expansão para o nosso mercado.
+          heading: Escritórios Virtuais
+          image: /img/abc/virtualOfficeService.png
+          key: servicesVirtualOffice
+    - items:
+        - carouselslides:
             - image: /img/abc/services/events/1.jpg
             - image: /img/abc/services/events/2.jpg
             - image: /img/abc/services/events/3.jpg
@@ -255,19 +268,6 @@ services:
                   Trata-se de uma zona versátil que se adequa às exigências
                   específicas do cliente.
           key: servicesEvent
-    - items:
-        - carouselslides:
-            - image: /img/abc/services/virtualoffice/1.png
-          content: >-
-            Esta tipologia de escritórios representam uma vantagem acrescida
-            para a sua empresa. Podem ser implementados virtualmente de véspera
-            e usados apenas por curtos períodos de tempo. Ideal para as empresas
-            em início de atividade, para quem trabalha em casa ou nas
-            instalações dos seus clientes e também para as empresas que
-            pretendam reduzir os riscos da sua expansão para o nosso mercado.
-          heading: Escritórios Virtuais
-          image: /img/abc/virtualOfficeService.png
-          key: servicesVirtualOffice
         - carouselslides:
             - image: /img/abc/services/support/1.jpg
             - image: /img/abc/services/support/2.jpg

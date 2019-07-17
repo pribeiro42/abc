@@ -223,6 +223,18 @@ services:
                   business events.
           key: servicesSpace
         - carouselslides:
+            - image: /img/abc/services/virtualoffice/1.png
+          content: >-
+            These offices represent an additional advantage for your company.
+            They can be virtually implemented the day before and used for short
+            periods of time.<br> Ideal for young companies, for those who work
+            at home or at their clients’ facilities, and also for companies that
+            intend to reduce the risks of expanding to our market.
+          heading: Virtual Offices
+          image: /img/abc/virtualOfficeService.png
+          key: servicesVirtualOffice
+    - items:
+        - carouselslides:
             - image: /img/abc/services/events/1.jpg
             - image: /img/abc/services/events/2.jpg
             - image: /img/abc/services/events/3.jpg
@@ -248,18 +260,6 @@ services:
                   It is a versatile area that fits the specific requirements of
                   the customer.
           key: servicesEvent
-    - items:
-        - carouselslides:
-            - image: /img/abc/services/virtualoffice/1.png
-          content: >-
-            These offices represent an additional advantage for your company.
-            They can be virtually implemented the day before and used for short
-            periods of time.<br> Ideal for young companies, for those who work
-            at home or at their clients’ facilities, and also for companies that
-            intend to reduce the risks of expanding to our market.
-          heading: Virtual Offices
-          image: /img/abc/virtualOfficeService.png
-          key: servicesVirtualOffice
         - carouselslides:
             - image: /img/abc/services/support/1.jpg
             - image: /img/abc/services/support/2.jpg

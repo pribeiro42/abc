@@ -415,18 +415,19 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string, required: false}
           - {label: Body, name: body, widget: markdown, required: false}
           - {label: Slideshow, name: carouselslides, widget: list, required: false, fields: [
-              {label: Image, name: image, widget: image, required: false
-              }]}
+              {label: Image, name: image, widget: image, required: false},
+              {label: Video, name: url, widget: text, required: false}
+              ]}
   
-      - file: "site/content/about/_index.pt.md"
+      - file: "site/content/about/_index.en.md"
         label: "About Page EN"
         name: "AboutEN"
         fields:
           - {label: Title, name: title, widget: string, required: false}
           - {label: Body, name: body, widget: markdown, required: false}
           - {label: Slideshow, name: carouselslides, widget: list, required: false, fields: [
-              {label: Image, name: image, widget: image, required: false
-              }]}
+              {label: Image, name: image, widget: image, required: false},
+              {label: Video, name: url, widget: text, required: false}]}
   - name: "contact"
     label: "Contact"
     files:

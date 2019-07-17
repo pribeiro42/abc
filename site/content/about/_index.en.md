@@ -1,6 +1,8 @@
 ---
 title: About us
 carouselslides:
+  - image: 
+    url: <iframe title="vimeo-player" class="marginAuto block" src="https://player.vimeo.com/video/78360061" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
   - image: /img/abc/building1.jpg
   - image: /img/abc/building2.jpg
   - image: /img/abc/building3.jpg

@@ -2,7 +2,12 @@
     <div class="carousel-inner">
         {{ range .carouselslides}}
         <div class="carousel-item {{if .first}}active{{end}}">
-            <img class="d-block h-100 center" src="{{.image}}" alt="First slide">
+            {{ if .image}}
+                <img class="d-block h-100 center" src="{{.image}}" alt="">
+            {{ end }}
+            {{ if .url }}
+                {{.url | safeHTML}}
+            {{ end }}
             {{ if .heading }}
             <div class="container">
                 <div class="carousel-caption text-left">
