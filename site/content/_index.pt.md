@@ -364,7 +364,7 @@ services:
                   diversificada e ambiente acolhedor, confortável e distintivo.
               - image: /img/uploads/rui-monteiro_2.jpg
                 text: >-
-                  <b>O nosso chef - Rui Monteiro<b> <br> Cozinheiro dinâmico e
+                  <b>O nosso chef - Rui Monteiro</b> <br> Cozinheiro dinâmico e
                   aventureiro, estudou na Escola de Hotelaria e Turismo de
                   Coimbra. Iniciou a sua carreira profissional no Hotel das
                   Termas de Curia, sob chefia do Chef Luís Daniel Lavrador (Chef
