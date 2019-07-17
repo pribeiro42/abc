@@ -287,7 +287,7 @@ services:
             - image: /img/abc/services/support/4.jpg
             - image: /img/abc/services/support/5.jpg
           content: >-
-            <span class='b'>Em qualquer modalidade de serviços de utilização de
+            <span class='b'> Em qualquer modalidade de serviços de utilização de
             espaço, disponibilizamos ainda acesso direto aos seguintes
             serviços:</span> <ul class='list'>  <li><span class='b'>Apoio
             logístico aos utentes do edifício (permanente e pontuais):</span>
@@ -364,13 +364,14 @@ services:
                   diversificada e ambiente acolhedor, confortável e distintivo.
               - image: /img/uploads/rui-monteiro_2.jpg
                 text: >-
-                  <b>O nosso chef - Rui Monteiro</b> <br> Cozinheiro dinâmico e
-                  aventureiro, estudou na Escola de Hotelaria e Turismo de
-                  Coimbra. Iniciou a sua carreira profissional no Hotel das
-                  Termas de Curia, sob chefia do Chef Luís Daniel Lavrador (Chef
-                  da Seleção Nacional) e passou pelo Casino da Figueira.
-                  Atualmente é o Chef responsável pela execução e confeção de
-                  toda a ementa do Salicornia Restaurante.
+                  <span class='b'> O nosso chef - Rui Monteiro</span> <br>
+                  Cozinheiro dinâmico e aventureiro, estudou na Escola de
+                  Hotelaria e Turismo de Coimbra. Iniciou a sua carreira
+                  profissional no Hotel das Termas de Curia, sob chefia do Chef
+                  Luís Daniel Lavrador (Chef da Seleção Nacional) e passou pelo
+                  Casino da Figueira. Atualmente é o Chef responsável pela
+                  execução e confeção de toda a ementa do Salicornia
+                  Restaurante.
               - image: /img/uploads/dsc_9624.jpg
                 text: >-
                   Este serviço está sujeito a reserva prévia para os seguintes
