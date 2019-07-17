@@ -123,9 +123,10 @@ services:
               intro:
                 blurbs:
                   - text: >-
-                      O Aveiro Business Center disponibiliza dois espaços de
-                      reunião que incluem uma sala de espera para que possa
-                      receber comodamente um cliente ou fornecedor.
+                      O Aveiro Business Center disponibiliza três espaços de
+                      reunião (Sala Premium e sala Business 1 e 2), que incluem
+                      duas salas de espera para que possa receber comodamente um
+                      cliente ou fornecedor.
                   - text: >-
                       As salas estão equipadas com mobiliário de excelência,
                       modernas tecnologias de informação e comunicação e sistema
@@ -140,7 +141,14 @@ services:
                   - text: >-
                       Equipamento permanente: <ul class='list'>  <li>Internet
                       WI-FI;</li> <li>Mobiliário de excelência;</li> <li>Sala de
-                      espera e de receção; </li> <li>Água.</li> </ul>
+                      espera e de receção; </li>
+
+                      <li>Sistema de videoconferência (exclusivo Sala
+                      Premium);</li>
+
+                      <li>Televisão Full HD de 55” (exclusivo Sala Premium);
+
+                      </li> <li>Água.</li> </ul>
                   - text: >-
                       Equipamento disponível (se requerido): <ul class='list'> 
                       <li>Vídeo projetor;</li> <li>Flipchart;</li> <li>Blocos de
@@ -174,10 +182,9 @@ services:
                   - text: >-
                       Equipamento permanente: <ul class='list'>  <li>Microfones
                       (2 fixos em púlpitos, 4 sem fios e 1 de lapela sem
-                      fios);</li> <li>Internet WI-FI;</li> <li>Sistema de vídeo
-                      e áudio conferência.</li> <li>Sistema de projecção Full
-                      HD, com ecrã de 5m2; </li> <li>Leitor de BD;</li>
-                      <li>Equipamento p/ captação de imagens;</li>
+                      fios);</li> <li>Internet WI-FI;</li>  <li>Sistema de
+                      projecção Full HD, com ecrã de 5m2; </li> <li>Leitor de
+                      BD;</li> <li>Equipamento p/ captação de imagens;</li>
                       <li>Transmissão de eventos em circuito interno de TV;</li>
                       <li>Tomadas por fila.</li> </ul>
               key: auditoriumCarousel
