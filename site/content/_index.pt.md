@@ -329,7 +329,7 @@ services:
             - image: /img/abc/services/restaurant/5.jpg
             - image: /img/abc/services/restaurant/6.jpg
             - image: /img/abc/services/restaurant/7.jpg
-            - image: /img/uploads/images.jpg
+            - image: /img/abc/services/restaurant/8.jpg
           heading: Restaurante
           image: /img/abc/restaurantService.png
           intro:
