@@ -364,7 +364,7 @@ services:
                   diversificada e ambiente acolhedor, confortável e distintivo.
               - image: /img/uploads/rui-monteiro_2.jpg
                 text: >-
-                  O nosso chef - Rui Monteiro <br> Cozinheiro dinâmico e
+                  <b>O nosso chef - Rui Monteiro<b> <br> Cozinheiro dinâmico e
                   aventureiro, estudou na Escola de Hotelaria e Turismo de
                   Coimbra. Iniciou a sua carreira profissional no Hotel das
                   Termas de Curia, sob chefia do Chef Luís Daniel Lavrador (Chef
@@ -374,9 +374,9 @@ services:
               - image: /img/uploads/dsc_9624.jpg
                 text: >-
                   Este serviço está sujeito a reserva prévia para os seguintes
-                  contactos: <a
+                  contactos: <br> <a
                   href='mailto:rest@aveirobusinesscenter.com'>rest@aveirobusinesscenter.com</a>
-                  | 234 290 298
+                  <br> 234 290 298
           key: servicesRestaurant
           pdf:
             back: Voltar
