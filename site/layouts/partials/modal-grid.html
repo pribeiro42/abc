@@ -86,6 +86,46 @@
                                 <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close"><span class="" aria-hidden="true">&times;</span></button>
                             </div>
                       <iframe src="https://docs.google.com/viewer?srcid={{.pdf.idPdf}}&pid=explorer&efh=false&a=v&chrome=false&embedded=true" width="100%" height="100%"></iframe>
+
+                      <div class="mb4 mt4 bg-off-white ph4 pv4">
+                            <h4 class="f3 b lh-title mb3 tc">{{.pdf.contactform.dropline}}</h4>
+                          
+                            <form name="RestaurantForm" method="POST" netlify action="{{.pdf.contactform.action}}">
+                              <div class="flex-l mhn1-l">
+                                <!-- Name -->
+                                <div class="ph1-l w-50-l">
+                                  <fieldset>
+                                    <input type="text" id="nameRestaurant" name="nameRestaurant" placeholder="{{.pdf.contactform.name}}" class="w-100 mb2" required>
+                                    <label for="nameRestaurant">{{.pdf.contactform.name}}</label>
+                                  </fieldset>
+                                </div>
+                                <!-- Email -->
+                                <div class="ph1-l w-50-l">
+                                  <fieldset>
+                                    <input type="email" id="emailRestaurant" name="emailRestaurant" placeholder="{{.pdf.contactform.email}}" class="w-100 mb2" required>
+                                    <label for="emailRestaurant">{{.pdf.contactform.email}}</label>
+                                  </fieldset>
+                                </div>
+                                <div class="ph1-l w-50-l">
+                                        <fieldset>
+                                          <input type="number" id="paxRestaurant" name="paxRestaurant" placeholder="{{.pdf.contactform.pax}}" class="w-100 mb2" required>
+                                          <label for="paxRestaurant">{{.pdf.contactform.pax}}</label>
+                                        </fieldset>
+                                      </div>
+                              </div>
+                              <!-- Meals -->
+                              <fieldset>
+                                <textarea id="mealsRestaurant" name="mealsRestaurant" placeholder="{{.pdf.contactform.mealsplaceholder}}" rows="2" cols="80" class="w-100"></textarea>
+                                <label for="mealsRestaurant">{{.pdf.contactform.meals}}</label>
+                              </fieldset>
+                              <!-- Button -->
+                              <div class="tc">
+                                <button type="submit" class="btn w-100 w-auto-ns raise">{{.pdf.contactform.submit}}</button>
+                              </div>
+                            </form>
+                          </div>
+                          
+
                       {{ partial "modalbtn" (dict "url" .pdf.urlBack "text" .pdf.back)}}
                     </div>
                   </div>

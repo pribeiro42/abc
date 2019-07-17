@@ -357,9 +357,18 @@ services:
           pdf:
             back: Back
             idDiv: availablePdf
-            idPdf: 1WwBGVz4L2cLAY6r0dzGTAu-4ovR94mHV
+            idPdf: 1xD8cLmUx9XUrulIHjdmOV15_4ABJLlfB
             title: See the Menu
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
+            contactform:
+              action: /en/success
+              dropline: 'Book your reservation'
+              name: 'Name'
+              email: 'Email'
+              pax: 'Nr of people'
+              meals: 'Options'
+              mealsplaceholder: 'Options'
+              submit: 'Book'
 ---
 

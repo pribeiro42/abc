@@ -373,5 +373,14 @@ services:
             title: Ver Ementa
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
+            contactform:
+              action: /pt/success
+              dropline: 'Faça a sua reserva'
+              name: 'Nome'
+              email: 'Email'
+              pax: 'Nr de Pessoas'
+              meals: 'Opções'
+              mealsplaceholder: 'Opções'
+              submit: 'Reservar'
 ---
 
