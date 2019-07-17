@@ -343,7 +343,7 @@ services:
                 text: >-
                   Enjoy a personalized service, a refined and varied menu and a
                   warm, comfortable and distinctive atmosphere.
-              - image: /img/abc/services/restaurant/8.jpg
+              - image: /img/uploads/rui-monteiro_2.jpg
                 text: >-
                   <b> Our chef - Rui Monteiro </b> <br> Dynamic and adventurous
                   cook, studied at the School of Hospitality and Tourism of
