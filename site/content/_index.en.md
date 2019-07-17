@@ -88,9 +88,9 @@ services:
                   - text: >-
                       The building has 3 rooms meant for business meetings
                       and/or training programs, with the following capacity: <ul
-                      class='list'>  <li>Room A 12 people</li> <li>Room B 10
-                      px;</li> <li>Room C 16 px;</li> <li>Room A+B 20px;</li>
-                      </ul>
+                      class='list'>  <li>Room A - 12  people</li> <li>Room B -
+                      10  people;</li> <li>Room C - 16  people;</li> <li>Room
+                      A+B - 20 people;</li> </ul>
                   - text: >-
                       These rooms are equipped with excellent furnishings,
                       modern information and communication technologies and
@@ -98,6 +98,9 @@ services:
                   - text: >-
                       Permanent equipment: <ul class='list'>  <li>Interactive
                       board with a 78’’ screen;</li> <li>WI-FI internet;</li>
+                      <li>Video projector;</li> <li> Variable lighting
+                      system;</li>
+
                       <li>Whiteboard and flipchart. </li> </ul>
                   - text: >-
                       Equipment available (if required): <ul class='list'> 
@@ -116,9 +119,10 @@ services:
               intro:
                 blurbs:
                   - text: >-
-                      The Aveiro Business Center offers two meeting spaces that
-                      include a waiting room so you can comfortably receive a
-                      customer or supplier.
+                      The Aveiro Business Center offers three meeting spaces
+                      (Premium Room and Business Room 1 and 2), that include two
+                      waiting room so you can comfortably receive a customer or
+                      supplier.
                   - text: >-
                       These are carefully furnished, charmed rooms that can be
                       requested by an hour, a half day or a full day.
@@ -128,8 +132,10 @@ services:
                   - text: >-
                       Permanent equipment:: <ul class='list'>  <li>WI-FI
                       internet;</li> <li>Furniture of excellence;</li>
-                      <li>Reception and reception room;</li> <li>Water.</li>
-                      </ul>
+                      <li>Reception and reception room;</li> <li>Videoconference
+                      system (exclusive Premium Room); </li><li>55" Full HD
+                      Television (exclusive Premium Room);</li>
+                       <li>Water.</li> </ul>
                   - text: >-
                       Equipment available (if required): <ul class='list'> 
                       <li>Video projector;</li> <li>Flipchart;</li>
@@ -163,12 +169,11 @@ services:
                   - text: >-
                       Permanent equipment: <ul class='list'>  <li>Microphones (2
                       fixed in pulpits, 4 wireless and 1 wireless lapel
-                      microphone);</li> <li>WI-FI Internet;</li> <li>Video and
-                      audio-conference system;</li> <li>Full HD projection
-                      system with a 5m2 screen; </li> <li>BD player;</li>
-                      <li>Filming equipment;</li> <li>Events transmission on
-                      closed circuit television;;</li> <li>Electric sockets per
-                      row.</li> </ul>
+                      microphone);</li> <li>WI-FI Internet;</li> <li>Full HD
+                      projection system with a 5m2 screen; </li> <li>BD
+                      player;</li> <li>Filming equipment;</li> <li>Events
+                      transmission on closed circuit television;;</li>
+                      <li>Electric sockets per row.</li> </ul>
               key: auditoriumCarousel
               title: Auditorium
               url: '#availableSpacesAuditorium'
@@ -361,14 +366,5 @@ services:
             title: See the Menu
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
-            contactform:
-              action: /en/success
-              dropline: 'Book your reservation'
-              name: 'Name'
-              email: 'Email'
-              pax: 'Nr of people'
-              meals: 'Options'
-              mealsplaceholder: 'Options'
-              submit: 'Book'
 ---
 
