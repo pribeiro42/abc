@@ -113,8 +113,10 @@ services:
               urlBack: '#servicesSpace'
             - back: Back
               carouselslides:
-                - image: /img/uploads/sala-premium.jpg
-                - image: /img/uploads/img_20190709_103132.jpg
+                - heading: Sala de reunião Premium
+                  image: /img/uploads/sala-de-reunião-premium-2.png
+                - heading: Sala de reunião Business 1
+                  image: /img/uploads/sala-premium.jpg
               id: availableSpacesMeeting
               intro:
                 blurbs:
