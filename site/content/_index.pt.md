@@ -119,7 +119,7 @@ services:
               carouselslides:
                 - heading: Sala de reunião Premium
                   image: /img/uploads/sala-de-reunião-premium-2.png
-                - heading: Sala de reunião Business
+                - heading: Sala de reunião Business 1
                   image: /img/uploads/sala-premium.jpg
               id: availableSpacesMeeting
               intro:
