@@ -354,7 +354,7 @@ services:
                   (Chef of the National Team) and went through the Casino of
                   Figueira. Currently is the Chef responsible for the execution
                   and confection of all the menu of the Salicornia Restaurant.
-              - image: /img/uploads/dsc_9624.jpg
+              - image: /img/uploads/dsc_962422.jpg
                 text: >-
                   This service is subject to prior reservation for the following
                   contacts: <br> <a
