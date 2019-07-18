@@ -2,6 +2,9 @@
 logo: /img/abc/logoFull.png
 logoUrl: /en
 nav:
+  - text: "About us"
+    value: "/en/about"
+    dropdown: false
   - text: "Services"
     value: "services"
     dropdown: true
@@ -24,9 +27,6 @@ nav:
     dropdown: false
   - text: "News"
     value: "/en/news"
-    dropdown: false
-  - text: "About us"
-    value: "/en/about"
     dropdown: false
   - text: "Contacts"
     value: "/en/contact"
