@@ -10,7 +10,7 @@ nav:
     dropdown: true
     class: "jumpToAnchor"
     items:
-     - text: Offices for Rent
+     - text: Offices
        value: "/en/#servicesOffice"
      - text: Space Rental
        value: "/en/#servicesSpace"

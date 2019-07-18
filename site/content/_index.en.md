@@ -37,7 +37,7 @@ services:
             - image: /img/uploads/a2.jpg
             - image: /img/abc/services/offices/3.jpg
           hasavailableoffices: true
-          heading: Offices for rent
+          heading: Offices
           image: /img/abc/officeService.png
           intro:
             blurbs:
