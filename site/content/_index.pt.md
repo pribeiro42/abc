@@ -244,7 +244,7 @@ services:
                   eventos empresariais.
           key: servicesSpace
         - carouselslides:
-            - image: /img/uploads/escritórios-virtuais.jpg
+            - image: /img/uploads/esc-vituais-01-01-01.jpg
           content: >-
             Esta tipologia de escritórios representam uma vantagem acrescida
             para a sua empresa. Podem ser implementados virtualmente de véspera
