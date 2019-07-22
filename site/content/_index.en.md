@@ -36,7 +36,7 @@ services:
             - image: /img/uploads/c1-1-.jpg
             - image: /img/uploads/a2.jpg
             - image: /img/abc/services/offices/3.jpg
-          hasavailableoffices: true
+          hasavailableoffices: false
           heading: Offices
           image: /img/abc/officeService.png
           intro:
