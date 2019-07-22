@@ -235,7 +235,7 @@ services:
                   eventos empresariais.
           key: servicesSpace
         - carouselslides:
-            - image: /img/abc/services/virtualoffice/1.png
+            - image: /img/uploads/escritórios-virtuais.jpg
           content: >-
             Esta tipologia de escritórios representam uma vantagem acrescida
             para a sua empresa. Podem ser implementados virtualmente de véspera
@@ -374,19 +374,19 @@ services:
           key: servicesRestaurant
           pdf:
             back: Voltar
+            contactform:
+              action: /pt/success
+              dropline: Faça a sua reserva
+              email: Email
+              meals: Opções
+              mealsplaceholder: Opções
+              name: Nome
+              pax: Nr de Pessoas
+              submit: Reservar
             idDiv: availablePdf
             idPdf: 1xD8cLmUx9XUrulIHjdmOV15_4ABJLlfB
             title: Ver Ementa
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
-            contactform:
-              action: /pt/success
-              dropline: 'Faça a sua reserva'
-              name: 'Nome'
-              email: 'Email'
-              pax: 'Nr de Pessoas'
-              meals: 'Opções'
-              mealsplaceholder: 'Opções'
-              submit: 'Reservar'
 ---
 
