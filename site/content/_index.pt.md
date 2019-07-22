@@ -39,20 +39,13 @@ services:
           hasavailableoffices: true
           heading: Escritórios
           image: /img/abc/officeService.png
-          intro:
-            blurbs:
-              - image: /img/abc/services/offices/C3.jpg
-                text: >
-                  O edifício conta com um conjunto de espaços que podem ser
+          content: "
+                   O edifício conta com um conjunto de espaços que podem ser
                   ajustados e equipados de acordo com as necessidades de cada
-                  empresa. 
-              - image: /img/abc/services/offices/C1-3.jpg
-                text: >-
+                  empresa. <br>
                   Escritórios práticos e funcionais, ideais para empresas em
                   início de atividade ou pequenas empresas que procuram um
-                  espaço de trabalho moderno, sem custos acrescidos.
-              - image: /img/abc/services/offices/C1-5.jpg
-                text: >-
+                  espaço de trabalho moderno, sem custos acrescidos.<br>
                   Os espaços incluem: <ul class='list'>  <li>Acesso a linha de
                   telefone autónoma, com nº próprio; </li> <li>Acesso à
                   Internet, no espaço e em áreas comuns;</li> <li>Acesso a
@@ -60,15 +53,13 @@ services:
                   <li>Mobiliário e decoração minimalista;</li> <li>Espaços para
                   arrumação;</li> <li>Secretária, cadeira ergonómica e bloco de
                   gavetas por posto de trabalho;</li> <li>Armário de apoio</li>
-                  </ul>
-              - image: /img/abc/services/offices/C2-3.jpg
-                text: >-
+                  </ul><br>
                   Condições especiais: <ul class='list'>  <li>Estacionamento
                   gratuito; </li> <li>Utilização dos restantes espaços do
                   edifício com desconto de 25% sobre PVP;</li> <li>Acesso a
                   preços de residente no restaurante;</li> <li>Divulgação da
                   empresa no site do Aveiro Business Center;</li> <li>Divulgação
-                  em suportes comunicacionais do ABC.</li></ul>
+                  em suportes comunicacionais do ABC.</li></ul>"
           key: servicesOffice
         - availableOffices:
             - back: Voltar
