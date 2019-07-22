@@ -230,7 +230,7 @@ services:
                   business events.
           key: servicesSpace
         - carouselslides:
-            - image: /img/uploads/virtual-offices-01.jpg
+            - image: /img/uploads/virtual-01-01.jpg
           content: >-
             These offices represent an additional advantage for your company.
             They can be virtually implemented the day before and used for short
