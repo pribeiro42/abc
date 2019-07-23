@@ -384,6 +384,43 @@ collections: # A list of collections the CMS should be able to edit
                             name: back
                             widget: string
                             required: false
+                          - label: BookingForm
+                            name: contactform
+                            widget: object
+                            required: false
+                            fields:                         
+                              - label: Action
+                                name: action
+                                widget: string
+                                required: false                         
+                              - label: Dropline
+                                name: dropline
+                                widget: string
+                                required: false                         
+                              - label: Name
+                                name: name
+                                widget: string
+                                required: false                         
+                              - label: Email
+                                name: email
+                                widget: string
+                                required: false                         
+                              - label: Pax
+                                name: pax
+                                widget: string
+                                required: false                         
+                              - label: Options
+                                name: meals
+                                widget: string
+                                required: false                         
+                              - label: OptionsPlaceholder
+                                name: mealsplaceholder
+                                widget: string
+                                required: false                         
+                              - label: Submit
+                                name: submit
+                                widget: string
+                                required: false
   - name: "companies"
     label: "Companies"
     files:
