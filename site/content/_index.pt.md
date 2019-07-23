@@ -35,8 +35,17 @@ services:
               urlBack: '#servicesOffice'
           carouselslides:
             - image: /img/uploads/c1-1-.jpg
-            - image: /img/uploads/a2.jpg
+            - image: /img/uploads/img-20190719-wa0005.jpg
             - image: /img/abc/services/offices/3.jpg
+            - image: /img/uploads/a2.jpg
+            - image: /img/uploads/img_20190320_154307.jpg
+            - image: /img/uploads/_dsc3098.jpg
+            - image: /img/uploads/1.jpg
+            - image: /img/uploads/img_20180205_171203.jpg
+            - image: /img/uploads/c2_3.jpg
+            - image: /img/uploads/img_20180329_153527.jpg
+            - image: /img/uploads/img_20180514_173033.jpg
+            - image: /img/uploads/img_20180607_173935.jpg
           hasavailableoffices: false
           heading: Escritórios
           image: /img/abc/officeService.png
