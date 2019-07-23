@@ -91,6 +91,10 @@ collections: # A list of collections the CMS should be able to edit
                             name: title
                             widget: text
                             required: false
+                          - label: Sem SubServiço
+                            name: nooffice
+                            widget: text
+                            required: false
                           - label: Slideshow
                             name: carouselslides
                             widget: list

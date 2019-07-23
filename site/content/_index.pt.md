@@ -30,6 +30,7 @@ services:
                   image: /img/abc/services/offices/E3.jpg
               id: availableOffices
               title: Escritórios disponíveis no Aveiro Business Center
+              nooffice: Sem qualquer escritório disponível neste momento.
               url: '#availableOffices'
               urlBack: '#servicesOffice'
           carouselslides:

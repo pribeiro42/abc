@@ -30,6 +30,7 @@ services:
                   image: /img/abc/services/offices/E3.jpg
               id: availableOffices
               title: Available offices on ABC
+              nooffice: No available offices at the moment.
               url: '#availableOffices'
               urlBack: '#servicesOffice'
           carouselslides:
