@@ -30,13 +30,22 @@ services:
                   image: /img/abc/services/offices/E3.jpg
               id: availableOffices
               title: Available offices on ABC
-              nooffice: No available offices at the moment.
               url: '#availableOffices'
               urlBack: '#servicesOffice'
           carouselslides:
             - image: /img/uploads/c1-1-.jpg
-            - image: /img/uploads/a2.jpg
+            - image: /img/uploads/img-20190719-wa0005.jpg
             - image: /img/abc/services/offices/3.jpg
+            - image: /img/uploads/a2.jpg
+            - image: /img/uploads/img_20190320_154307.jpg
+            - image: /img/uploads/_dsc3098.jpg
+            - {}
+            - {}
+            - {}
+            - {}
+            - {}
+            - {}
+            - {}
           hasavailableoffices: false
           heading: Offices
           image: /img/abc/officeService.png
@@ -364,19 +373,19 @@ services:
           key: servicesRestaurant
           pdf:
             back: Back
+            contactform:
+              action: /en/success
+              dropline: Book your reservation
+              email: Email
+              meals: Options
+              mealsplaceholder: Options
+              name: Name
+              pax: Nr of people
+              submit: Book
             idDiv: availablePdf
             idPdf: 1xD8cLmUx9XUrulIHjdmOV15_4ABJLlfB
             title: See the Menu
             url: '#availablePdf'
             urlBack: '#servicesRestaurant'
-            contactform:
-              action: /en/success
-              dropline: 'Book your reservation'
-              name: 'Name'
-              email: 'Email'
-              pax: 'Nr of people'
-              meals: 'Options'
-              mealsplaceholder: 'Options'
-              submit: 'Book'
 ---
 
