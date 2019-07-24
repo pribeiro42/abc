@@ -39,13 +39,12 @@ services:
             - image: /img/uploads/a2.jpg
             - image: /img/uploads/img_20190320_154307.jpg
             - image: /img/uploads/_dsc3098.jpg
-            - {}
-            - {}
-            - {}
-            - {}
-            - {}
-            - {}
-            - {}
+            - image: /img/uploads/1.jpg
+            - image: /img/uploads/img_20180205_171203.jpg
+            - image: /img/uploads/c2_5.jpg
+            - image: /img/uploads/img_20180329_153527.jpg
+            - image: /img/uploads/img_20180514_173105.jpg
+            - image: /img/uploads/img_20180607_173935.jpg
           hasavailableoffices: false
           heading: Offices
           image: /img/abc/officeService.png
