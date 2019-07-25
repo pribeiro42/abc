@@ -1,8 +1,10 @@
 ---
 title: Quem Somos
 carouselslides:
-  - image: 
-    url: <iframe title="vimeo-player" class="marginAuto block" src="https://player.vimeo.com/video/78360061" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+  - url: >-
+      <iframe title="vimeo-player" class="marginAuto block"
+      src="https://player.vimeo.com/video/78360061" width="100%" height="100%"
+      frameborder="0" allowfullscreen></iframe>
   - image: /img/abc/building1.jpg
   - image: /img/abc/building2.jpg
   - image: /img/abc/building3.jpg
@@ -41,7 +43,7 @@ adaptados às exigências de cada empresa.
 </div>
  <div class='pv2'>
 Como suporte à atividade empresarial, o Aveiro Business Center® dispõe ainda de 3
-salas de formação, duas salas de reunião, um auditório, bem como outros serviços
+salas de formação, três salas de reunião, um auditório, bem como outros serviços
 complementares, onde se destaca o serviço de restauração, apoio logístico aos eventos
 e o aluguer de equipamento. Estes são espaços e serviços de excelência, ideais para a
 organização de seminários, workshops, exposições, formações e outros eventos
