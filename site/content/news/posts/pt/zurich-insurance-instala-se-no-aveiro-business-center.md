@@ -5,4 +5,4 @@ image: /img/uploads/zurich.png
 ---
 A ZURICH Insurance abriu atividade no Aveiro Business Center.
 
-Visite o website em: http://https//www.zurich.com.pt/pt-pt/home
+Visite o website em: https://www.zurich.com.pt/pt-pt/home
