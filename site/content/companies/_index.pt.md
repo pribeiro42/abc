@@ -74,6 +74,6 @@ values:
     web: www.criamagin.com
   - heading: ZURICH Insurance
     imageUrl: /img/uploads/zurich.png
-    web: 'https://www.zurich.com.pt/pt-pt/home'
+    web: www.zurich.com.pt/pt-pt/home
 ---
 
