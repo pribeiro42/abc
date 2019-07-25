@@ -6,7 +6,6 @@ values:
   - email: vlm@vlm.pt
     heading: VLM Consultores
     imageUrl: /img/abc/companies/vlm_con.png
-    text:
     web: www.vlm.pt
   - email: academia@vlm.pt
     heading: Academia VLM
@@ -19,7 +18,6 @@ values:
   - email: marketing@winsig.pt
     heading: WinSig
     imageUrl: /img/abc/companies/winsig.png
-    text:
     web: www.winsig.pt
   - email: hello@rho.pt
     heading: RHO
@@ -61,16 +59,18 @@ values:
   - email: info@weart.pt
     heading: We Art
     imageUrl: /img/abc/companies/vlm_con.png
-    text:
     web: www.weart.pt
   - email: idealhome@idealhome.com.pt
     heading: IdealHOME
     imageUrl: /img/abc/companies/idealhome.png
-    text: 
     web: www.idealhome.com.pt
   - email: geral@criamagin.com
     heading: Criamagin
     imageUrl: /img/abc/companies/criamagin.png
     web: www.criamagin.com
+  - heading: ZURICH Insurance
+    imageUrl: /img/uploads/zurich.png
+    text: ''
+    web: www.zurich.com.pt/pt-pt/home
 ---
 
