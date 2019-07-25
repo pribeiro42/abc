@@ -256,9 +256,10 @@ services:
             - image: /img/abc/services/events/3.jpg
             - image: /img/abc/services/events/4.jpg
             - image: /img/abc/services/events/5.jpg
+            - image: /img/abc/services/events/8.jpg
             - image: /img/abc/services/events/6.jpg
             - image: /img/abc/services/events/7.jpg
-            - image: /img/abc/services/events/8.jpg
+            - image: /img/uploads/dsc_0487.jpg
           heading: Event Planning
           image: /img/abc/eventService.png
           intro:
@@ -280,6 +281,7 @@ services:
             - image: /img/abc/services/support/1.jpg
             - image: /img/abc/services/support/2.jpg
             - image: /img/abc/services/support/3.jpg
+            - image: /img/uploads/010-dsc_6469.jpg
             - image: /img/abc/services/support/4.jpg
             - image: /img/abc/services/support/5.jpg
           content: >-
