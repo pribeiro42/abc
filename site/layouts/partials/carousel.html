@@ -3,7 +3,7 @@
         {{ range .carouselslides}}
         <div class="carousel-item {{if .first}}active{{end}}">
             {{ if .image}}
-                <img class="d-block h-100 center" src="{{.image}}" alt="">
+                <img class="d-block h-100 center" loading="lazy" src="{{.image}}" alt="">
             {{ end }}
             {{ if .url }}
                 {{.url | safeHTML}}

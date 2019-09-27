@@ -14,7 +14,7 @@
           <a class="modal-trigger modalLinks">
             <div class="bg-off-white content-block z-depth-3 " >
               <div class="img-wrap w-50 center split {{.key}}">
-                <img src="{{.image}}"/>
+                <img src="{{.image}}" loading="lazy"/>
               </div>
               <div class="pad center white split {{.key}}">
                 <div class="caption">{{.heading}}</div>
@@ -30,7 +30,7 @@
                   {{else}}
                   <div class="col s12 l5 hide-on-med-and-down">
                       <div class="img-wrap contentImage">
-                          <img src="{{.image}}" />
+                          <img src="{{.image}}" loading="lazy" />
                       </div>
                   </div>
                   <div class="col s12 l7">
@@ -59,7 +59,7 @@
                             {{else}}
                             <div class="col s12 l5 hide-on-med-and-down">
                                 <div class="img-wrap contentImage">
-                                    <img src="{{.image}}" />
+                                    <img src="{{.image}}" loading="lazy"/>
                                 </div>
                             </div>
                             <div class="col s12 l7">
