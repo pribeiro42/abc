@@ -48,7 +48,7 @@ services:
             - image: /img/uploads/img_20180607_173935.jpg
           hasavailableoffices: false
           heading: Escritórios
-          image: /img/abc/officeService.png
+          image: /img/uploads/officeservice_s.png
           intro:
             blurbs:
               - image: /img/abc/services/offices/C3.jpg
